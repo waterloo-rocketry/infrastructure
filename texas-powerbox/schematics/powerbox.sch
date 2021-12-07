@@ -13,125 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:C C2
-U 1 1 61A060FE
-P 7850 2800
-F 0 "C2" H 7965 2846 50  0000 L CNN
-F 1 "1uF" H 7965 2755 50  0000 L CNN
-F 2 "" H 7888 2650 50  0001 C CNN
-F 3 "~" H 7850 2800 50  0001 C CNN
-	1    7850 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 61A0656A
-P 6700 2800
-F 0 "C1" H 6450 2850 50  0000 L CNN
-F 1 "0.1uF" H 6400 2750 50  0000 L CNN
-F 2 "" H 6738 2650 50  0001 C CNN
-F 3 "~" H 6700 2800 50  0001 C CNN
-	1    6700 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 2650 7500 2650
-Wire Wire Line
-	6900 2650 6700 2650
-$Comp
-L power:GND #PWR04
-U 1 1 61A1F7C8
-P 7200 3250
-F 0 "#PWR04" H 7200 3000 50  0001 C CNN
-F 1 "GND" H 7205 3077 50  0000 C CNN
-F 2 "" H 7200 3250 50  0001 C CNN
-F 3 "" H 7200 3250 50  0001 C CNN
-	1    7200 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR03
-U 1 1 61A201A6
-P 6700 2650
-F 0 "#PWR03" H 6700 2500 50  0001 C CNN
-F 1 "+24V" H 6715 2823 50  0000 C CNN
-F 2 "" H 6700 2650 50  0001 C CNN
-F 3 "" H 6700 2650 50  0001 C CNN
-	1    6700 2650
-	1    0    0    -1  
-$EndComp
-Connection ~ 6700 2650
-$Comp
-L power:+5V #PWR06
-U 1 1 61A209DD
-P 7850 2650
-F 0 "#PWR06" H 7850 2500 50  0001 C CNN
-F 1 "+5V" H 7865 2823 50  0000 C CNN
-F 2 "" H 7850 2650 50  0001 C CNN
-F 3 "" H 7850 2650 50  0001 C CNN
-	1    7850 2650
-	1    0    0    -1  
-$EndComp
-Connection ~ 7850 2650
-$Comp
-L Power_Management:LTC4412xS6 U2
-U 1 1 61A191F9
-P 3800 3400
-F 0 "U2" H 4200 3150 50  0000 C CNN
-F 1 "LTC4414IMS8" H 4100 3050 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 4450 3050 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4414fc.pdf" H 5900 3200 50  0001 C CNN
-	1    3800 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:PMN48XP Q1
-U 1 1 61A1C6DD
-P 3800 2800
-F 0 "Q1" V 3800 3000 50  0000 C CNN
-F 1 "AOI21357" V 4050 2800 50  0000 C CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 4000 2700 50  0001 L CNN
-F 3 "http://aosmd.com/res/data_sheets/AOI21357.pdf" H 3800 2800 50  0001 C CNN
-	1    3800 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 61A21CCC
-P 3800 3900
-F 0 "#PWR05" H 3800 3650 50  0001 C CNN
-F 1 "GND" H 3805 3727 50  0000 C CNN
-F 2 "" H 3800 3900 50  0001 C CNN
-F 3 "" H 3800 3900 50  0001 C CNN
-	1    3800 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 2700 3300 2700
-Wire Wire Line
-	3300 2700 3300 3300
-Connection ~ 3300 3300
-Wire Wire Line
-	3300 3300 3400 3300
-Wire Wire Line
-	3400 3500 3400 3900
-Wire Wire Line
-	3400 3900 3800 3900
-Connection ~ 3800 3900
-Wire Wire Line
-	3800 3800 3800 3900
-$Comp
-L power:+24V #PWR07
-U 1 1 61A3C574
-P 5850 3400
-F 0 "#PWR07" H 5850 3250 50  0001 C CNN
-F 1 "+24V" H 5865 3573 50  0000 C CNN
-F 2 "" H 5850 3400 50  0001 C CNN
-F 3 "" H 5850 3400 50  0001 C CNN
-	1    5850 3400
-	1    0    0    -1  
-$EndComp
 Connection ~ 6100 5550
 Wire Wire Line
 	6000 5550 6100 5550
@@ -170,58 +51,21 @@ F 3 "" H 6400 4750 50  0001 C CNN
 	1    6400 4750
 	1    0    0    -1  
 $EndComp
-Text Notes 3250 1750 0    50   ~ 0
+Text Notes 3200 1450 0    50   ~ 0
 POWER SELECT AND SWITCH
-Text Notes 6850 2200 0    50   ~ 0
-24V to 5V REGULATOR\n
 Text Notes 7450 4400 0    50   ~ 0
 5V USB OUTPUT\n
 Text Notes 3800 4650 0    50   ~ 0
 MISUMI CONNECTOR\n
 $Comp
-L Switch:SW_Push_DPDT SW1
-U 1 1 61A8DC40
-P 5250 3100
-F 0 "SW1" H 5250 3585 50  0000 C CNN
-F 1 "M2022S2A2W03" H 5250 3494 50  0000 C CNN
-F 2 "" H 5250 3300 50  0001 C CNN
-F 3 "https://www.nkkswitches.com/pdf/MtogglesBushing.pdf" H 5250 3300 50  0001 C CNN
-	1    5250 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 3400 5650 3400
-Wire Wire Line
-	5450 3000 5650 3000
-Wire Wire Line
-	5650 3000 5650 3400
-Connection ~ 5650 3400
-Wire Wire Line
-	5650 3400 5850 3400
-NoConn ~ 5450 3200
-NoConn ~ 5450 2800
-Wire Wire Line
-	5050 2900 5050 3300
-$Comp
-L Connector:Screw_Terminal_01x03 J7
-U 1 1 61AC8E60
-P 4150 4950
-F 0 "J7" H 4230 4992 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 3800 4700 50  0000 L CNN
-F 2 "" H 4150 4950 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 4150 4950 50  0001 C CNN
-	1    4150 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR018
 U 1 1 61AD0F20
-P 3950 5050
-F 0 "#PWR018" H 3950 4800 50  0001 C CNN
-F 1 "GND" V 3955 4922 50  0000 R CNN
-F 2 "" H 3950 5050 50  0001 C CNN
-F 3 "" H 3950 5050 50  0001 C CNN
-	1    3950 5050
+P 3950 5300
+F 0 "#PWR018" H 3950 5050 50  0001 C CNN
+F 1 "GND" V 3955 5172 50  0000 R CNN
+F 2 "" H 3950 5300 50  0001 C CNN
+F 3 "" H 3950 5300 50  0001 C CNN
+	1    3950 5300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -247,222 +91,6 @@ F 3 "" H 3950 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J8
-U 1 1 61AD7307
-P 4150 5600
-F 0 "J8" H 4230 5642 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 3800 5350 50  0000 L CNN
-F 2 "" H 4150 5600 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 4150 5600 50  0001 C CNN
-	1    4150 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 61AD730D
-P 3950 5700
-F 0 "#PWR021" H 3950 5450 50  0001 C CNN
-F 1 "GND" V 3955 5572 50  0000 R CNN
-F 2 "" H 3950 5700 50  0001 C CNN
-F 3 "" H 3950 5700 50  0001 C CNN
-	1    3950 5700
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+24V #PWR020
-U 1 1 61AD7313
-P 3950 5600
-F 0 "#PWR020" H 3950 5450 50  0001 C CNN
-F 1 "+24V" V 3965 5728 50  0000 L CNN
-F 2 "" H 3950 5600 50  0001 C CNN
-F 3 "" H 3950 5600 50  0001 C CNN
-	1    3950 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR019
-U 1 1 61AD7319
-P 3950 5500
-F 0 "#PWR019" H 3950 5350 50  0001 C CNN
-F 1 "+5V" V 3965 5628 50  0000 L CNN
-F 2 "" H 3950 5500 50  0001 C CNN
-F 3 "" H 3950 5500 50  0001 C CNN
-	1    3950 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J9
-U 1 1 61AD8974
-P 4150 6250
-F 0 "J9" H 4230 6292 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 3800 6000 50  0000 L CNN
-F 2 "" H 4150 6250 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 4150 6250 50  0001 C CNN
-	1    4150 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 61AD897A
-P 3950 6350
-F 0 "#PWR024" H 3950 6100 50  0001 C CNN
-F 1 "GND" V 3955 6222 50  0000 R CNN
-F 2 "" H 3950 6350 50  0001 C CNN
-F 3 "" H 3950 6350 50  0001 C CNN
-	1    3950 6350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+24V #PWR023
-U 1 1 61AD8980
-P 3950 6250
-F 0 "#PWR023" H 3950 6100 50  0001 C CNN
-F 1 "+24V" V 3965 6378 50  0000 L CNN
-F 2 "" H 3950 6250 50  0001 C CNN
-F 3 "" H 3950 6250 50  0001 C CNN
-	1    3950 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR022
-U 1 1 61AD8986
-P 3950 6150
-F 0 "#PWR022" H 3950 6000 50  0001 C CNN
-F 1 "+5V" V 3965 6278 50  0000 L CNN
-F 2 "" H 3950 6150 50  0001 C CNN
-F 3 "" H 3950 6150 50  0001 C CNN
-	1    3950 6150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4000 2700 4500 2700
-$Comp
-L Regulator_Linear:LM337_TO263 U1
-U 1 1 61AE6AB1
-P 7200 2650
-F 0 "U1" H 7200 2408 50  0000 C CNN
-F 1 "LM338T" H 7200 2499 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 7200 2450 50  0001 C CIN
-F 3 "https://www.ti.com/lit/ds/symlink/lm338.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1638362514455&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm338" H 7200 2650 50  0001 C CNN
-	1    7200 2650
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 61AF1C6F
-P 7500 2800
-F 0 "R2" H 7568 2846 50  0000 L CNN
-F 1 "270" H 7568 2755 50  0000 L CNN
-F 2 "" V 7540 2790 50  0001 C CNN
-F 3 "~" H 7500 2800 50  0001 C CNN
-	1    7500 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 7500 2650
-Wire Wire Line
-	7500 2950 7200 2950
-$Comp
-L Device:R_US R1
-U 1 1 61AF3A78
-P 7200 3100
-F 0 "R1" H 7268 3146 50  0000 L CNN
-F 1 "820" H 7268 3055 50  0000 L CNN
-F 2 "" V 7240 3090 50  0001 C CNN
-F 3 "~" H 7200 3100 50  0001 C CNN
-	1    7200 3100
-	1    0    0    -1  
-$EndComp
-Connection ~ 7200 2950
-Wire Wire Line
-	7850 3250 7850 2950
-Connection ~ 7200 3250
-Wire Wire Line
-	7200 3250 7850 3250
-Wire Wire Line
-	7200 3250 6700 3250
-Wire Wire Line
-	6700 3250 6700 2950
-$Comp
-L power:GND #PWR02
-U 1 1 61A67CD9
-P 2950 3400
-F 0 "#PWR02" H 2950 3150 50  0001 C CNN
-F 1 "GND" H 2955 3227 50  0000 C CNN
-F 2 "" H 2950 3400 50  0001 C CNN
-F 3 "" H 2950 3400 50  0001 C CNN
-	1    2950 3400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 3300 3300 3300
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 61A0264D
-P 2750 3300
-F 0 "J2" H 2830 3292 50  0000 L CNN
-F 1 "BATTERY 24V" H 2550 3450 50  0000 L CNN
-F 2 "" H 2750 3300 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 2750 3300 50  0001 C CNN
-	1    2750 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 61A2C6DA
-P 2750 2400
-F 0 "#PWR01" H 2750 2150 50  0001 C CNN
-F 1 "GND" H 2755 2227 50  0000 C CNN
-F 2 "" H 2750 2400 50  0001 C CNN
-F 3 "" H 2750 2400 50  0001 C CNN
-	1    2750 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 2100 2750 2100
-$Comp
-L Connector:Conn_Coaxial_Power J1
-U 1 1 61A07ED7
-P 2750 2200
-F 0 "J1" H 2838 2196 50  0000 L CNN
-F 1 "ADAPTER 24V" H 2550 2350 50  0000 L CNN
-F 2 "" H 2750 2150 50  0001 C CNN
-F 3 "~" H 2750 2150 50  0001 C CNN
-	1    2750 2200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D1
-U 1 1 61A46770
-P 3800 2100
-F 0 "D1" H 3800 1883 50  0000 C CNN
-F 1 "5.1V" H 3800 1974 50  0000 C CNN
-F 2 "" H 3800 2100 50  0001 C CNN
-F 3 "~" H 3800 2100 50  0001 C CNN
-	1    3800 2100
-	-1   0    0    1   
-$EndComp
-Connection ~ 4500 2700
-Wire Wire Line
-	4500 2100 4500 2700
-Wire Wire Line
-	3950 2100 4500 2100
-Wire Wire Line
-	4200 3300 4500 3300
-Wire Wire Line
-	4500 2700 4500 3300
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 61A5BDD1
-P 5850 3400
-F 0 "#FLG0102" H 5850 3475 50  0001 C CNN
-F 1 "PWR_FLAG" H 5850 3573 50  0001 C CNN
-F 2 "" H 5850 3400 50  0001 C CNN
-F 3 "~" H 5850 3400 50  0001 C CNN
-	1    5850 3400
-	-1   0    0    1   
-$EndComp
-Connection ~ 5850 3400
-$Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 61A620B3
 P 900 7400
@@ -484,45 +112,14 @@ F 3 "" H 900 7400 50  0001 C CNN
 	1    900  7400
 	1    0    0    -1  
 $EndComp
-Connection ~ 3300 2700
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 61A59987
-P 3300 2700
-F 0 "#FLG0101" H 3300 2775 50  0001 C CNN
-F 1 "PWR_FLAG" H 3300 2873 50  0001 C CNN
-F 2 "" H 3300 2700 50  0001 C CNN
-F 3 "~" H 3300 2700 50  0001 C CNN
-	1    3300 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 61B4A052
-P 4800 3300
-F 0 "F1" V 4603 3300 50  0000 C CNN
-F 1 "12A" V 4694 3300 50  0000 C CNN
-F 2 "" V 4730 3300 50  0001 C CNN
-F 3 "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-5et-5etp-series.pdf" H 4800 3300 50  0001 C CNN
-F 4 "5ET 12-R" V 4800 3300 50  0001 C CNN "Part Number"
-	1    4800 3300
-	0    1    1    0   
-$EndComp
-Connection ~ 4500 3300
-Wire Wire Line
-	4650 3300 4500 3300
-Wire Wire Line
-	4950 3300 5050 3300
-Connection ~ 5050 3300
 $Comp
 L Device:Polyfuse_Small F2
 U 1 1 61B679B4
 P 6400 4850
 F 0 "F2" H 6332 4804 50  0000 R CNN
-F 1 "600mA" H 6332 4895 50  0000 R CNN
+F 1 "750mA" H 6332 4895 50  0000 R CNN
 F 2 "" H 6450 4650 50  0001 L CNN
-F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 6400 4850 50  0001 C CNN
-F 4 "0ZCG0030FF2C" H 6400 4850 50  0001 C CNN "Part"
+F 3 "" H 6400 4850 50  0001 C CNN
 	1    6400 4850
 	-1   0    0    1   
 $EndComp
@@ -641,42 +238,6 @@ F 3 "" H 9100 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Polyfuse_Small F3
-U 1 1 61B7EC6E
-P 7300 4850
-F 0 "F3" H 7368 4896 50  0000 L CNN
-F 1 "600mA" H 7368 4805 50  0000 L CNN
-F 2 "" H 7350 4650 50  0001 L CNN
-F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 7300 4850 50  0001 C CNN
-F 4 "0ZCG0030FF2C" H 7300 4850 50  0001 C CNN "Part"
-	1    7300 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Polyfuse_Small F4
-U 1 1 61B7F2F1
-P 8200 4850
-F 0 "F4" H 8268 4896 50  0000 L CNN
-F 1 "600mA" H 8268 4805 50  0000 L CNN
-F 2 "" H 8250 4650 50  0001 L CNN
-F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 8200 4850 50  0001 C CNN
-F 4 "0ZCG0030FF2C" H 8200 4850 50  0001 C CNN "Part"
-	1    8200 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Polyfuse_Small F5
-U 1 1 61B7F714
-P 9100 4850
-F 0 "F5" H 9168 4896 50  0000 L CNN
-F 1 "600mA" H 9168 4805 50  0000 L CNN
-F 2 "" H 9150 4650 50  0001 L CNN
-F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 9100 4850 50  0001 C CNN
-F 4 "0ZCG0030FF2C" H 9100 4850 50  0001 C CNN "Part"
-	1    9100 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 61B948EC
 P 6400 4950
@@ -699,7 +260,6 @@ F 3 "~" H 7300 4950 50  0001 C CNN
 	1    7300 4950
 	-1   0    0    1   
 $EndComp
-Connection ~ 7300 4950
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 61B95531
@@ -711,7 +271,6 @@ F 3 "~" H 8200 4950 50  0001 C CNN
 	1    8200 4950
 	-1   0    0    1   
 $EndComp
-Connection ~ 8200 4950
 $Comp
 L power:PWR_FLAG #FLG0107
 U 1 1 61B958E3
@@ -723,33 +282,352 @@ F 3 "~" H 9100 4950 50  0001 C CNN
 	1    9100 4950
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 61AA0BDE
+P 7300 4850
+F 0 "F?" H 7232 4804 50  0000 R CNN
+F 1 "750mA" H 7232 4895 50  0000 R CNN
+F 2 "" H 7350 4650 50  0001 L CNN
+F 3 "" H 7300 4850 50  0001 C CNN
+	1    7300 4850
+	-1   0    0    1   
+$EndComp
+Connection ~ 7300 4950
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 61AA11AD
+P 8200 4850
+F 0 "F?" H 8132 4804 50  0000 R CNN
+F 1 "750mA" H 8132 4895 50  0000 R CNN
+F 2 "" H 8250 4650 50  0001 L CNN
+F 3 "" H 8200 4850 50  0001 C CNN
+	1    8200 4850
+	-1   0    0    1   
+$EndComp
+Connection ~ 8200 4950
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 61AA1850
+P 9100 4850
+F 0 "F?" H 9032 4804 50  0000 R CNN
+F 1 "750mA" H 9032 4895 50  0000 R CNN
+F 2 "" H 9150 4650 50  0001 L CNN
+F 3 "" H 9100 4850 50  0001 C CNN
+	1    9100 4850
+	-1   0    0    1   
+$EndComp
 Connection ~ 9100 4950
 $Comp
-L Device:LED D2
-U 1 1 61BA5AA9
-P 8300 2800
-F 0 "D2" H 8293 3017 50  0000 C CNN
-F 1 "RED" V 8300 2650 50  0000 C CNN
-F 2 "" H 8300 2800 50  0001 C CNN
-F 3 "~" H 8300 2800 50  0001 C CNN
-	1    8300 2800
-	0    -1   -1   0   
+L Connector:Conn_Coaxial_Power J1
+U 1 1 61A07ED7
+P 2600 2100
+F 0 "J1" V 2750 2050 50  0000 L CNN
+F 1 "ADAPTER" V 2450 1850 50  0000 L CNN
+F 2 "" H 2600 2050 50  0001 C CNN
+F 3 "~" H 2600 2050 50  0001 C CNN
+	1    2600 2100
+	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_US R3
-U 1 1 61BAF67B
-P 8300 3100
-F 0 "R3" H 8368 3146 50  0000 L CNN
-F 1 "160" H 8368 3055 50  0000 L CNN
-F 2 "" V 8340 3090 50  0001 C CNN
-F 3 "~" H 8300 3100 50  0001 C CNN
-	1    8300 3100
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 61A0264D
+P 4750 2300
+F 0 "J2" V 4750 2000 50  0000 L CNN
+F 1 "BATTERY" V 4900 2100 50  0000 L CNN
+F 2 "" H 4750 2300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_KCom_AKA D?
+U 1 1 61AE1DAA
+P 3350 2100
+F 0 "D?" H 3150 1950 50  0000 C CNN
+F 1 "VS-47CTQ020S-M3" H 3350 2250 50  0000 C CNN
+F 2 "" H 3350 2100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/94943/vs-47ctq020s-m3.pdf" H 3350 2100 50  0001 C CNN
+	1    3350 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:BSP89 Q?
+U 1 1 61AE83E0
+P 4100 2200
+F 0 "Q?" V 4442 2200 50  0000 C CNN
+F 1 "FQD16N25CTM" V 4351 2200 50  0000 C CNN
+F 2 "" H 4300 2125 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/fqd16n25c-d.pdf" H 4100 2200 50  0001 L CNN
+	1    4100 2200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 61AEAC58
+P 4000 2700
+F 0 "Q?" H 4191 2746 50  0000 L CNN
+F 1 "MMBT3904" H 3600 2550 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 2625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4000 2700 50  0001 L CNN
+	1    4000 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 2650 7850 2650
+	4750 2100 4450 2100
+$Comp
+L Device:R_US R?
+U 1 1 61B072F7
+P 4450 2250
+F 0 "R?" H 4518 2296 50  0000 L CNN
+F 1 "56k" H 4518 2205 50  0000 L CNN
+F 2 "" V 4490 2240 50  0001 C CNN
+F 3 "~" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 2100
 Wire Wire Line
-	8300 3250 7850 3250
-Connection ~ 7850 3250
-NoConn ~ 4200 3500
+	4450 2100 4300 2100
+Wire Wire Line
+	4450 2400 4100 2400
+Wire Wire Line
+	4100 2500 4100 2400
+Connection ~ 4100 2400
+Wire Wire Line
+	3650 2100 3900 2100
+Wire Wire Line
+	3050 2100 2800 2100
+$Comp
+L Device:R_US R?
+U 1 1 61B16B27
+P 3300 2700
+F 0 "R?" V 3095 2700 50  0000 C CNN
+F 1 "56k" V 3186 2700 50  0000 C CNN
+F 2 "" V 3340 2690 50  0001 C CNN
+F 3 "~" H 3300 2700 50  0001 C CNN
+	1    3300 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2100 2800 2700
+Wire Wire Line
+	2800 2700 3150 2700
+Connection ~ 2800 2100
+Wire Wire Line
+	2800 2100 2700 2100
+Wire Wire Line
+	3450 2700 3800 2700
+$Comp
+L power:+24V #PWR?
+U 1 1 61B18AB9
+P 3350 1900
+F 0 "#PWR?" H 3350 1750 50  0001 C CNN
+F 1 "+24V" H 3365 2073 50  0000 C CNN
+F 2 "" H 3350 1900 50  0001 C CNN
+F 3 "" H 3350 1900 50  0001 C CNN
+	1    3350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 61A8DC40
+P 5550 1800
+F 0 "SW1" H 5550 2285 50  0000 C CNN
+F 1 "~" H 5550 2194 50  0000 C CNN
+F 2 "" H 5550 2000 50  0001 C CNN
+F 3 "~" H 5550 2000 50  0001 C CNN
+	1    5550 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2100 5950 2100
+Wire Wire Line
+	5750 1700 5950 1700
+Wire Wire Line
+	5950 1700 5950 2100
+NoConn ~ 5750 1900
+NoConn ~ 5750 1500
+Wire Wire Line
+	5350 1600 5350 2000
+$Comp
+L powerbox:TPS54331GDR U?
+U 1 1 61AD67AC
+P 8250 2400
+F 0 "U?" H 8250 2000 50  0000 C CNN
+F 1 "TPS54331GDR" H 8250 1900 50  0000 C CNN
+F 2 "Package_SO:TI_SO-PowerPAD-8_ThermalVias" H 8300 2000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps54331.pdf" H 9250 1950 50  0001 C CNN
+	1    8250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61AED41F
+P 4100 2900
+F 0 "#PWR?" H 4100 2650 50  0001 C CNN
+F 1 "GND" H 4105 2727 50  0000 C CNN
+F 2 "" H 4100 2900 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1600 4850 1600
+Wire Wire Line
+	2400 2100 2300 2100
+Wire Wire Line
+	2300 2100 2300 1600
+Wire Wire Line
+	4850 2100 4850 2000
+$Comp
+L Device:Fuse F1
+U 1 1 61B4A052
+P 5100 2000
+F 0 "F1" V 4903 2000 50  0000 C CNN
+F 1 "10A" V 4994 2000 50  0000 C CNN
+F 2 "" V 5030 2000 50  0001 C CNN
+F 3 "" H 5100 2000 50  0001 C CNN
+	1    5100 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 2000 4850 2000
+Connection ~ 4850 2000
+Wire Wire Line
+	4850 2000 4850 1600
+Wire Wire Line
+	5250 2000 5350 2000
+Connection ~ 5350 2000
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 61B23F7B
+P 4150 4850
+F 0 "J?" H 4250 4800 50  0000 L CNN
+F 1 "~" V 4300 4650 50  0000 L CNN
+F 2 "" H 4150 4850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/On%20Shore%20PDFs/OSTYK412XX030.pdf" H 4150 4850 50  0001 C CNN
+	1    4150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 61B28EFF
+P 4150 5200
+F 0 "J?" H 4250 5150 50  0000 L CNN
+F 1 "~" H 3850 4950 50  0000 L CNN
+F 2 "" H 4150 5200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/On%20Shore%20PDFs/OSTYK412XX030.pdf" H 4150 5200 50  0001 C CNN
+	1    4150 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 5200 3950 5300
+Connection ~ 3950 5300
+$Comp
+L power:GND #PWR?
+U 1 1 61B46027
+P 5950 2250
+F 0 "#PWR?" H 5950 2000 50  0001 C CNN
+F 1 "GND" H 5955 2077 50  0000 C CNN
+F 2 "" H 5950 2250 50  0001 C CNN
+F 3 "" H 5950 2250 50  0001 C CNN
+	1    5950 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 2100
+Wire Wire Line
+	5950 2100 5950 2250
+NoConn ~ 7750 2500
+$Comp
+L Device:C_Small C?
+U 1 1 61B523E2
+P 7600 2800
+F 0 "C?" H 7692 2846 50  0000 L CNN
+F 1 "0.01uF" H 7692 2755 50  0000 L CNN
+F 2 "" H 7600 2800 50  0001 C CNN
+F 3 "~" H 7600 2800 50  0001 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2700 7600 2650
+Wire Wire Line
+	7600 2650 7750 2650
+$Comp
+L Device:C_Small C?
+U 1 1 61B53BC8
+P 7200 2800
+F 0 "C?" H 7292 2846 50  0000 L CNN
+F 1 "10uF" H 7292 2755 50  0000 L CNN
+F 2 "" H 7200 2800 50  0001 C CNN
+F 3 "~" H 7200 2800 50  0001 C CNN
+	1    7200 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2350 7200 2350
+Wire Wire Line
+	7200 2350 7200 2700
+$Comp
+L power:+24V #PWR?
+U 1 1 61B5733E
+P 7200 2350
+F 0 "#PWR?" H 7200 2200 50  0001 C CNN
+F 1 "+24V" H 7215 2523 50  0000 C CNN
+F 2 "" H 7200 2350 50  0001 C CNN
+F 3 "" H 7200 2350 50  0001 C CNN
+	1    7200 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 2350
+$Comp
+L Device:C_Small C?
+U 1 1 61B5831C
+P 8250 2000
+F 0 "C?" V 8021 2000 50  0000 C CNN
+F 1 "0.1uF" V 8112 2000 50  0000 C CNN
+F 2 "" H 8250 2000 50  0001 C CNN
+F 3 "~" H 8250 2000 50  0001 C CNN
+	1    8250 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 2000 7750 2200
+$Comp
+L Device:D_Schottky D?
+U 1 1 61B5BE1C
+P 8900 2200
+F 0 "D?" V 8854 2280 50  0000 L CNN
+F 1 "D_Schottky" V 8945 2280 50  0000 L CNN
+F 2 "" H 8900 2200 50  0001 C CNN
+F 3 "~" H 8900 2200 50  0001 C CNN
+	1    8900 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 2000 7750 2000
+Wire Wire Line
+	8350 2000 8750 2000
+Wire Wire Line
+	8750 2000 8750 2200
+Wire Wire Line
+	8750 2000 8900 2000
+Wire Wire Line
+	8900 2000 8900 2050
+Connection ~ 8750 2000
+Wire Wire Line
+	8900 2350 8750 2350
+Connection ~ 8900 2000
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 61B696ED
+P 9050 2000
+F 0 "L?" V 9275 2000 50  0000 C CNN
+F 1 "6.8uH" V 9184 2000 50  0000 C CNN
+F 2 "" H 9050 2000 50  0001 C CNN
+F 3 "~" H 9050 2000 50  0001 C CNN
+	1    9050 2000
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
