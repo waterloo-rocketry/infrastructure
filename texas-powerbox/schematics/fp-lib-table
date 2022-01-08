@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name powerbox)(type KiCad)(uri ${KIPRJMOD}/powerbox.pretty)(options "")(descr ""))
+)
