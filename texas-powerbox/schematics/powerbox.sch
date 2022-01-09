@@ -39,8 +39,6 @@ F 3 "" H 3400 5800 50  0001 C CNN
 	1    3400 5800
 	1    0    0    -1  
 $EndComp
-Text Notes 4400 1700 2    50   ~ 0
-POWER SELECT AND SWITCH
 Text Notes 3900 5350 0    50   ~ 0
 5V USB OUTPUT\n
 Text Notes 9150 4850 0    50   ~ 0
@@ -384,28 +382,6 @@ GENERATED FROM https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=78412FC
 Wire Wire Line
 	8050 2700 8300 2700
 $Comp
-L Connector:Screw_Terminal_01x02 SW1
-U 1 1 61C525CC
-P 2150 2650
-F 0 "SW1" H 2050 2750 50  0000 L CNN
-F 1 "~" V 2300 2450 50  0000 L CNN
-F 2 "powerbox:BarrierBlock_ED2945-ND" H 2150 2650 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 2150 2650 50  0001 C CNN
-	1    2150 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 61A0264D
-P 2700 3400
-F 0 "J1" H 2800 3450 50  0000 L CNN
-F 1 "BATTERY" H 2650 3550 50  0000 L CNN
-F 2 "powerbox:BarrierBlock_ED2945-ND" H 2700 3400 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 2700 3400 50  0001 C CNN
-	1    2700 3400
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:LED D6
 U 1 1 61B5EA95
 P 10550 2600
@@ -435,17 +411,6 @@ Wire Wire Line
 	10550 3200 10550 3350
 Wire Wire Line
 	10550 2750 10550 2900
-$Comp
-L Connector:Conn_Coaxial_Power J2
-U 1 1 61A07ED7
-P 2350 3300
-F 0 "J2" H 2500 3300 50  0000 L CNN
-F 1 "ADAPTER" H 2450 3200 50  0000 L CNN
-F 2 "powerbox:BarrierBlock_ED2945-ND" H 2350 3250 50  0001 C CNN
-F 3 "~" H 2350 3250 50  0001 C CNN
-	1    2350 3300
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR024
 U 1 1 61D3B301
@@ -594,34 +559,6 @@ F 3 "~" H 10100 2350 50  0001 C CNN
 	1    10100 2350
 	0    1    1    0   
 $EndComp
-$Comp
-L Relay:RAYEX-L90S K1
-U 1 1 61B763AA
-P 3550 3500
-F 0 "K1" V 4100 3500 50  0000 C CNN
-F 1 "J107F1CS1224VDC.36" V 4000 3500 50  0000 C CNN
-F 2 "Relay_THT:Relay_SPDT_RAYEX-L90S" H 4000 3450 50  0001 L CNN
-F 3 "https://www.citrelay.com/Catalog%20pages/RelayCatalog/J107F.pdf" H 4200 3350 50  0001 L CNN
-	1    3550 3500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:D_Small D2
-U 1 1 61C088A8
-P 3600 2900
-F 0 "D2" H 3600 3000 50  0000 C CNN
-F 1 "BAS19LT3G" H 3600 3016 50  0001 C CNN
-F 2 "Diode_SMD:D_SOT-23_ANK" V 3600 2900 50  0001 C CNN
-F 3 "~" V 3600 2900 50  0001 C CNN
-	1    3600 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 2900 4000 2900
-Wire Wire Line
-	3100 2900 3500 2900
-Wire Wire Line
-	3100 2600 3200 2600
 Connection ~ 10550 2350
 Wire Wire Line
 	9950 2350 9700 2350
@@ -710,201 +647,6 @@ F 3 "" H 8300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse F1
-U 1 1 61B4A052
-P 2700 2250
-F 0 "F1" V 2500 2250 50  0000 C CNN
-F 1 "10A" V 2600 2250 50  0000 C CNN
-F 2 "powerbox:Fuseholder_36-3557-15-ND" V 2630 2250 50  0001 C CNN
-F 3 "" H 2700 2250 50  0001 C CNN
-	1    2700 2250
-	0    1    1    0   
-$EndComp
-Text Notes 1400 5250 0    50   ~ 0
-ADAPTER | BATTERY | OUT\n-------------------\nON      | ON      | ADAPTER\nON      | OFF     | ADAPTER\nOFF     | ON      | BATTERY\nOFF     | OFF     | NONE\nON      | REV     | ADAPTER\nOFF     | REV     | NONE\nREV     | ON      | BATTERY\nREV     | OFF     | NONE\n
-Wire Wire Line
-	3150 3300 3100 3300
-Wire Wire Line
-	3150 3600 2900 3600
-Wire Wire Line
-	2900 3600 2900 3400
-Wire Wire Line
-	2350 3500 2350 3800
-Connection ~ 2350 3800
-Wire Wire Line
-	2350 3800 3150 3800
-Wire Wire Line
-	2350 4200 2350 3800
-Wire Wire Line
-	2350 2250 2350 2650
-Wire Wire Line
-	2900 3300 2900 3000
-Wire Wire Line
-	2900 3000 2350 3000
-Connection ~ 2350 3000
-Wire Wire Line
-	2350 3000 2350 3200
-Wire Wire Line
-	3100 2250 4500 2250
-Wire Wire Line
-	4950 2250 5550 2250
-Wire Notes Line
-	5350 1850 5350 3650
-$Comp
-L power:+24V #PWR013
-U 1 1 61C00EE4
-P 5550 2250
-F 0 "#PWR013" H 5550 2100 50  0001 C CNN
-F 1 "+24V" H 5565 2423 50  0000 C CNN
-F 2 "" H 5550 2250 50  0001 C CNN
-F 3 "" H 5550 2250 50  0001 C CNN
-	1    5550 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D4
-U 1 1 61B8A092
-P 4950 2400
-F 0 "D4" V 4904 2480 50  0000 L CNN
-F 1 "3-15V" V 4995 2480 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4950 2400 50  0001 C CNN
-F 3 "~" H 4950 2400 50  0001 C CNN
-	1    4950 2400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4900 2250 4950 2250
-Connection ~ 4950 2250
-Wire Wire Line
-	4950 2550 4700 2550
-$Comp
-L Transistor_FET:QM6015D Q1
-U 1 1 61B5669A
-P 4700 2350
-F 0 "Q1" V 5042 2350 50  0000 C CNN
-F 1 "AOD417" V 4951 2350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 4900 2275 50  0001 L CIN
-F 3 "http://aosmd.com/res/data_sheets/AOD417.pdf" H 4700 2350 50  0001 L CNN
-	1    4700 2350
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4700 2550
-Wire Wire Line
-	4700 2600 4700 2550
-$Comp
-L Device:R_US R2
-U 1 1 61B7BBF9
-P 4700 2750
-F 0 "R2" H 4768 2796 50  0000 L CNN
-F 1 "10k" H 4768 2705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4740 2740 50  0001 C CNN
-F 3 "~" H 4700 2750 50  0001 C CNN
-	1    4700 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 2950 4700 2900
-$Comp
-L power:GND #PWR08
-U 1 1 61B7E086
-P 4700 2950
-F 0 "#PWR08" H 4700 2700 50  0001 C CNN
-F 1 "GND" H 4705 2777 50  0000 C CNN
-F 2 "" H 4700 2950 50  0001 C CNN
-F 3 "" H 4700 2950 50  0001 C CNN
-	1    4700 2950
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	4150 1850 5350 1850
-Wire Notes Line
-	5350 3650 4150 3650
-Wire Notes Line
-	4150 3650 4150 1850
-Wire Wire Line
-	4100 3700 3950 3700
-$Comp
-L power:GND #PWR04
-U 1 1 61D79E41
-P 4100 3700
-F 0 "#PWR04" H 4100 3450 50  0001 C CNN
-F 1 "GND" H 4105 3527 50  0000 C CNN
-F 2 "" H 4100 3700 50  0001 C CNN
-F 3 "" H 4100 3700 50  0001 C CNN
-	1    4100 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 4200 2350 4200
-Wire Wire Line
-	4500 3300 4700 3300
-Wire Wire Line
-	4700 3300 4700 4200
-$Comp
-L Device:D_Small D3
-U 1 1 61C08E62
-P 4400 3300
-F 0 "D3" H 4400 3415 50  0000 C CNN
-F 1 "BAS19LT3G" H 4400 3416 50  0001 C CNN
-F 2 "Diode_SMD:D_SOT-23_ANK" V 4400 3300 50  0001 C CNN
-F 3 "~" V 4400 3300 50  0001 C CNN
-	1    4400 3300
-	-1   0    0    -1  
-$EndComp
-Text Notes 4200 2950 0    50   ~ 0
-REVERSE\nPOLARITY\nPROTECTION\n
-Wire Wire Line
-	4300 3300 4000 3300
-Wire Wire Line
-	3950 3300 4000 3300
-Connection ~ 4000 3300
-Wire Wire Line
-	3900 2600 4000 2600
-$Comp
-L Device:R_US R1
-U 1 1 61C41CB1
-P 3750 2600
-F 0 "R1" V 3545 2600 50  0000 C CNN
-F 1 "1K" V 3636 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3790 2590 50  0001 C CNN
-F 3 "~" H 3750 2600 50  0001 C CNN
-	1    3750 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3500 2600 3600 2600
-$Comp
-L Device:LED D1
-U 1 1 61C2988F
-P 3350 2600
-F 0 "D1" H 3343 2817 50  0000 C CNN
-F 1 "GREEN" H 3343 2726 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3350 2600 50  0001 C CNN
-F 3 "~" H 3350 2600 50  0001 C CNN
-	1    3350 2600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2600 4000 2900
-Connection ~ 3100 2900
-Wire Wire Line
-	3100 2900 3100 3300
-Connection ~ 4000 2900
-Wire Wire Line
-	4000 2900 4000 3300
-Wire Wire Line
-	3100 2250 3100 2600
-Connection ~ 3100 2600
-Wire Wire Line
-	3100 2600 3100 2900
-Wire Wire Line
-	2850 2250 3100 2250
-Connection ~ 3100 2250
-Wire Wire Line
-	2550 2250 2350 2250
-Wire Wire Line
-	2350 2750 2350 3000
-$Comp
 L power:+24V #PWR09
 U 1 1 61EA3B00
 P 7700 5150
@@ -970,4 +712,277 @@ F 3 "" H 8650 2750 50  0001 C CNN
 	1    8650 2750
 	1    0    0    -1  
 $EndComp
+Text Notes 1400 5250 0    50   ~ 0
+ADAPTER | BATTERY | OUT\n-------------------\nON      | ON      | ADAPTER\nON      | OFF     | ADAPTER\nOFF     | ON      | BATTERY\nOFF     | OFF     | NONE\nON      | REV     | ADAPTER\nOFF     | REV     | NONE\nREV     | ON      | BATTERY\nREV     | OFF     | NONE\n
+Text Notes 4400 1600 2    50   ~ 0
+POWER SELECT AND SWITCH
+$Comp
+L Connector:Screw_Terminal_01x02 SW1
+U 1 1 61C525CC
+P 2800 1950
+F 0 "SW1" V 2900 1800 50  0000 L CNN
+F 1 "~" V 2950 1750 50  0000 L CNN
+F 2 "powerbox:BarrierBlock_ED2945-ND" H 2800 1950 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 2800 1950 50  0001 C CNN
+	1    2800 1950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 61A0264D
+P 2200 2450
+F 0 "J1" H 2300 2500 50  0000 L CNN
+F 1 "BATTERY" H 2150 2600 50  0000 L CNN
+F 2 "powerbox:BarrierBlock_ED2945-ND" H 2200 2450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 2200 2450 50  0001 C CNN
+	1    2200 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial_Power J2
+U 1 1 61A07ED7
+P 1850 2350
+F 0 "J2" H 2050 2200 50  0000 L CNN
+F 1 "ADAPTER" H 1950 2100 50  0000 L CNN
+F 2 "" H 1850 2300 50  0001 C CNN
+F 3 "~" H 1850 2300 50  0001 C CNN
+	1    1850 2350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2350 2700 2350
+Wire Wire Line
+	3300 2650 3100 2650
+Wire Wire Line
+	3100 2650 3100 2150
+Wire Wire Line
+	3100 2150 3300 2150
+Wire Wire Line
+	3100 2650 3100 3050
+Connection ~ 3100 2650
+Wire Wire Line
+	4000 3050 4000 2650
+Connection ~ 4000 3050
+Wire Wire Line
+	4700 3400 4700 3350
+Wire Wire Line
+	2400 2450 2400 2750
+$Comp
+L power:GND #PWR0101
+U 1 1 61BFF6AA
+P 4700 3400
+F 0 "#PWR0101" H 4700 3150 50  0001 C CNN
+F 1 "GND" H 4705 3227 50  0000 C CNN
+F 2 "" H 4700 3400 50  0001 C CNN
+F 3 "" H 4700 3400 50  0001 C CNN
+	1    4700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 61C088A8
+P 3600 3050
+F 0 "D2" H 3600 3150 50  0000 C CNN
+F 1 "BAS19LT3G" H 3600 3166 50  0001 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" V 3600 3050 50  0001 C CNN
+F 3 "~" V 3600 3050 50  0001 C CNN
+	1    3600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 61C08E62
+P 4400 3350
+F 0 "D3" H 4400 3465 50  0000 C CNN
+F 1 "BAS19LT3G" H 4400 3466 50  0001 C CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" V 4400 3350 50  0001 C CNN
+F 3 "~" V 4400 3350 50  0001 C CNN
+	1    4400 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3350 4700 3350
+Wire Wire Line
+	3700 3050 4000 3050
+Wire Wire Line
+	3100 3050 3500 3050
+$Comp
+L Device:LED D1
+U 1 1 61C2988F
+P 3350 3350
+F 0 "D1" H 3343 3567 50  0000 C CNN
+F 1 "GREEN" H 3343 3476 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3350 3350 50  0001 C CNN
+F 3 "~" H 3350 3350 50  0001 C CNN
+	1    3350 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3050 3100 3350
+Wire Wire Line
+	3100 3350 3200 3350
+Connection ~ 3100 3050
+Wire Wire Line
+	3500 3350 3600 3350
+Wire Wire Line
+	4000 3350 4000 3050
+$Comp
+L Device:R_US R1
+U 1 1 61C41CB1
+P 3750 3350
+F 0 "R1" V 3545 3350 50  0000 C CNN
+F 1 "1K" V 3636 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3790 3340 50  0001 C CNN
+F 3 "~" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 3350 4000 3350
+Wire Wire Line
+	1850 2750 2400 2750
+Connection ~ 2400 2750
+$Comp
+L power:GND #PWR04
+U 1 1 61B5CC6C
+P 2400 3400
+F 0 "#PWR04" H 2400 3150 50  0001 C CNN
+F 1 "GND" H 2405 3227 50  0000 C CNN
+F 2 "" H 2400 3400 50  0001 C CNN
+F 3 "" H 2400 3400 50  0001 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 61B7E086
+P 4700 2950
+F 0 "#PWR08" H 4700 2700 50  0001 C CNN
+F 1 "GND" H 4705 2777 50  0000 C CNN
+F 2 "" H 4700 2950 50  0001 C CNN
+F 3 "" H 4700 2950 50  0001 C CNN
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2950 4700 2900
+$Comp
+L Device:R_US R2
+U 1 1 61B7BBF9
+P 4700 2750
+F 0 "R2" H 4768 2796 50  0000 L CNN
+F 1 "10k" H 4768 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4740 2740 50  0001 C CNN
+F 3 "~" H 4700 2750 50  0001 C CNN
+	1    4700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2600 4700 2550
+Connection ~ 4700 2550
+$Comp
+L Transistor_FET:QM6015D Q1
+U 1 1 61B5669A
+P 4700 2350
+F 0 "Q1" V 5042 2350 50  0000 C CNN
+F 1 "AOD417" V 4951 2350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4900 2275 50  0001 L CIN
+F 3 "http://aosmd.com/res/data_sheets/AOD417.pdf" H 4700 2350 50  0001 L CNN
+	1    4700 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 2550 4700 2550
+Connection ~ 4950 2250
+Wire Wire Line
+	4900 2250 4950 2250
+$Comp
+L Device:D_Zener D4
+U 1 1 61B8A092
+P 4950 2400
+F 0 "D4" V 4904 2480 50  0000 L CNN
+F 1 "3-15V" V 4995 2480 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4950 2400 50  0001 C CNN
+F 3 "~" H 4950 2400 50  0001 C CNN
+	1    4950 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 61B4A052
+P 2400 3100
+F 0 "F1" H 2550 3050 50  0000 C CNN
+F 1 "10A" H 2550 3150 50  0000 C CNN
+F 2 "powerbox:Fuseholder_36-3557-15-ND" V 2330 3100 50  0001 C CNN
+F 3 "" H 2400 3100 50  0001 C CNN
+	1    2400 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+24V #PWR013
+U 1 1 61C00EE4
+P 5550 2250
+F 0 "#PWR013" H 5550 2100 50  0001 C CNN
+F 1 "+24V" H 5565 2423 50  0000 C CNN
+F 2 "" H 5550 2250 50  0001 C CNN
+F 3 "" H 5550 2250 50  0001 C CNN
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5350 1850 5350 3650
+Wire Notes Line
+	5350 3650 4150 3650
+Wire Notes Line
+	4150 3650 4150 1850
+Wire Notes Line
+	4150 1850 5350 1850
+Text Notes 4200 2950 0    50   ~ 0
+REVERSE\nPOLARITY\nPROTECTION\n
+Wire Wire Line
+	2400 3400 2400 3250
+Wire Wire Line
+	4950 2250 5550 2250
+Wire Wire Line
+	4000 3350 4300 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	1850 2150 1850 2250
+Wire Wire Line
+	1850 2150 2700 2150
+Wire Wire Line
+	1850 2750 1850 2550
+$Comp
+L Connector:Screw_Terminal_01x02 SW2
+U 1 1 61E39C72
+P 2700 2550
+F 0 "SW2" V 2800 2450 50  0000 L CNN
+F 1 "~" V 2850 2350 50  0000 L CNN
+F 2 "powerbox:BarrierBlock_ED2945-ND" H 2700 2550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1729128.pdf" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2800 2150 3100 2150
+Connection ~ 3100 2150
+Wire Wire Line
+	2800 2350 3300 2350
+Wire Wire Line
+	2400 2750 2400 2950
+$Comp
+L Relay:G5LE-1 K1
+U 1 1 61E7D1B5
+P 3600 2450
+F 0 "K1" V 4167 2450 50  0000 C CNN
+F 1 "J107F1CS1224VDC.36" V 4076 2450 50  0000 C CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 4050 2400 50  0001 L CNN
+F 3 "https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J107F.pdf" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 2650 3900 2650
+Wire Wire Line
+	3900 2250 4500 2250
 $EndSCHEMATC
