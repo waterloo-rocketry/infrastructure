@@ -1132,7 +1132,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad" (layer "F.Cu")
     (tedit 61E48BA4) (tstamp 00000000-0000-0000-0000-000061e491f7)
-    (at 195.58 95.25)
+    (at 195.58 96.52)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -1245,7 +1245,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad" (layer "F.Cu")
     (tedit 61E48B70) (tstamp 00000000-0000-0000-0000-000061e4b231)
-    (at 111.76 95.25)
+    (at 111.76 96.52)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -2226,7 +2226,7 @@
   (gr_line (start 106.68 160.02) (end 106.68 91.44) (layer "Edge.Cuts") (width 0.05) (tstamp 31f91ec8-56e4-4e08-9ccd-012652772211))
   (gr_line (start 200.66 91.44) (end 200.66 160.02) (layer "Edge.Cuts") (width 0.05) (tstamp 98861672-254d-432b-8e5a-10d885a5ffdc))
   (gr_line (start 200.66 160.02) (end 106.68 160.02) (layer "Edge.Cuts") (width 0.05) (tstamp be41ac9e-b8ba-4089-983b-b84269707f1c))
-  (gr_text "Rio Liu\nWaterloo Rocketry" (at 140.97 115.316) (layer "F.SilkS") (tstamp c30b2d62-2f70-48af-b033-fad590773f06)
+  (gr_text "Rio Liu\nGrape" (at 140.97 115.316) (layer "F.SilkS") (tstamp c30b2d62-2f70-48af-b033-fad590773f06)
     (effects (font (size 1.3 1.3) (thickness 0.3)) (justify left))
   )
 
