@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.0.1+dfsg-1"
     },
-    "CreationDate": "2022-01-27T04:31:12+00:00"
+    "CreationDate": "2022-01-27T15:04:52+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.635,
       "TrackToRegion": 0.508,
@@ -34,37 +34,37 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "powerbox-F_Cu.gtl",
+      "Path": "powerbox-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "powerbox-B_Cu.gbl",
+      "Path": "powerbox-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "powerbox-F_Silkscreen.gto",
+      "Path": "powerbox-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "powerbox-B_Silkscreen.gbo",
+      "Path": "powerbox-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "powerbox-F_Mask.gts",
+      "Path": "powerbox-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "powerbox-B_Mask.gbs",
+      "Path": "powerbox-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "powerbox-Edge_Cuts.gm1",
+      "Path": "powerbox-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
