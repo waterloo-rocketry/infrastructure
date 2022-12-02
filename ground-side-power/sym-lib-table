@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "custom")(type "Legacy")(uri "C:/Users/domen/Documents/rlcs/schematics/relay_board_v2_schematics/custom.lib")(options "")(descr ""))
+  (lib (name "GSP")(type "KiCad")(uri "${KIPRJMOD}/GSP.kicad_sym")(options "")(descr ""))
 )
