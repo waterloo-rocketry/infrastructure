@@ -1265,7 +1265,7 @@
   )
 
   (text "Shunt Resistor Value Calculations:\nV/I = R\n0.04/Max Current = R"
-    (at 279.4 37.465 0)
+    (at 279.4 37.465 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 27ce21c6-1eb5-4568-9ae4-7184418d5ddd)
   )
