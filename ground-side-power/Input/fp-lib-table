@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "GSP")(type "KiCad")(uri "/home/elias/Desktop/Projects/Rocketry/infrastructure/ground-side-power/GSP.pretty")(options "")(descr ""))
+)
