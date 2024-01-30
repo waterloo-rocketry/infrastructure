@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "GSP")(type "KiCad")(uri "/home/elias/Desktop/Projects/Rocketry/infrastructure/ground-side-power/GSP.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "GSP")(type "KiCad")(uri "C:/Users/Manav/Desktop/GSPD/ground-side-power/GSP.pretty")(options "")(descr ""))
 )
