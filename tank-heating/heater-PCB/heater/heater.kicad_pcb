@@ -160,6 +160,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -172,6 +173,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -184,6 +186,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -370,6 +373,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -382,6 +386,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -394,6 +399,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -500,6 +506,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -512,6 +519,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -524,6 +532,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1406,5 +1415,36 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "35e472e9-9b65-42d2-b0d5-25f390fa25e9")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Adhes")
+		(uuid "75e3f0e4-335d-4538-9f46-d90db08297f7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 482.5 48) (xy 483.5 552.5) (xy 396 552.5) (xy 397 48)
+			)
+		)
+		(filled_polygon
+			(layer "B.Adhes")
+			(island)
+			(pts
+				(xy 479.943039 50.019685) (xy 479.988794 50.072489) (xy 480 50.124) (xy 480 549.876) (xy 479.980315 549.943039)
+				(xy 479.927511 549.988794) (xy 479.876 550) (xy 400.124 550) (xy 400.056961 549.980315) (xy 400.011206 549.927511)
+				(xy 400 549.876) (xy 400 50.124) (xy 400.019685 50.056961) (xy 400.072489 50.011206) (xy 400.124 50)
+				(xy 479.876 50)
+			)
+		)
 	)
 )
