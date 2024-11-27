@@ -11,6 +11,193 @@
 		(company "Waterloo Rocketry")
 	)
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers hide)
 			(pin_names
@@ -314,29 +501,29 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
+		(symbol "Device:Thermistor_US"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "TH"
+				(at 2.54 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
+			(property "Value" "Thermistor_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -348,7 +535,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -357,7 +544,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(property "Description" "Thermistor, temperature dependent resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -366,7 +553,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "R res thermistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -375,10 +562,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "+12V_0_1"
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermistor_US_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -390,7 +586,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -402,7 +598,55 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 1.905 -1.27) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -413,10 +657,10 @@
 					)
 				)
 			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
+			(symbol "Thermistor_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -425,6 +669,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -531,19 +793,93 @@
 			)
 		)
 	)
+	(junction
+		(at 199.39 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c6ac80c-9419-4541-ab57-9d173879e17e")
+	)
+	(junction
+		(at 106.68 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a1d2f2f-45ae-46b4-9354-426da9d17bde")
+	)
+	(junction
+		(at 99.06 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "529a7559-d273-4b05-a98b-13a121fd5d37")
+	)
+	(junction
+		(at 207.01 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6af410-649c-4a8a-b78a-934349d0af7c")
+	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 83.82 99.06)
+			(xy 201.93 88.9) (xy 199.39 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a86561c-ab34-47b6-81b1-5d388168ef29")
+		(uuid "1bec2458-934f-40b2-bed3-01af25066934")
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 190.5 99.06)
+			(xy 106.68 88.9) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccb5513-ebd7-40a6-8163-76fa979e1ea7")
+	)
+	(wire
+		(pts
+			(xy 204.47 88.9) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fbdf70-2e3b-4a5b-ac36-9ccef1f5c59f")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7b2e8a-d1b0-44ba-9419-92a422cf0f5a")
+	)
+	(wire
+		(pts
+			(xy 199.39 99.06) (xy 194.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc7a593-992f-41af-9c1b-f4cf295e19dc")
+	)
+	(wire
+		(pts
+			(xy 213.36 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abd1e1e-b2fc-4cb9-95ac-1634c9f5463b")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -553,7 +889,47 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 138.43 99.06)
+			(xy 101.6 88.9) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e8afa4-f6f9-46e7-95e1-c54c7dab1ffa")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e754be9-8978-4348-912c-6a4092199126")
+	)
+	(wire
+		(pts
+			(xy 199.39 88.9) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc0208d-12ff-4fc8-943b-d00ec9e342de")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772407e4-ed02-4730-a83a-d072e071d242")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 124.46 99.06)
 		)
 		(stroke
 			(width 0)
@@ -563,17 +939,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 99.06) (xy 213.36 99.06)
+			(xy 207.01 101.6) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d72549c-7e84-47d8-9012-a91df11ed194")
+		(uuid "b669eddc-e5f6-4acc-a1c9-81fe4432166b")
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 101.6 99.06)
+			(xy 106.68 99.06) (xy 111.76 99.06)
 		)
 		(stroke
 			(width 0)
@@ -581,18 +957,86 @@
 		)
 		(uuid "b88b01b3-0452-49b3-a127-7cd37f9548ce")
 	)
+	(wire
+		(pts
+			(xy 78.74 101.6) (xy 78.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03ec7f3-0d78-44b8-be26-d8a8d3952f19")
+	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0bcbc43-e593-4c83-9804-ee1d8c3842eb")
+	)
+	(wire
+		(pts
+			(xy 207.01 88.9) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3aa6b65-cceb-439c-a4b6-5b000d44a789")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa82bf97-5050-4d81-bf19-0724c203cad2")
+	)
+	(wire
+		(pts
+			(xy 74.93 101.6) (xy 78.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1654b8-40a2-48df-8f60-5301572d8f1e")
+	)
 	(symbol
-		(lib_id "power:GND")
-		(at 213.36 99.06 90)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 218.44 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "03986960-0be2-4b28-9599-9fadf8d8ea11")
-		(property "Reference" "#PWR02"
-			(at 219.71 99.06 0)
+		(uuid "0788b08e-4fa1-45ed-b370-b7ba28e304a1")
+		(property "Reference" "J4"
+			(at 220.98 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "48V Output"
+			(at 220.98 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,17 +1044,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 217.17 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 99.06 0)
+		(property "Datasheet" "~"
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,17 +1053,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 213.36 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 99.06 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,10 +1063,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4be44de-1f29-4909-b026-7bf0eb475dad")
+			(uuid "2f0c1ead-efa3-4bb7-b759-4c91a0be7b76")
+		)
+		(pin "2"
+			(uuid "d091b46c-af0c-4907-a396-32fbd809ee89")
 		)
 		(instances
-			(project ""
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cbe6232-0aa7-42ae-be06-841779b85d14")
+		(property "Reference" "#PWR02"
+			(at 207.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ad00d8-1e79-460b-b23f-f7b9b3abaab5")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "#PWR02")
 					(unit 1)
@@ -650,7 +1145,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 105.41 99.06 90)
+		(at 115.57 99.06 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -659,7 +1154,7 @@
 		(fields_autoplaced yes)
 		(uuid "10f4658c-54cb-4d10-a02c-f732b3be25d6")
 		(property "Reference" "F1"
-			(at 105.41 92.71 90)
+			(at 115.57 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,7 +1162,7 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 105.41 95.25 90)
+			(at 115.57 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +1170,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 105.41 100.838 90)
+			(at 115.57 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +1179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 99.06 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,7 +1188,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 105.41 99.06 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +1213,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 87.63 99.06 90)
+		(at 102.87 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -727,7 +1222,7 @@
 		(fields_autoplaced yes)
 		(uuid "251a9049-ed3e-47ea-b230-42200b2a4907")
 		(property "Reference" "R1"
-			(at 87.63 92.71 90)
+			(at 102.87 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +1230,7 @@
 			)
 		)
 		(property "Value" "1mΩ"
-			(at 87.63 95.25 90)
+			(at 102.87 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 87.884 98.044 90)
+			(at 103.124 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +1247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 99.06 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +1256,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 87.63 99.06 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,17 +1280,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 73.66 99.06 90)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 201.93 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61c340e3-308e-4635-a568-bf26e986b174")
-		(property "Reference" "#PWR01"
-			(at 77.47 99.06 0)
+		(uuid "2e7a26e5-4037-41d7-976b-6a7faf9497bc")
+		(property "Reference" "J3"
+			(at 207.01 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Output Current Sensing"
+			(at 207.01 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 201.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,17 +1316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 69.85 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 99.06 0)
+		(property "Datasheet" "~"
+			(at 201.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,8 +1325,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 99.06 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,8 +1334,67 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 73.66 99.06 0)
+		(pin "2"
+			(uuid "97a936a1-947e-4c02-a1f0-3ea4b377653f")
+		)
+		(pin "1"
+			(uuid "749077f0-3cda-42fe-b854-0413ba4b4315")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 69.85 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52167295-d636-461f-8d32-cb05d3d6c821")
+		(property "Reference" "J1"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V Input"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,7 +1403,76 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed6408ee-8aaf-4bc2-8114-c860c8329351")
+			(uuid "491740cf-74d7-420d-b512-ef52cfe21dce")
+		)
+		(pin "2"
+			(uuid "0c83cc76-66c0-4a3e-b631-54531ea89b66")
+		)
+		(instances
+			(project ""
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5483190e-b40a-4acf-a399-a4d1051db39c")
+		(property "Reference" "#PWR01"
+			(at 78.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98003ddb-c248-4b12-bd78-cafe188d465a")
 		)
 		(instances
 			(project ""
@@ -853,7 +1485,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 194.31 99.06 90)
+		(at 203.2 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -862,7 +1494,7 @@
 		(fields_autoplaced yes)
 		(uuid "7759b4f5-2049-43c0-84f1-53053b24c4f2")
 		(property "Reference" "R2"
-			(at 194.31 92.71 90)
+			(at 203.2 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +1502,7 @@
 			)
 		)
 		(property "Value" "1mΩ"
-			(at 194.31 95.25 90)
+			(at 203.2 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +1510,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 194.564 98.044 90)
+			(at 203.454 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +1519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 99.06 0)
+			(at 203.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +1528,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 194.31 99.06 0)
+			(at 203.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,6 +1546,212 @@
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 190.5 99.06 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaf14465-fb53-4d46-9b36-4b4619316609")
+		(property "Reference" "F2"
+			(at 190.5 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3A"
+			(at 190.5 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 190.5 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8ffceae-025d-4741-a835-8da8da3578e7")
+		)
+		(pin "2"
+			(uuid "2fd28dc4-d534-488b-aa7f-a55329b84a34")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 101.6 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4dcb5ee-f98c-4e66-83ad-65ce1479415e")
+		(property "Reference" "J2"
+			(at 106.68 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Input Current Sensing"
+			(at 106.68 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cea4d20f-3758-4f71-948c-da7087297c91")
+		)
+		(pin "1"
+			(uuid "9b906b3f-afa1-4699-9ce5-c9b3f0706fd3")
+		)
+		(instances
+			(project ""
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_US")
+		(at 128.27 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccbc123a-3881-4440-a85c-e770ecb4e467")
+		(property "Reference" "TH1"
+			(at 128.27 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20A"
+			(at 128.27 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ametherm.com/datasheetspdf/SL221R020.pdf"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SL22 1R020"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4154438-7152-4fe2-b5f5-b406cbe54fed")
+		)
+		(pin "1"
+			(uuid "b1f5f1f3-d078-4c00-b38c-c17581cedbfc")
+		)
+		(instances
+			(project ""
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "TH1")
 					(unit 1)
 				)
 			)

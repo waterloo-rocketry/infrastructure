@@ -13,16 +13,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 0 17.78 0)
+			(property "Reference" "U"
+				(at 0 14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 15.24 0)
+			(property "Value" ""
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -56,38 +56,6 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Library" "C:\\Users\\kobys\\Downloads\\snvmbv9h\\LM5156-Q1_PSPICE_TRANS\\LM5156-Q1_TRANS.LIB"
-				(at 3.302 -26.924 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Name" "LM5156-Q1_TRANS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=BIAS 2=COMP 3=CS 4=DITHOFF 5=FB 6=GATE 7=GND 8=PGOOD 9=RT 10=SS 11=UVLO_SYNC 12=VCC"
-				(at 7.874 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(symbol "LM5156H_1_1"
 				(rectangle
 					(start -10.16 13.97)
@@ -98,6 +66,14 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "LM5156H"
+					(at 0 -17.272 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 				(pin unspecified line
@@ -190,7 +166,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin no_connect line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "PGOOD"
@@ -1687,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 60.96) (xy 43.18 60.96)
+			(xy 38.1 60.96) (xy 43.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1927,16 +1903,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 60.96) (xy 30.48 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2bb1805-f27c-4458-9de7-ad832b45c9d4")
-	)
-	(wire
-		(pts
 			(xy 152.4 121.92) (xy 152.4 128.27)
 		)
 		(stroke
@@ -1997,16 +1963,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 60.96) (xy 265.43 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b708a6f6-c559-403c-8105-043cf4407d1c")
-	)
-	(wire
-		(pts
 			(xy 166.37 93.98) (xy 166.37 124.46)
 		)
 		(stroke
@@ -2047,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 60.96) (xy 265.43 60.96)
+			(xy 246.38 60.96) (xy 254 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2185,7 @@
 	)
 	(hierarchical_label "12V_INPUT"
 		(shape output)
-		(at 30.48 110.49 180)
+		(at 38.1 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2241,7 +2197,7 @@
 	)
 	(hierarchical_label "48V_OUTPUT"
 		(shape input)
-		(at 265.43 110.49 0)
+		(at 254 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2421,7 +2377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5156h.pdf?ts=1732642562165"
 			(at 113.03 85.09 0)
 			(effects
 				(font
@@ -2675,7 +2631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdws86068-f085-d.pdf"
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -2684,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
+		(property "Description" "FDWS86068-F085"
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -2773,7 +2729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "Library:WE-HCF_SMD_HIGH-CURRENT_INDUCTOR"
 			(at 113.03 60.96 0)
 			(effects
 				(font
@@ -2782,7 +2738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7443640680.pdf"
 			(at 113.03 60.96 0)
 			(effects
 				(font
@@ -2791,7 +2747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "7443640680 Inductor from we-online"
 			(at 113.03 60.96 0)
 			(effects
 				(font
@@ -3583,7 +3539,7 @@
 				)
 			)
 		)
-		(property "Value" "1000Ω"
+		(property "Value" "1kΩ"
 			(at 152.4 86.36 90)
 			(effects
 				(font
@@ -3804,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr1080-d.pdf"
 			(at 200.66 60.96 0)
 			(effects
 				(font
@@ -3813,7 +3769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "MBR10100G"
 			(at 200.66 60.96 0)
 			(effects
 				(font

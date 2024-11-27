@@ -1,0 +1,4 @@
+This is a 10-14V Input to 48V output @ 2A boost board.
+
+Schematic based on WE-Bench design linked below:
+https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=857E53EA3B555965
