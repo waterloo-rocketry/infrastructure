@@ -2161,6 +2161,16 @@
 		)
 		(uuid "fd3bcaf9-7c89-41f4-9234-6561ada642ff")
 	)
+	(text "10-14V to 48V @ 2A\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=857E53EA3B555965"
+		(exclude_from_sim no)
+		(at 119.38 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "840ecacd-94d5-44a7-b1df-e58b7e5cd2be")
+	)
 	(label "DITHOFF"
 		(at 87.63 90.17 0)
 		(fields_autoplaced yes)
