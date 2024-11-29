@@ -9,6 +9,279 @@
 		(company "Waterloo Rocketry")
 	)
 	(lib_symbols
+		(symbol "Boost_Board_Symbols:FDWS86068-F085"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "FDWS86068-F085"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SON_86068-F085_ONS"
+				(at 0 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "FDWS86068-F085"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "FDWS86068-F085"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SON_86068-F085_ONS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FDWS86068-F085_0_1"
+				(polyline
+					(pts
+						(xy -7.62 -8.89) (xy 6.35 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 8.89) (xy -7.62 -8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -8.89) (xy 6.35 8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 8.89) (xy -7.62 8.89)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 3.81 0)
+					(length 7.62)
+					(name "SIGNAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 1.27 0)
+					(length 7.62)
+					(name "SIGNAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -1.27 0)
+					(length 7.62)
+					(name "SIGNAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -3.81 0)
+					(length 7.62)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -3.81 180)
+					(length 7.62)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -1.27 180)
+					(length 7.62)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 1.27 180)
+					(length 7.62)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 3.81 180)
+					(length 7.62)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Boost_Board_Symbols:LM5156H"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -73,24 +346,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -195,6 +450,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -804,266 +1077,6 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_Depletion_DGS"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_Depletion_DGS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Depletion-mode N-channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_Depletion_DGS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_Depletion_DGS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1338,12 +1351,6 @@
 		(uuid "053541fc-a14a-4b3e-8e80-0402a2994d2e")
 	)
 	(junction
-		(at 163.83 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f13ac0b-c088-4692-a222-af2b89e098d8")
-	)
-	(junction
 		(at 52.07 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1421,6 +1428,12 @@
 		(color 0 0 0 0)
 		(uuid "fd09d00b-2247-4308-b28c-2577ab06f43b")
 	)
+	(junction
+		(at 152.4 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdfc3d1e-5024-41cd-9f96-721ed9140b82")
+	)
 	(wire
 		(pts
 			(xy 220.98 60.96) (xy 220.98 78.74)
@@ -1430,16 +1443,6 @@
 			(type default)
 		)
 		(uuid "00a06705-cb62-4d8f-8b7d-fdf04b961ad7")
-	)
-	(wire
-		(pts
-			(xy 144.78 86.36) (xy 144.78 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0551beb4-3e20-40db-a4d3-b2a93f42cf4e")
 	)
 	(wire
 		(pts
@@ -1543,6 +1546,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 60.96) (xy 152.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e06966-f2c6-47f8-aecf-0a72e4fb7cd3")
+	)
+	(wire
+		(pts
 			(xy 43.18 60.96) (xy 52.07 60.96)
 		)
 		(stroke
@@ -1633,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 163.83 60.96)
+			(xy 116.84 60.96) (xy 152.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 78.74) (xy 189.23 90.17)
+			(xy 189.23 69.85) (xy 189.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1690,16 +1703,6 @@
 			(type default)
 		)
 		(uuid "47f3d122-28b4-41f3-8964-f38aea582251")
-	)
-	(wire
-		(pts
-			(xy 163.83 60.96) (xy 196.85 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5315a86c-7069-419e-8ad7-57c89cc60446")
 	)
 	(wire
 		(pts
@@ -1720,6 +1723,16 @@
 			(type default)
 		)
 		(uuid "605ad598-b8ad-44b8-b171-e799b90a7842")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f21c31-c25d-4f34-903e-7570e2692dfc")
 	)
 	(wire
 		(pts
@@ -1793,6 +1806,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 60.96) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823908f5-b6df-4331-aebb-28d2668ee21b")
+	)
+	(wire
+		(pts
 			(xy 152.4 135.89) (xy 152.4 140.97)
 		)
 		(stroke
@@ -1830,16 +1853,6 @@
 			(type default)
 		)
 		(uuid "8cbfdc70-2e4d-4ad5-97af-b53827493d52")
-	)
-	(wire
-		(pts
-			(xy 163.83 78.74) (xy 189.23 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e640a69-213f-41d9-83a2-d50d7f3c33c5")
 	)
 	(wire
 		(pts
@@ -1890,16 +1903,6 @@
 			(type default)
 		)
 		(uuid "992cde30-d9be-4219-8dda-a42add2fc701")
-	)
-	(wire
-		(pts
-			(xy 163.83 60.96) (xy 163.83 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1801feb-6171-4316-a285-4ebcb55c79ea")
 	)
 	(wire
 		(pts
@@ -1973,16 +1976,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 156.21 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c82d46-374a-4d15-9a10-70aec0cb6f71")
-	)
-	(wire
-		(pts
 			(xy 91.44 64.77) (xy 91.44 60.96)
 		)
 		(stroke
@@ -2000,6 +1993,16 @@
 			(type default)
 		)
 		(uuid "db7f57f9-213d-484e-901a-78a0d3441227")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9e7652-cc37-46e3-8d88-2bd1f3b4549e")
 	)
 	(wire
 		(pts
@@ -2050,6 +2053,16 @@
 			(type default)
 		)
 		(uuid "e1762867-7a79-45a1-9dce-f2913e23eaf6")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22b5bd8-e83d-4abf-870c-c09ca8f2dc6c")
 	)
 	(wire
 		(pts
@@ -2456,7 +2469,7 @@
 		(pin "7"
 			(uuid "e0963b4d-336d-4bdb-9cd8-36483a04bdc4")
 		)
-		(pin ""
+		(pin "15"
 			(uuid "7f5f38f4-abf2-49e2-8625-382fd5d15e01")
 		)
 		(instances
@@ -2605,8 +2618,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_Depletion_DGS")
-		(at 161.29 73.66 0)
+		(lib_id "Boost_Board_Symbols:FDWS86068-F085")
+		(at 167.64 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2615,43 +2628,43 @@
 		(fields_autoplaced yes)
 		(uuid "1bbe5801-59ac-4718-b7cd-05cea4a99297")
 		(property "Reference" "Q1"
-			(at 167.64 72.3899 0)
+			(at 167.005 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100V"
-			(at 167.64 74.9299 0)
+			(at 167.005 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Library:Q1 Mosfet"
-			(at 161.29 73.66 0)
+			(at 167.64 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdws86068-f085-d.pdf"
-			(at 161.29 73.66 0)
+		(property "Datasheet" "FDWS86068-F085"
+			(at 167.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "FDWS86068-F085"
-			(at 161.29 73.66 0)
+			(at 144.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2673,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 161.29 73.66 0)
+			(at 167.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2682,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 161.29 73.66 0)
+			(at 167.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2691,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 161.29 73.66 0)
+			(at 167.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2700,7 @@
 			)
 		)
 		(property "Sim.Params" "vto=100"
-			(at 161.29 73.66 0)
+			(at 167.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,6 +2716,21 @@
 		)
 		(pin "3"
 			(uuid "7569d5cc-61c5-443f-8143-48f8c9b35c03")
+		)
+		(pin "4"
+			(uuid "b3f1e33c-aca5-4860-b629-f552a7895f6a")
+		)
+		(pin "5"
+			(uuid "37b229d7-54a6-47ff-b6f6-6026aaa4855e")
+		)
+		(pin "6"
+			(uuid "00cef071-e6b9-4559-a2be-fec97ca9ce3f")
+		)
+		(pin "7"
+			(uuid "adfdeabf-448f-4195-9b9e-a71b834fab59")
+		)
+		(pin "8"
+			(uuid "a0875fdc-345f-4cf3-a850-aaaae2e10b56")
 		)
 		(instances
 			(project "12V-48V_Boost_Board"

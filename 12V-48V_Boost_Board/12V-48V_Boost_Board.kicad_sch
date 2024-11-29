@@ -1715,7 +1715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:Inrush Current Limiter"
 			(at 128.27 99.06 0)
 			(effects
 				(font
