@@ -1169,7 +1169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 115.57 100.838 90)
 			(effects
 				(font
@@ -1178,7 +1178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UST_1206.pdf"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -1569,7 +1569,7 @@
 				)
 			)
 		)
-		(property "Value" "3A"
+		(property "Value" "2A"
 			(at 190.5 95.25 90)
 			(effects
 				(font
@@ -1577,7 +1577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 190.5 100.838 90)
 			(effects
 				(font
@@ -1586,7 +1586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/bel-fuse-inc/C1F-2/4968250"
 			(at 190.5 99.06 0)
 			(effects
 				(font

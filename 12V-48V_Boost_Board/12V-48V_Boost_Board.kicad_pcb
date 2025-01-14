@@ -2018,7 +2018,7 @@
 	(footprint "Library:WE-HCF_SMD_HIGH-CURRENT_INDUCTOR"
 		(layer "F.Cu")
 		(uuid "06677ca2-d39d-4e1d-8969-cba83e08de74")
-		(at 151.075 108.465)
+		(at 151 107)
 		(descr "WE-HCF_SMD_High-Current_Inductor")
 		(tags "Inductor")
 		(property "Reference" "L1"
