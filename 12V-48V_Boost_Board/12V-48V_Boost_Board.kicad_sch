@@ -800,6 +800,12 @@
 		(uuid "0c6ac80c-9419-4541-ab57-9d173879e17e")
 	)
 	(junction
+		(at 203.2 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5b0c77-56c3-43a4-a8a7-e449e054bae0")
+	)
+	(junction
 		(at 106.68 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -812,10 +818,26 @@
 		(uuid "529a7559-d273-4b05-a98b-13a121fd5d37")
 	)
 	(junction
+		(at 203.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db8bb33b-ee9f-45e5-89d4-45f3ab931600")
+	)
+	(junction
 		(at 207.01 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed6af410-649c-4a8a-b78a-934349d0af7c")
+	)
+	(wire
+		(pts
+			(xy 218.44 120.65) (xy 218.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c55e579-e387-40a6-abfb-125e09383884")
 	)
 	(wire
 		(pts
@@ -869,7 +891,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 101.6) (xy 207.01 101.6)
+			(xy 218.44 118.11) (xy 218.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434ab35e-bf80-45c5-a360-77315a1cee7a")
+	)
+	(wire
+		(pts
+			(xy 203.2 101.6) (xy 213.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -896,6 +928,16 @@
 			(type default)
 		)
 		(uuid "65e8afa4-f6f9-46e7-95e1-c54c7dab1ffa")
+	)
+	(wire
+		(pts
+			(xy 218.44 115.57) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d251a2c-c3be-4254-a936-f60fa62ca9fb")
 	)
 	(wire
 		(pts
@@ -929,6 +971,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 113.03) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9b107b-45ae-4bbf-86a5-57df4105c9a3")
+	)
+	(wire
+		(pts
 			(xy 119.38 99.06) (xy 124.46 99.06)
 		)
 		(stroke
@@ -939,7 +991,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 101.6) (xy 207.01 106.68)
+			(xy 203.2 123.19) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e6278b-63c8-4502-815f-907999641476")
+	)
+	(wire
+		(pts
+			(xy 203.2 101.6) (xy 203.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -999,6 +1061,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 123.19) (xy 203.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcae0aa6-a501-43eb-810d-e797b78c71e5")
+	)
+	(wire
+		(pts
 			(xy 74.93 101.6) (xy 78.74 101.6)
 		)
 		(stroke
@@ -1006,6 +1078,76 @@
 			(type default)
 		)
 		(uuid "fd1654b8-40a2-48df-8f60-5301572d8f1e")
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 223.52 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012171bf-e2c8-48b7-9d6d-6ccf01a28463")
+		(property "Reference" "J5"
+			(at 226.06 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Output Measuring"
+			(at 226.06 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebd2ed1a-2dd2-4693-aa17-5242e173d854")
+		)
+		(pin "2"
+			(uuid "747a02cb-e62c-4c35-b88f-2aa582ab8612")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -1079,7 +1221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 106.68 0)
+		(at 203.2 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1088,7 +1230,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cbe6232-0aa7-42ae-be06-841779b85d14")
 		(property "Reference" "#PWR02"
-			(at 207.01 113.03 0)
+			(at 203.2 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1239,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 111.76 0)
+			(at 203.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 106.68 0)
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 106.68 0)
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 106.68 0)
+			(at 203.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,10 +1293,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10f4658c-54cb-4d10-a02c-f732b3be25d6")
 		(property "Reference" "F1"
-			(at 115.57 92.71 90)
+			(at 115.57 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1303,7 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 115.57 95.25 90)
+			(at 115.57 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,13 +1328,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 115.57 99.06 0)
+		(property "Description" "3413.0330.22"
+			(at 115.57 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1206,6 +1346,77 @@
 			(project ""
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 203.2 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "230ab84b-5ccf-43a5-8d47-769a9b74496d")
+		(property "Reference" "DNP1"
+			(at 205.74 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1mΩ"
+			(at 205.74 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 202.184 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea3eda0d-8240-486c-b328-103d9180929d")
+		)
+		(pin "1"
+			(uuid "44a3cfe1-b1eb-4ac6-b1db-77925c3f5c71")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "DNP1")
 					(unit 1)
 				)
 			)
@@ -1559,10 +1770,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aaf14465-fb53-4d46-9b36-4b4619316609")
 		(property "Reference" "F2"
-			(at 190.5 92.71 90)
+			(at 190.5 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1780,7 @@
 			)
 		)
 		(property "Value" "2A"
-			(at 190.5 95.25 90)
+			(at 190.5 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,13 +1805,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 190.5 99.06 0)
+		(property "Description" "C1F 2"
+			(at 190.5 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1713,9 +1922,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Inrush Current Limiter"
+		(property "Footprint" "12/48 boost:Inrush Current Limiter"
 			(at 128.27 99.06 0)
 			(effects
 				(font
@@ -1734,12 +1944,11 @@
 			)
 		)
 		(property "Description" "SL22 1R020"
-			(at 128.27 99.06 0)
+			(at 128.27 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1752,6 +1961,76 @@
 			(project ""
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 203.2 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb48fbe0-7040-48a1-a54c-1d376ff139ff")
+		(property "Reference" "DNP2"
+			(at 205.74 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 205.74 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 202.184 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edd1d336-606c-433d-bfcb-3cef3ed9cf41")
+		)
+		(pin "1"
+			(uuid "88f7f795-d5a7-4335-8475-46138249d342")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "DNP2")
 					(unit 1)
 				)
 			)
