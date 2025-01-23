@@ -810,8 +810,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -819,8 +819,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_DSG"
-				(at 5.08 -1.27 0)
+			(property "Value" "FDWS86068-F085"
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -828,7 +828,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "12/48 boost:Q1 Mosfet"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -837,7 +837,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdws86068-f085-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1050,24 +1050,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1078,7 +1060,25 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1386,12 +1386,6 @@
 		(uuid "442a25fb-49c5-4d5a-ab9b-74810e7d437e")
 	)
 	(junction
-		(at 175.26 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46e82add-7f9a-4fd0-9880-a6415fe50e20")
-	)
-	(junction
 		(at 172.72 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1414,6 +1408,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a9d997e-4c71-4566-8010-d274c07e1326")
+	)
+	(junction
+		(at 176.53 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b130c6-b198-4d0e-8e5f-f3d26f8e06b5")
 	)
 	(junction
 		(at 128.27 71.12)
@@ -1611,7 +1611,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 167.64 71.12)
+			(xy 144.78 71.12) (xy 168.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 175.26 60.96)
+			(xy 116.84 60.96) (xy 176.53 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2051,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 60.96) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72637ac-4d7a-4aaa-9807-7ebc47a59c3d")
+	)
+	(wire
+		(pts
 			(xy 43.18 60.96) (xy 52.07 60.96)
 		)
 		(stroke
@@ -2121,23 +2131,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 189.23 76.2)
+			(xy 176.53 76.2) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db9e7652-cc37-46e3-8d88-2bd1f3b4549e")
-	)
-	(wire
-		(pts
-			(xy 175.26 60.96) (xy 196.85 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc29f631-6adc-4965-a4e8-e7e942776f37")
 	)
 	(wire
 		(pts
@@ -2271,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 60.96) (xy 175.26 66.04)
+			(xy 176.53 60.96) (xy 176.53 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2886,7 +2886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2242e38d-e487-4f2d-8655-c23b061ceab9")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 191.77 101.5999 0)
 			(effects
 				(font
@@ -2940,7 +2940,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6/5e4f9813-0913-4f01-9ef9-037c6221a469"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3228,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aea0d03-fda0-4e8d-a993-0214c451ec61")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 223.52 81.2799 0)
 			(effects
 				(font
@@ -3282,7 +3282,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6/5e4f9813-0913-4f01-9ef9-037c6221a469"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3290,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_DSG")
-		(at 172.72 71.12 0)
+		(at 173.99 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3299,7 +3299,7 @@
 		(fields_autoplaced yes)
 		(uuid "556ef0d2-2c69-49a9-ac23-7542461cc58c")
 		(property "Reference" "Q1"
-			(at 179.07 69.8499 0)
+			(at 180.34 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3308,7 @@
 			)
 		)
 		(property "Value" "FDWS86068-F085"
-			(at 179.07 72.3899 0)
+			(at 180.34 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3317,7 @@
 			)
 		)
 		(property "Footprint" "12/48 boost:Q1 Mosfet"
-			(at 177.8 68.58 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3326,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdws86068-f085-d.pdf"
-			(at 172.72 71.12 0)
+			(at 173.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3335,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 172.72 71.12 0)
+			(at 173.99 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,10 +3346,10 @@
 		(pin "1"
 			(uuid "5e4750f9-a85e-4145-8689-d591210d66b6")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "61dac913-9ac2-485b-97ed-e523a7af484a")
 		)
-		(pin "3"
+		(pin "8"
 			(uuid "d2844235-dbc6-493a-bdc1-234355bfe6bb")
 		)
 		(instances
@@ -3371,7 +3371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5708ebc7-bf5e-4353-ba64-6bf642a2819f")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 223.52 129.5399 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6/5e4f9813-0913-4f01-9ef9-037c6221a469"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6054a666-4215-40c4-9da6-8bf7a0e6c937")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 152.4 83.82 90)
 			(effects
 				(font
@@ -3761,7 +3761,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6/5e4f9813-0913-4f01-9ef9-037c6221a469"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4069,7 +4069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "890a0ce3-73d4-451f-a751-bd29b8af76d0")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 71.12 110.4899 0)
 			(effects
 				(font
@@ -4123,7 +4123,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6/5e4f9813-0913-4f01-9ef9-037c6221a469"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4555,7 +4555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad35a069-df55-4fcc-94a7-5ee4fb555793")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 154.94 130.8099 0)
 			(effects
 				(font
@@ -4609,7 +4609,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6/5e4f9813-0913-4f01-9ef9-037c6221a469"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4815,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 180.34 90.17 270)
+		(at 180.34 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4823,7 +4823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f54c8a71-d06e-4266-aa24-36c5f5a1c153")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 180.34 83.82 90)
 			(effects
 				(font
@@ -4840,7 +4840,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 180.086 91.186 90)
+			(at 180.594 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4875,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6/5e4f9813-0913-4f01-9ef9-037c6221a469"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)

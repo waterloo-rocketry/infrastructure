@@ -800,10 +800,16 @@
 		(uuid "0c6ac80c-9419-4541-ab57-9d173879e17e")
 	)
 	(junction
-		(at 203.2 115.57)
+		(at 218.44 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a5b0c77-56c3-43a4-a8a7-e449e054bae0")
+	)
+	(junction
+		(at 218.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e21502-0963-49ee-9a88-17027a7134d3")
 	)
 	(junction
 		(at 106.68 99.06)
@@ -818,7 +824,7 @@
 		(uuid "529a7559-d273-4b05-a98b-13a121fd5d37")
 	)
 	(junction
-		(at 203.2 123.19)
+		(at 218.44 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db8bb33b-ee9f-45e5-89d4-45f3ab931600")
@@ -831,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 120.65) (xy 218.44 123.19)
+			(xy 233.68 118.11) (xy 233.68 120.65)
 		)
 		(stroke
 			(width 0)
@@ -891,23 +897,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 118.11) (xy 218.44 115.57)
+			(xy 233.68 115.57) (xy 233.68 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "434ab35e-bf80-45c5-a360-77315a1cee7a")
-	)
-	(wire
-		(pts
-			(xy 203.2 101.6) (xy 213.36 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4abd1e1e-b2fc-4cb9-95ac-1634c9f5463b")
 	)
 	(wire
 		(pts
@@ -931,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 115.57) (xy 203.2 115.57)
+			(xy 233.68 113.03) (xy 218.44 113.03)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +967,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 113.03) (xy 203.2 115.57)
+			(xy 218.44 110.49) (xy 218.44 113.03)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +987,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 123.19) (xy 203.2 127)
+			(xy 218.44 99.06) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a070f685-a02e-40cf-886f-a578aa6d4da8")
+	)
+	(wire
+		(pts
+			(xy 218.44 120.65) (xy 218.44 127)
 		)
 		(stroke
 			(width 0)
@@ -1001,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 101.6) (xy 203.2 105.41)
+			(xy 218.44 99.06) (xy 218.44 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1031,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 99.06) (xy 207.01 99.06)
+			(xy 233.68 99.06) (xy 218.44 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 123.19) (xy 203.2 123.19)
+			(xy 233.68 120.65) (xy 218.44 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1081,7 +1087,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 223.52 118.11 0)
+		(at 238.76 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1090,7 +1096,7 @@
 		(fields_autoplaced yes)
 		(uuid "012171bf-e2c8-48b7-9d6d-6ccf01a28463")
 		(property "Reference" "J5"
-			(at 226.06 118.1099 0)
+			(at 241.3 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1105,7 @@
 			)
 		)
 		(property "Value" "Output Measuring"
-			(at 226.06 120.6499 0)
+			(at 241.3 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1114,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 223.52 118.11 0)
+			(at 238.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 118.11 0)
+			(at 238.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1132,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 118.11 0)
+			(at 238.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1157,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 218.44 99.06 0)
+		(at 238.76 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1160,7 +1166,7 @@
 		(fields_autoplaced yes)
 		(uuid "0788b08e-4fa1-45ed-b370-b7ba28e304a1")
 		(property "Reference" "J4"
-			(at 220.98 99.0599 0)
+			(at 241.3 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1175,7 @@
 			)
 		)
 		(property "Value" "48V Output"
-			(at 220.98 101.5999 0)
+			(at 241.3 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1184,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 218.44 99.06 0)
+			(at 238.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +1193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 99.06 0)
+			(at 238.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1202,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 99.06 0)
+			(at 238.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1227,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 127 0)
+		(at 218.44 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1230,7 +1236,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cbe6232-0aa7-42ae-be06-841779b85d14")
 		(property "Reference" "#PWR02"
-			(at 203.2 133.35 0)
+			(at 218.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 132.08 0)
+			(at 218.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 127 0)
+			(at 218.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 127 0)
+			(at 218.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1271,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 127 0)
+			(at 218.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 203.2 109.22 180)
+		(at 218.44 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1361,8 +1367,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "230ab84b-5ccf-43a5-8d47-769a9b74496d")
-		(property "Reference" "DNP1"
-			(at 205.74 107.9499 0)
+		(property "Reference" "R3"
+			(at 220.98 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,18 +1376,17 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1mΩ"
-			(at 205.74 110.4899 0)
+		(property "Value" "DNP"
+			(at 220.98 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 202.184 108.966 90)
+			(at 217.424 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 109.22 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1404,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 203.2 109.22 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1421,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
-					(reference "DNP1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1973,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 203.2 119.38 180)
+		(at 218.44 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1976,8 +1981,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb48fbe0-7040-48a1-a54c-1d376ff139ff")
-		(property "Reference" "DNP2"
-			(at 205.74 118.1099 0)
+		(property "Reference" "R4"
+			(at 220.98 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,8 +1990,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 205.74 120.6499 0)
+		(property "Value" "DNP"
+			(at 220.98 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +2000,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 202.184 119.126 90)
+			(at 217.424 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 119.38 0)
+			(at 218.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2018,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 203.2 119.38 0)
+			(at 218.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2035,7 @@
 		(instances
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
-					(reference "DNP2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
