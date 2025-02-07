@@ -1133,10 +1133,9 @@
 			)
 		)
 		(property "Output 1" "GND"
-			(at 0 0 90)
+			(at 4.7852 7.9172 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "f06c82f1-b5c2-49e3-856a-ff26acfa0be1")
 			(effects
 				(font
@@ -1146,10 +1145,9 @@
 			)
 		)
 		(property "Output 2" "48V"
-			(at 0 0 90)
+			(at 0.1116 7.8918 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "c563664c-9d8d-48b5-a996-8a4dc6d9552a")
 			(effects
 				(font
@@ -2691,6 +2689,30 @@
 				)
 			)
 		)
+		(property "Output 1" "48V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d9347f0b-5850-46b3-9733-a5e421a7998e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Output 2" "GND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bec168d3-ca39-4dca-8196-1984b9a866eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/012171bf-e2c8-48b7-9d6d-6ccf01a28463")
 		(sheetname "Root")
@@ -3326,7 +3348,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 0 1.65 90)
+			(at 0 -3.3288 90)
 			(layer "F.Fab")
 			(uuid "121c2fe0-be74-4bfe-a168-be4b9a6fbc2a")
 			(effects
@@ -3539,7 +3561,7 @@
 			)
 		)
 		(property "Value" "Output Current Sensing"
-			(at 2.5 6.06 90)
+			(at -0.3758 6.2662 90)
 			(layer "F.Fab")
 			(uuid "a922daba-c709-4081-b24b-08cd4c9ef96f")
 			(effects
@@ -6804,10 +6826,9 @@
 			)
 		)
 		(property "Input 1" "GND"
-			(at 0 0 0)
+			(at 0.1524 8.4328 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "0a6e183e-2388-4e47-8435-48d31b8a3fd0")
 			(effects
 				(font
@@ -6817,10 +6838,9 @@
 			)
 		)
 		(property "Input 2" "12 V"
-			(at 0 0 0)
+			(at 5.461 8.3566 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "edb87570-7c54-4319-9744-94ce0f93bd1b")
 			(effects
 				(font

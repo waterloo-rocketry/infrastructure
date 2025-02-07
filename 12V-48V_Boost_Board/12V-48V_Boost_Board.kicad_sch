@@ -1105,7 +1105,7 @@
 		(dnp no)
 		(uuid "012171bf-e2c8-48b7-9d6d-6ccf01a28463")
 		(property "Reference" "J5"
-			(at 241.3 115.5699 0)
+			(at 251.46 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1114,7 @@
 			)
 		)
 		(property "Value" "Output Measuring"
-			(at 241.046 117.856 0)
+			(at 247.904 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,6 +1147,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Output 1" "48V"
+			(at 243.078 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Output 2" "GND"
+			(at 243.078 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1359,7 +1375,7 @@
 			)
 		)
 		(property "Description" "0891015.NXS"
-			(at 115.57 105.41 90)
+			(at 115.57 104.394 90)
 			(show_name yes)
 			(effects
 				(font
@@ -1368,7 +1384,7 @@
 			)
 		)
 		(property "Fuse Holder" "01530008Z"
-			(at 115.57 103.124 90)
+			(at 115.57 102.362 90)
 			(show_name yes)
 			(effects
 				(font
