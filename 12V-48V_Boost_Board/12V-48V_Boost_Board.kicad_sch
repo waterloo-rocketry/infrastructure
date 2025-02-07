@@ -877,7 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 99.06) (xy 99.06 99.06)
+			(xy 76.2 99.06) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -997,6 +997,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 101.6) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37e7aed-6520-4f74-b1fb-6840e22b5fbc")
+	)
+	(wire
+		(pts
 			(xy 218.44 120.65) (xy 218.44 127)
 		)
 		(stroke
@@ -1077,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 101.6) (xy 78.74 101.6)
+			(xy 76.2 101.6) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1103,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "012171bf-e2c8-48b7-9d6d-6ccf01a28463")
 		(property "Reference" "J5"
 			(at 241.3 115.5699 0)
@@ -1105,7 +1114,7 @@
 			)
 		)
 		(property "Value" "Output Measuring"
-			(at 241.3 118.1099 0)
+			(at 241.046 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,10 +1172,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0788b08e-4fa1-45ed-b370-b7ba28e304a1")
 		(property "Reference" "J4"
-			(at 241.3 99.0599 0)
+			(at 237.744 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1183,7 @@
 			)
 		)
 		(property "Value" "48V Output"
-			(at 241.3 101.5999 0)
+			(at 232.918 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,6 +1216,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Output 1" "GND"
+			(at 242.57 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Output 2" "48V"
+			(at 242.824 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1316,7 +1340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "12/48 boost:01530009Z"
 			(at 115.57 100.838 90)
 			(effects
 				(font
@@ -1325,7 +1349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UST_1206.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -1334,8 +1358,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3413.0330.22"
-			(at 115.57 103.378 90)
+		(property "Description" "0891015.NXS"
+			(at 115.57 105.41 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Fuse Holder" "01530008Z"
+			(at 115.57 103.124 90)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,6 +1386,72 @@
 			(project ""
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14130682-f110-4af8-b729-632d4eee64ae")
+		(property "Reference" "#PWR016"
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1cc6695-f160-4d19-9d43-8fc1d4ccc552")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1567,16 +1667,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 69.85 101.6 180)
+		(at 71.12 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52167295-d636-461f-8d32-cb05d3d6c821")
 		(property "Reference" "J1"
-			(at 69.85 92.71 0)
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1683,7 @@
 			)
 		)
 		(property "Value" "12V Input"
-			(at 69.85 95.25 0)
+			(at 71.12 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1691,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 69.85 101.6 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 101.6 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,12 +1709,28 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 101.6 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Input 1" "GND"
+			(at 66.802 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Input 2" "12 V"
+			(at 66.548 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

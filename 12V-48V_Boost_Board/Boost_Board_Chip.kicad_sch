@@ -491,23 +491,32 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D1"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
+			(property "Value" "455mV"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "12/48 boost:D2PAK_STM-M"
+				(at 0.254 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group2/8f/d3/41/ea/82/b2/4b/5a/CD00228904/files/CD00228904.pdf/jcr:content/translations/en.CD00228904.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -516,16 +525,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
+			(property "Description" "STPS20M100SG-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -543,8 +543,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
+			(property "Sim.Pins" "3=K 1=A"
+				(at -0.508 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -610,9 +610,9 @@
 			)
 			(symbol "D_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -628,16 +628,16 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2349,7 +2349,7 @@
 		)
 		(uuid "fd3bcaf9-7c89-41f4-9234-6561ada642ff")
 	)
-	(text "MBR10100G"
+	(text "STPS20M100SG-TR"
 		(exclude_from_sim no)
 		(at 200.66 64.008 0)
 		(effects
@@ -3930,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" "12/48 boost:D2PAK_STM-M"
-			(at 200.66 60.96 0)
+			(at 200.406 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,8 +3965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 200.66 60.96 0)
+		(property "Sim.Pins" "3=K 1=A"
+			(at 201.168 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3977,7 @@
 		(pin "1"
 			(uuid "94d4c986-2efc-4bd9-8ce2-0f7cdc2e7603")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "dacdcde1-594c-4e32-82df-02272623a17b")
 		)
 		(instances
