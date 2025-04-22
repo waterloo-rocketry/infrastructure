@@ -806,16 +806,16 @@
 		(uuid "1a5b0c77-56c3-43a4-a8a7-e449e054bae0")
 	)
 	(junction
-		(at 218.44 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28e21502-0963-49ee-9a88-17027a7134d3")
-	)
-	(junction
 		(at 106.68 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a1d2f2f-45ae-46b4-9354-426da9d17bde")
+	)
+	(junction
+		(at 218.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "422ce53f-008d-4bbf-b237-84a3cf689371")
 	)
 	(junction
 		(at 99.06 99.06)
@@ -837,26 +837,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 118.11) (xy 233.68 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c55e579-e387-40a6-abfb-125e09383884")
-	)
-	(wire
-		(pts
-			(xy 201.93 88.9) (xy 199.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bec2458-934f-40b2-bed3-01af25066934")
-	)
-	(wire
-		(pts
 			(xy 106.68 88.9) (xy 106.68 99.06)
 		)
 		(stroke
@@ -867,13 +847,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 88.9) (xy 207.01 88.9)
+			(xy 233.68 101.6) (xy 233.68 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25fbdf70-2e3b-4a5b-ac36-9ccef1f5c59f")
+		(uuid "2c117b5a-b38c-483c-9ffd-a3a74984869c")
 	)
 	(wire
 		(pts
@@ -897,13 +877,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 115.57) (xy 233.68 113.03)
+			(xy 199.39 88.9) (xy 201.93 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "434ab35e-bf80-45c5-a360-77315a1cee7a")
+		(uuid "51e9f964-c346-4b8c-8358-8eb92fb5e7bc")
 	)
 	(wire
 		(pts
@@ -924,16 +904,6 @@
 			(type default)
 		)
 		(uuid "65e8afa4-f6f9-46e7-95e1-c54c7dab1ffa")
-	)
-	(wire
-		(pts
-			(xy 233.68 113.03) (xy 218.44 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d251a2c-c3be-4254-a936-f60fa62ca9fb")
 	)
 	(wire
 		(pts
@@ -997,16 +967,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 101.6) (xy 233.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37e7aed-6520-4f74-b1fb-6840e22b5fbc")
-	)
-	(wire
-		(pts
 			(xy 218.44 120.65) (xy 218.44 127)
 		)
 		(stroke
@@ -1037,6 +997,26 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 88.9) (xy 207.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ade8b7-7b43-4817-9222-a554571790a2")
+	)
+	(wire
+		(pts
+			(xy 218.44 99.06) (xy 233.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e349b5-8d59-4394-beae-69dbbb33911b")
+	)
+	(wire
+		(pts
 			(xy 78.74 101.6) (xy 78.74 105.41)
 		)
 		(stroke
@@ -1044,16 +1024,6 @@
 			(type default)
 		)
 		(uuid "c03ec7f3-0d78-44b8-be26-d8a8d3952f19")
-	)
-	(wire
-		(pts
-			(xy 233.68 99.06) (xy 218.44 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0bcbc43-e593-4c83-9804-ee1d8c3842eb")
 	)
 	(wire
 		(pts
@@ -1067,6 +1037,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 113.03) (xy 233.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92307fe-0f22-49ff-8e06-637b1d001a59")
+	)
+	(wire
+		(pts
+			(xy 218.44 113.03) (xy 233.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97faf65-5e91-4870-9719-413c7983c026")
+	)
+	(wire
+		(pts
 			(xy 132.08 99.06) (xy 138.43 99.06)
 		)
 		(stroke
@@ -1074,6 +1064,16 @@
 			(type default)
 		)
 		(uuid "fa82bf97-5050-4d81-bf19-0724c203cad2")
+	)
+	(wire
+		(pts
+			(xy 233.68 118.11) (xy 233.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb49a2e5-4e1e-4319-bd26-c7165f7e1b45")
 	)
 	(wire
 		(pts
@@ -1097,7 +1097,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 238.76 115.57 0)
+		(at 238.76 118.11 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1105,7 +1106,7 @@
 		(dnp no)
 		(uuid "012171bf-e2c8-48b7-9d6d-6ccf01a28463")
 		(property "Reference" "J5"
-			(at 251.46 115.062 0)
+			(at 251.46 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1115,7 @@
 			)
 		)
 		(property "Value" "Output Measuring"
-			(at 247.904 117.856 0)
+			(at 247.904 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1124,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 238.76 115.57 0)
+			(at 238.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 115.57 0)
+			(at 238.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1142,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 115.57 0)
+			(at 238.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1151,7 @@
 			)
 		)
 		(property "Output 1" "48V"
-			(at 243.078 115.57 0)
+			(at 243.078 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1159,7 @@
 			)
 		)
 		(property "Output 2" "GND"
-			(at 243.078 118.364 0)
+			(at 243.078 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1183,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 238.76 99.06 0)
+		(at 238.76 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1190,7 +1192,7 @@
 		(dnp no)
 		(uuid "0788b08e-4fa1-45ed-b370-b7ba28e304a1")
 		(property "Reference" "J4"
-			(at 237.744 93.726 0)
+			(at 237.744 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1201,7 @@
 			)
 		)
 		(property "Value" "48V Output"
-			(at 232.918 95.504 0)
+			(at 235.712 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1210,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 238.76 99.06 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 99.06 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1228,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 99.06 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1237,7 @@
 			)
 		)
 		(property "Output 1" "GND"
-			(at 242.57 102.108 0)
+			(at 242.57 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1245,7 @@
 			)
 		)
 		(property "Output 2" "48V"
-			(at 242.824 99.06 0)
+			(at 242.824 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1482,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "230ab84b-5ccf-43a5-8d47-769a9b74496d")
 		(property "Reference" "R3"
@@ -1613,16 +1615,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 201.93 83.82 90)
+		(at 204.47 83.82 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e7a26e5-4037-41d7-976b-6a7faf9497bc")
 		(property "Reference" "J3"
-			(at 207.01 82.5499 90)
+			(at 208.026 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1633,7 @@
 			)
 		)
 		(property "Value" "Output Current Sensing"
-			(at 207.01 85.0899 90)
+			(at 208.026 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1642,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 201.93 83.82 0)
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 83.82 0)
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1660,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 201.93 83.82 0)
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +2111,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eb48fbe0-7040-48a1-a54c-1d376ff139ff")
 		(property "Reference" "R4"

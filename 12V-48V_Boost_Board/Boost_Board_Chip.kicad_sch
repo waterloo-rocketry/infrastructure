@@ -1033,9 +1033,9 @@
 			)
 			(symbol "Q_NMOS_DSG_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1060,7 +1060,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1069,16 +1069,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3346,10 +3346,10 @@
 		(pin "1"
 			(uuid "5e4750f9-a85e-4145-8689-d591210d66b6")
 		)
-		(pin "4"
+		(pin "2"
 			(uuid "61dac913-9ac2-485b-97ed-e523a7af484a")
 		)
-		(pin "8"
+		(pin "3"
 			(uuid "d2844235-dbc6-493a-bdc1-234355bfe6bb")
 		)
 		(instances
