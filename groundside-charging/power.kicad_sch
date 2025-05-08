@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "d159e698-7015-4432-a538-b98cbdeaf8eb")
+	(uuid "0ee6922c-dff3-4f58-a3f0-d9a28c7c355c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -183,6 +183,246 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2444,6 +2684,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2662,954 +3022,974 @@
 		)
 	)
 	(junction
-		(at 110.49 163.83)
+		(at 120.65 38.735)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d755f0b-6284-45f1-8eb3-90341d753615")
+		(uuid "0c15b704-a900-488d-b1c9-71e49bc69739")
 	)
 	(junction
-		(at 121.285 41.91)
+		(at 226.695 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d7c4dc6-1bf4-4efc-a651-6de53b76a6f2")
+		(uuid "0e0fcce7-70db-47df-a223-2694c9a7a4fe")
 	)
 	(junction
-		(at 204.47 118.11)
+		(at 170.815 108.585)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ab1ff15-66dd-40d9-8ea3-d9fe3c2d0c34")
+		(uuid "10731a36-db3b-47d2-b64c-5a697484cc25")
 	)
 	(junction
-		(at 171.45 111.76)
+		(at 121.92 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40e04c2f-76de-4f3d-ae5b-a4df6b4b6833")
+		(uuid "25ba23a4-23e7-4c87-82b7-5203a3a2067b")
 	)
 	(junction
-		(at 97.155 94.615)
+		(at 151.13 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4596bd36-ba03-449d-aee7-babd0860c79b")
+		(uuid "3fa869ae-dcdb-4102-951a-30c48402d318")
 	)
 	(junction
-		(at 204.47 84.455)
+		(at 109.22 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "490a29f9-2ac9-464a-a1d8-2e54bb70fc19")
+		(uuid "4687c262-93bc-464c-afb7-c80a63b14e45")
 	)
 	(junction
-		(at 72.39 163.83)
+		(at 203.835 114.935)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ae2224c-0346-4363-82dc-e2f1d1121c36")
+		(uuid "719a7c47-dafa-4c58-b70b-6f40a4ddf720")
 	)
 	(junction
-		(at 232.41 84.455)
+		(at 231.775 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77689844-3fe3-4f8b-823e-50c78216faf8")
+		(uuid "78a9ba2c-69ca-4c26-97d1-5e1038363d26")
 	)
 	(junction
-		(at 227.33 156.845)
+		(at 109.855 160.655)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7bd5069d-b0ae-4a1b-9aed-11b74c4fc710")
+		(uuid "7b65e3bb-1d40-47b4-bb9d-0a6ae8b0cfd8")
 	)
 	(junction
-		(at 100.965 49.53)
+		(at 71.755 160.655)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84bcb239-861f-4b8d-a193-58b74e21f424")
+		(uuid "9812626a-8856-4264-9391-65fd551a06d4")
 	)
 	(junction
-		(at 156.21 104.775)
+		(at 203.835 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4efbb24-df52-4725-8c23-85ba5565b8de")
+		(uuid "9c53f939-f183-45a5-8a89-ff7fab72f91e")
 	)
 	(junction
-		(at 122.555 94.615)
+		(at 100.33 46.355)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df61b14d-8a7d-4f92-b661-f21469152ae7")
+		(uuid "a0b6cd44-36f2-4d08-b7b1-746b6501be9f")
 	)
 	(junction
-		(at 191.77 118.11)
+		(at 96.52 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea0a3fb9-682d-4920-98ca-98fcfcc902ea")
+		(uuid "a0fe9175-493e-46c3-a583-667d2185f917")
 	)
 	(junction
-		(at 235.585 84.455)
+		(at 234.95 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f11557e6-4396-4505-81ed-b0b9addaff45")
+		(uuid "c8405773-1d93-414f-974a-1030237a0a57")
 	)
 	(junction
-		(at 151.765 94.615)
+		(at 155.575 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa6766c6-d8eb-4aef-824a-097ab9aecc2d")
+		(uuid "ece5c43f-b6ba-4581-9798-46e2b40c124f")
 	)
 	(junction
-		(at 109.855 94.615)
+		(at 191.135 114.935)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc822496-6271-4f0c-a85e-6ba3e4de02fb")
+		(uuid "fca040fd-1508-499d-8eec-157c8cc14df0")
 	)
 	(wire
 		(pts
-			(xy 114.935 41.91) (xy 114.935 44.45)
+			(xy 170.815 108.585) (xy 170.815 111.125)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "005bd195-b1ea-42a8-acd6-0f409616ec67")
+		(uuid "039d2a73-d5c6-4797-8c7c-620b23243934")
 	)
 	(wire
 		(pts
-			(xy 236.855 133.35) (xy 236.855 135.255)
+			(xy 121.92 91.44) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c911800-c1b4-4297-a2f3-ae37cf412443")
+		(uuid "078d7796-c777-4488-b5ec-c6ac9cd60868")
 	)
 	(wire
 		(pts
-			(xy 227.33 156.845) (xy 228.6 156.845)
+			(xy 96.52 91.44) (xy 96.52 94.615)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11a34b73-e144-4145-b7fe-663f1e4c88fa")
+		(uuid "0bca8985-96e6-42d4-857f-396b9cea07be")
 	)
 	(wire
 		(pts
-			(xy 235.585 73.66) (xy 235.585 84.455)
+			(xy 215.9 153.67) (xy 217.805 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1268c8fd-3cb5-4da8-a0ef-55ee59c970c7")
+		(uuid "0fe2798a-ed7a-44b5-a210-b4bf05b5e71c")
 	)
 	(wire
 		(pts
-			(xy 87.63 174.625) (xy 110.49 174.625)
+			(xy 238.125 151.13) (xy 226.695 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19eebc14-baac-4f24-aa67-d4756bf4998d")
+		(uuid "1210c22b-4438-4566-80eb-9cb051eeec52")
 	)
 	(wire
 		(pts
-			(xy 204.47 99.695) (xy 204.47 118.11)
+			(xy 191.135 101.6) (xy 191.135 114.935)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a97306e-f60b-45fe-99fa-37c10feb2b5e")
+		(uuid "1278e359-fdb5-4f7c-a169-afe3114b270a")
 	)
 	(wire
 		(pts
-			(xy 114.935 41.91) (xy 121.285 41.91)
+			(xy 203.835 114.935) (xy 203.835 117.475)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f7c7070-4307-4268-b3e8-e979723d7f82")
+		(uuid "19661957-9a07-4e47-b77c-2d91dbaa19eb")
 	)
 	(wire
 		(pts
-			(xy 191.77 118.11) (xy 191.77 120.65)
+			(xy 155.575 113.665) (xy 155.575 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2109ba01-a6c5-4aea-8ba5-69ab76ffff27")
+		(uuid "1da344f1-4a7d-4147-b604-0d208a0f9cbb")
 	)
 	(wire
 		(pts
-			(xy 204.47 84.455) (xy 204.47 89.535)
+			(xy 86.995 171.45) (xy 109.855 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "226f126a-ad85-4635-aac9-f68a8642d5cf")
+		(uuid "214ad835-dd67-404c-973e-1edce921b179")
 	)
 	(wire
 		(pts
-			(xy 72.39 160.655) (xy 72.39 163.83)
+			(xy 236.22 125.73) (xy 236.22 127.635)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "247de028-add1-4f69-852e-6f3b10802e65")
+		(uuid "2192f62a-7318-4cb5-837f-dccac39e0ddf")
 	)
 	(wire
 		(pts
-			(xy 100.965 49.53) (xy 100.965 50.8)
+			(xy 222.885 70.485) (xy 234.95 70.485)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "293276db-019d-4334-983a-aec4ea097efb")
+		(uuid "26b1e26d-b2f3-4e6c-9afc-7a0d862234df")
 	)
 	(wire
 		(pts
-			(xy 173.99 111.76) (xy 171.45 111.76)
+			(xy 31.75 95.25) (xy 31.75 97.155)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dda3712-7cdb-4d35-8c1b-69c6e2654996")
+		(uuid "2d257bc8-438f-494c-b345-d4e3ad931321")
 	)
 	(wire
 		(pts
-			(xy 158.75 99.695) (xy 133.985 99.695)
+			(xy 226.695 151.13) (xy 226.695 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f4dda49-a6bf-4217-abc2-2e9e7557f607")
+		(uuid "2dbe8d1f-c45f-4da0-a209-389b1e850b90")
 	)
 	(wire
 		(pts
-			(xy 135.255 30.48) (xy 135.255 36.83)
+			(xy 31.75 88.265) (xy 31.75 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3046c921-36f7-45fb-a893-ef2be0477ef7")
+		(uuid "30d54698-8f29-4231-ac91-2dca910d2115")
 	)
 	(wire
 		(pts
-			(xy 143.51 104.775) (xy 156.21 104.775)
+			(xy 191.135 114.935) (xy 191.135 117.475)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "323eb392-a3e4-4cb4-be4e-e702fe6194cf")
+		(uuid "331ce33e-1fd2-4b65-9c21-8e6a4e419f61")
 	)
 	(wire
 		(pts
-			(xy 110.49 163.83) (xy 107.315 163.83)
+			(xy 158.115 101.6) (xy 155.575 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "326a9856-786a-4abc-9497-6e4fc28b9dfd")
+		(uuid "347f8b19-04c2-4d8f-90aa-cc92f8c8c92d")
 	)
 	(wire
 		(pts
-			(xy 135.255 50.8) (xy 159.385 50.8)
+			(xy 83.82 46.355) (xy 88.9 46.355)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3434958d-dcb7-4437-bc8a-eadefed57e81")
+		(uuid "38773153-bc98-4e8b-b438-d43a3e4593e5")
 	)
 	(wire
 		(pts
-			(xy 184.15 94.615) (xy 196.85 94.615)
+			(xy 222.885 81.28) (xy 231.775 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "352ddc6e-eaa7-42b2-9c78-94b03cb4f784")
+		(uuid "393c7f63-6d0c-4e7f-8547-3878aa6521e9")
 	)
 	(wire
 		(pts
-			(xy 110.49 174.625) (xy 110.49 163.83)
+			(xy 173.355 108.585) (xy 170.815 108.585)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38f22bec-cd86-495a-a7c8-5f85b9b819e1")
+		(uuid "39493718-f937-4f18-aa46-39f56f2777a2")
 	)
 	(wire
 		(pts
-			(xy 217.805 120.65) (xy 217.805 116.205)
+			(xy 100.33 46.355) (xy 100.33 47.625)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39dd5e60-9c52-415e-85bb-2d7db89c5f22")
+		(uuid "3a39f9ee-9307-4751-94f0-585c0469e4c3")
 	)
 	(wire
 		(pts
-			(xy 216.535 154.94) (xy 216.535 156.845)
+			(xy 114.3 157.48) (xy 114.3 160.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40bdf70a-02f1-4e0f-98d3-ba427b8fa20a")
+		(uuid "3b0c97ed-7729-43cf-b0d9-b67196d3aa52")
 	)
 	(wire
 		(pts
-			(xy 143.51 117.475) (xy 143.51 104.775)
+			(xy 38.1 88.265) (xy 38.1 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bd56c79-085e-4b63-bac5-988ebbae2ba9")
+		(uuid "3c01702e-c061-47ea-84ec-3618e5433841")
 	)
 	(wire
 		(pts
-			(xy 223.52 73.66) (xy 235.585 73.66)
+			(xy 133.35 96.52) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d4e5ed0-9e87-4e88-b4ce-b9e81b87e367")
+		(uuid "3cdf0423-b301-4d57-9f27-7f7c524e7662")
 	)
 	(wire
 		(pts
-			(xy 236.855 128.905) (xy 236.855 130.81)
+			(xy 142.875 114.3) (xy 142.875 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "538897a0-14bb-425d-90a5-3564681928b5")
+		(uuid "3d070840-c0cc-43c0-a3a6-7e472b9759c2")
 	)
 	(wire
 		(pts
-			(xy 227.33 154.305) (xy 227.33 156.845)
+			(xy 231.775 81.28) (xy 231.775 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56448ea1-0b3e-443d-af21-2d5ff763f509")
+		(uuid "40038c2f-3a07-444c-bf53-8b5867474993")
 	)
 	(wire
 		(pts
-			(xy 97.155 94.615) (xy 97.155 97.79)
+			(xy 236.22 127.635) (xy 238.125 127.635)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59b6e6cd-8c12-4602-be47-d6cd3f63f796")
+		(uuid "41fb6fb6-a018-40bb-9c64-1cd6000cd42f")
 	)
 	(wire
 		(pts
-			(xy 204.47 118.11) (xy 204.47 120.65)
+			(xy 226.695 153.67) (xy 227.965 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59bc49fe-507a-4a82-acb1-3a9d725cd650")
+		(uuid "42bfa76e-182f-43da-96c7-cab66d564de8")
 	)
 	(wire
 		(pts
-			(xy 254 80.01) (xy 254 84.455)
+			(xy 29.845 90.17) (xy 31.75 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61cca3d4-f45b-4125-ada4-cad44d413d4a")
+		(uuid "4aeb9fff-81a8-40cc-ad26-c13a870f139b")
 	)
 	(wire
 		(pts
-			(xy 156.21 104.775) (xy 156.21 109.22)
+			(xy 235.585 153.67) (xy 238.125 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "638c27b5-64cf-405c-bfa3-4cdc93176bd3")
+		(uuid "4ff39cc4-9451-41d2-8629-b4f8930f6b88")
 	)
 	(wire
 		(pts
-			(xy 114.935 57.785) (xy 114.935 54.61)
+			(xy 86.995 168.275) (xy 86.995 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64198003-d022-4c56-9ba8-92f1d02e1949")
+		(uuid "514b7dec-4912-4331-bdd6-6ff9b183d6d4")
 	)
 	(wire
 		(pts
-			(xy 133.985 99.695) (xy 133.985 117.475)
+			(xy 213.36 113.03) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6829afa8-f30b-4122-9c69-f177f7644397")
+		(uuid "5b393cb7-9783-4eed-8379-09446f45032f")
 	)
 	(wire
 		(pts
-			(xy 44.45 99.06) (xy 46.355 99.06)
+			(xy 31.75 95.25) (xy 29.845 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6be6944f-3550-4c44-b634-3a5a23238ff9")
+		(uuid "5b8bde5a-f558-45ad-8cf1-1cd4eeb1689c")
 	)
 	(wire
 		(pts
-			(xy 93.98 92.075) (xy 93.98 94.615)
+			(xy 109.22 91.44) (xy 109.22 94.615)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c158341-91da-41de-8689-72ac265270b8")
+		(uuid "5e3d21ea-6283-4049-a23c-0d8a0e71bfa6")
 	)
 	(wire
 		(pts
-			(xy 235.585 84.455) (xy 254 84.455)
+			(xy 120.65 36.195) (xy 120.65 38.735)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cc1f1cc-0476-4017-bed2-8b921cb4befc")
+		(uuid "6166526c-ffb9-4505-8d9e-48da0d010954")
 	)
 	(wire
 		(pts
-			(xy 216.535 156.845) (xy 218.44 156.845)
+			(xy 93.345 91.44) (xy 96.52 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cde56cb-fd54-4c9f-a723-06b60fa935fc")
+		(uuid "664acee4-7dea-4146-af3a-cb8452180fdc")
 	)
 	(wire
 		(pts
-			(xy 121.285 30.48) (xy 121.285 31.75)
+			(xy 238.125 130.175) (xy 236.22 130.175)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8331c6ee-6b4f-485d-ad7b-10db6c673bae")
+		(uuid "67ac6d6f-de28-44f8-bfba-bd79d3fcae38")
 	)
 	(wire
 		(pts
-			(xy 213.995 116.205) (xy 217.805 116.205)
+			(xy 109.855 160.655) (xy 106.68 160.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8438b0ed-4d37-4bf6-a827-2628f69c571b")
+		(uuid "6f7d2df9-00f1-4f02-80c5-d1f9b5863795")
 	)
 	(wire
 		(pts
-			(xy 151.765 94.615) (xy 158.75 94.615)
+			(xy 173.355 106.68) (xy 173.355 108.585)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "866cd44e-c8b6-461a-bde0-8d6b8eed4539")
+		(uuid "70c1a7a2-77de-4380-baa4-3bd88227bdb1")
 	)
 	(wire
 		(pts
-			(xy 168.91 109.855) (xy 168.91 111.76)
+			(xy 142.875 101.6) (xy 155.575 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86f769bf-fe85-41d2-b972-5fc02a2d1d0f")
+		(uuid "75a74c90-179d-400e-8a7c-d05181019a26")
 	)
 	(wire
 		(pts
-			(xy 114.935 160.655) (xy 114.935 163.83)
+			(xy 234.95 70.485) (xy 234.95 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fd5b8fb-106c-4616-b8df-d321f2902cc5")
+		(uuid "75e9fa9c-8eaa-4bc0-b9e1-5eaef5d1deb8")
 	)
 	(wire
 		(pts
-			(xy 114.935 163.83) (xy 110.49 163.83)
+			(xy 94.615 160.655) (xy 99.06 160.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "915e8773-a19f-4443-bccc-82f60eafd719")
+		(uuid "76dc6b9a-2695-407d-9f48-83506bbe018f")
 	)
 	(wire
 		(pts
-			(xy 72.39 174.625) (xy 72.39 177.165)
+			(xy 109.22 91.44) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93fa3a17-e8b7-4b0d-8a51-96e5c6d43f06")
+		(uuid "773f8246-b4f1-4cbc-ae20-cebbec2578d0")
 	)
 	(wire
 		(pts
-			(xy 93.98 94.615) (xy 97.155 94.615)
+			(xy 134.62 43.815) (xy 134.62 47.625)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96572c74-3613-43d4-84e7-2d9242c82ba5")
+		(uuid "7bc4887e-8ebf-47fa-b9df-be174391562e")
 	)
 	(wire
 		(pts
-			(xy 151.765 84.455) (xy 151.765 94.615)
+			(xy 234.95 81.28) (xy 253.365 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "972ee902-f94d-4e39-a2ce-7cb0643c6618")
+		(uuid "7be60f8b-a34f-4478-be68-30326d2d0c19")
 	)
 	(wire
 		(pts
-			(xy 46.355 97.155) (xy 46.355 99.06)
+			(xy 217.17 117.475) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97588d65-4f93-477d-b37f-da1b6ae3a578")
+		(uuid "7d82de7b-2e5d-4d90-b417-74f2793192e4")
 	)
 	(wire
 		(pts
-			(xy 121.285 39.37) (xy 121.285 41.91)
+			(xy 203.835 81.28) (xy 203.835 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97870062-eab2-4bc6-8cb4-fd90e8e28458")
+		(uuid "819d6c2d-2939-4855-8f70-5eb8edc4f1f9")
 	)
 	(wire
 		(pts
-			(xy 238.76 133.35) (xy 236.855 133.35)
+			(xy 114.3 54.61) (xy 114.3 51.435)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b7b6fa7-f3c8-40f4-a94f-2e23d551ecf5")
+		(uuid "83d6b5cb-0ad1-4847-b5ae-de4c33d05c9d")
 	)
 	(wire
 		(pts
-			(xy 109.855 94.615) (xy 109.855 97.79)
+			(xy 114.3 160.655) (xy 109.855 160.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b8c31d2-96f1-410d-947c-87e44ddec94f")
+		(uuid "85a88e6c-fc7e-4031-b892-cc14edcd736f")
 	)
 	(wire
 		(pts
-			(xy 223.52 84.455) (xy 232.41 84.455)
+			(xy 29.845 92.71) (xy 38.1 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bda33a3-9123-4af8-a995-8af44402021f")
+		(uuid "8776602e-5d1b-475a-9c2b-a05df8554978")
 	)
 	(wire
 		(pts
-			(xy 191.77 104.775) (xy 191.77 118.11)
+			(xy 114.3 38.735) (xy 120.65 38.735)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bea2f04-b1de-4146-8bf8-eefdb2aef669")
+		(uuid "8a7467cc-6eae-4c4d-92e0-003bdd2bee12")
 	)
 	(wire
 		(pts
-			(xy 236.22 156.845) (xy 238.76 156.845)
+			(xy 120.65 38.735) (xy 127 38.735)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e52e4e7-76b4-402a-8c0d-17da212e4625")
+		(uuid "8b827fe6-c9d9-4346-9b52-36cd695d3a59")
 	)
 	(wire
 		(pts
-			(xy 122.555 94.615) (xy 122.555 97.79)
+			(xy 96.52 46.355) (xy 100.33 46.355)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fde23c5-4ff6-44cd-972d-64d3a412a84f")
+		(uuid "8b969f16-d237-409e-8770-13dd4126ad2e")
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 191.77 118.11)
+			(xy 183.515 96.52) (xy 187.96 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3a09242-e60d-4203-9a7d-13f62f79277e")
+		(uuid "8b9ae148-1450-4850-8a0c-85b0bff6867f")
 	)
 	(wire
 		(pts
-			(xy 204.47 118.11) (xy 201.93 118.11)
+			(xy 203.835 96.52) (xy 203.835 114.935)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4656d46-acf1-4e65-b31f-17a5f58b77de")
+		(uuid "8e6900b5-8039-430f-a547-2c538a48774d")
 	)
 	(wire
 		(pts
-			(xy 173.99 109.855) (xy 173.99 111.76)
+			(xy 71.755 157.48) (xy 71.755 160.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a47736e0-ba72-43f4-9b38-bcaf8bffab83")
+		(uuid "8fae3188-08ff-4834-9e2b-599eb539d886")
 	)
 	(wire
 		(pts
-			(xy 159.385 30.48) (xy 159.385 50.8)
+			(xy 114.3 38.735) (xy 114.3 41.275)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a54356cc-a8f7-4a6d-8244-99e5e15c9b42")
+		(uuid "914b259b-454c-4b3f-8ad1-10da8521b9f3")
 	)
 	(wire
 		(pts
-			(xy 121.285 41.91) (xy 127.635 41.91)
+			(xy 151.13 91.44) (xy 158.115 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a76792e0-24de-410d-8b6c-8cfe6d63bdf8")
+		(uuid "962e1e23-e4cc-4859-b012-f0b19a9595d8")
 	)
 	(wire
 		(pts
-			(xy 109.855 94.615) (xy 122.555 94.615)
+			(xy 168.275 108.585) (xy 170.815 108.585)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8f03a31-1001-4b5e-b268-8eb0ab4020be")
+		(uuid "9c42e0ca-5aaa-411b-9124-b0d614007470")
 	)
 	(wire
 		(pts
-			(xy 168.91 111.76) (xy 171.45 111.76)
+			(xy 208.915 70.485) (xy 215.265 70.485)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aafb990c-2df3-47b8-a194-dd711821b2a7")
+		(uuid "a0170825-12bc-4f68-a826-bbd2aec21f2f")
 	)
 	(wire
 		(pts
-			(xy 232.41 84.455) (xy 232.41 90.805)
+			(xy 151.13 81.28) (xy 151.13 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac313583-e3ad-464f-8729-d22e5f213cc7")
+		(uuid "a283c971-fff4-436e-8c36-cb0ef478ec35")
 	)
 	(wire
 		(pts
-			(xy 97.155 49.53) (xy 100.965 49.53)
+			(xy 167.005 81.28) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1041801-51e7-4838-a6c3-e99957cab821")
+		(uuid "a364df4d-4859-4c27-ad0e-2d9b5a9b43e8")
 	)
 	(wire
 		(pts
-			(xy 109.855 94.615) (xy 97.155 94.615)
+			(xy 203.835 114.935) (xy 201.295 114.935)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b73797af-893f-4d36-898b-36ecf62bb080")
+		(uuid "a50c77c8-3e44-4947-971f-61a2283b9f0c")
 	)
 	(wire
 		(pts
-			(xy 238.76 154.305) (xy 227.33 154.305)
+			(xy 71.755 171.45) (xy 71.755 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be91faf5-ff84-4fa1-90d6-212bfdef126b")
+		(uuid "a7aa5b44-350d-4cb8-99cc-36eb8a46db34")
 	)
 	(wire
 		(pts
-			(xy 135.255 46.99) (xy 135.255 50.8)
+			(xy 109.855 171.45) (xy 109.855 160.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c069253e-f195-4b0b-96af-20ce758ea403")
+		(uuid "a8990a22-56de-4884-91ba-f6de673ab5a4")
 	)
 	(wire
 		(pts
-			(xy 236.855 130.81) (xy 238.76 130.81)
+			(xy 121.92 91.44) (xy 121.92 94.615)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c38d1009-475e-48ef-9803-d1b8b542b127")
+		(uuid "a9fc2537-6560-4dd1-858f-097ca000de2a")
 	)
 	(wire
 		(pts
-			(xy 156.21 116.84) (xy 156.21 121.285)
+			(xy 134.62 47.625) (xy 158.75 47.625)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c526f9fb-34e7-4d0d-9752-e8858e462992")
+		(uuid "ab62ffc0-c23d-45c6-b27d-09324af4e460")
 	)
 	(wire
 		(pts
-			(xy 100.965 49.53) (xy 107.315 49.53)
+			(xy 158.115 96.52) (xy 133.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c90338e2-6fbd-4aca-9097-0fbdadeba2a0")
+		(uuid "adf1cb2e-e8b4-4f43-a531-c7bf6ac3c369")
 	)
 	(wire
 		(pts
-			(xy 84.455 49.53) (xy 89.535 49.53)
+			(xy 183.515 91.44) (xy 196.215 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb52b23c-8d33-44af-9d19-1be4292e7c90")
+		(uuid "afa1d7c9-224f-4fcd-a470-c53eab73a9fb")
 	)
 	(wire
 		(pts
-			(xy 209.55 73.66) (xy 215.9 73.66)
+			(xy 93.345 88.9) (xy 93.345 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cda28c94-de22-4291-b517-11299f54e1d0")
+		(uuid "b5f93e18-e1b3-4f84-84f9-912a76f323a3")
 	)
 	(wire
 		(pts
-			(xy 235.585 84.455) (xy 232.41 84.455)
+			(xy 236.22 130.175) (xy 236.22 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d41a5b04-8908-4867-bac1-10a380ee4e60")
+		(uuid "b7c7dc21-fc9b-480e-974d-3904f52c24da")
 	)
 	(wire
 		(pts
-			(xy 184.15 104.775) (xy 191.77 104.775)
+			(xy 120.65 27.305) (xy 120.65 28.575)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8adb849-9d81-4af8-8f52-6d45f9d56cfd")
+		(uuid "b7cd15f9-f0f4-420f-9c2f-15727e2a3ecf")
 	)
 	(wire
 		(pts
-			(xy 122.555 94.615) (xy 151.765 94.615)
+			(xy 215.265 81.28) (xy 203.835 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9a83d36-0da0-4ba3-91cc-bc92674aef87")
+		(uuid "b7f936dc-5f61-46be-adb4-c013c5850192")
 	)
 	(wire
 		(pts
-			(xy 184.15 99.695) (xy 188.595 99.695)
+			(xy 109.22 91.44) (xy 96.52 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc11b87b-a51e-4330-8760-8c5ea7fb7ac7")
+		(uuid "ba086915-fbba-40f8-8fce-18162abdc1bf")
 	)
 	(wire
 		(pts
-			(xy 72.39 163.83) (xy 72.39 167.005)
+			(xy 155.575 101.6) (xy 155.575 106.045)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df8036b1-1697-4c54-a8ed-299caae04a28")
+		(uuid "c3f9e383-b728-4650-8fc5-cc24b29539a6")
 	)
 	(wire
 		(pts
-			(xy 171.45 111.76) (xy 171.45 114.3)
+			(xy 253.365 76.835) (xy 253.365 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3385a52-5d48-45ba-bad2-eea37a1a6607")
+		(uuid "c4d12505-8e5a-4c6c-a8d6-c38c94db898d")
 	)
 	(wire
 		(pts
-			(xy 87.63 171.45) (xy 87.63 174.625)
+			(xy 193.675 114.935) (xy 191.135 114.935)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e895dccc-e834-4aaa-b5fe-794b32587aee")
+		(uuid "c5ddd4d8-dae1-4408-ac0c-b64650071806")
 	)
 	(wire
 		(pts
-			(xy 215.9 84.455) (xy 204.47 84.455)
+			(xy 71.755 160.655) (xy 79.375 160.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec9f442e-e26f-4597-999c-696246d8a5e0")
+		(uuid "c8e3c7f2-fb64-40b7-b544-c0f739c2b3f5")
 	)
 	(wire
 		(pts
-			(xy 226.06 156.845) (xy 227.33 156.845)
+			(xy 183.515 101.6) (xy 191.135 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed88dad3-5018-4a33-b3db-8004d08eb798")
+		(uuid "d164c33f-0dee-4ca6-b6de-a5e4339f8489")
 	)
 	(wire
 		(pts
-			(xy 167.64 84.455) (xy 151.765 84.455)
+			(xy 174.625 81.28) (xy 203.835 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edf19451-017d-47d7-a671-4ae390eee3bd")
+		(uuid "d9f60d41-323f-4d87-91f1-0218d11df518")
 	)
 	(wire
 		(pts
-			(xy 72.39 163.83) (xy 80.01 163.83)
+			(xy 225.425 153.67) (xy 226.695 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef63b77b-8a50-4d3e-8d3d-5777f12c4174")
+		(uuid "e98fe3e1-2b7d-4343-af00-c31889f5b63a")
 	)
 	(wire
 		(pts
-			(xy 175.26 84.455) (xy 204.47 84.455)
+			(xy 134.62 27.305) (xy 134.62 33.655)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9f99345-cb7d-44a3-a326-385bd99e2a69")
+		(uuid "ed9e3d61-92f0-462e-a33f-e0f484c31cc7")
 	)
 	(wire
 		(pts
-			(xy 46.355 101.6) (xy 46.355 103.505)
+			(xy 100.33 46.355) (xy 106.68 46.355)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "feed4fa3-ab7f-4827-b652-75ff39c53238")
+		(uuid "edd47f9d-3e61-42d2-b18e-a6e5a41b09d3")
 	)
 	(wire
 		(pts
-			(xy 46.355 101.6) (xy 44.45 101.6)
+			(xy 168.275 106.68) (xy 168.275 108.585)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffcc9dbb-1eda-47e5-85ae-ec8596ee370e")
+		(uuid "f085f649-a0d1-449e-8eef-ea82a42ad53c")
 	)
 	(wire
 		(pts
-			(xy 95.25 163.83) (xy 99.695 163.83)
+			(xy 158.75 27.305) (xy 158.75 47.625)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffd9c33d-2944-49e8-a973-8195468f40f0")
+		(uuid "f9524910-067e-41cc-94f8-2ddc3d0a8e83")
 	)
 	(wire
 		(pts
-			(xy 158.75 104.775) (xy 156.21 104.775)
+			(xy 234.95 81.28) (xy 231.775 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffda4a6f-7e06-4f1d-8351-5467934a3403")
+		(uuid "fc0a0d21-cf65-4154-a20d-54ecc6d0b3c5")
+	)
+	(wire
+		(pts
+			(xy 215.9 151.765) (xy 215.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd43689-28fe-406c-a1c1-eb67e4e7af0e")
+	)
+	(wire
+		(pts
+			(xy 71.755 160.655) (xy 71.755 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0ce858-da2e-482e-bd80-4049960bc59a")
 	)
 	(rectangle
-		(start 111.125 153.67)
-		(end 118.745 161.925)
+		(start 71.12 92.71)
+		(end 118.11 102.235)
 		(stroke
 			(width 0)
 			(type default)
@@ -3617,11 +3997,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 5e4beb48-77f1-4476-bf2f-6397b662dd48)
+		(uuid 24b9a518-158b-449c-a1eb-cf1b932071ca)
 	)
 	(rectangle
-		(start 71.755 95.885)
-		(end 118.745 105.41)
+		(start 110.49 150.495)
+		(end 118.11 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -3629,42 +4009,85 @@
 		(fill
 			(type none)
 		)
-		(uuid a3505c00-ae2e-409e-9090-0d9c725a4daf)
+		(uuid 34708d56-f000-4f9b-8997-cd82760b4ca5)
 	)
-	(text "TCJD686M020R0055"
-		(exclude_from_sim no)
-		(at 83.185 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(rectangle
+		(start 35.56 81.915)
+		(end 40.64 89.535)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "400a5fd4-ae94-4325-9936-a5afbaa78cc9")
-	)
-	(text "18V to 9V-12.6V @ 1A CC"
-		(exclude_from_sim no)
-		(at 82.55 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+		(fill
+			(type none)
 		)
-		(uuid "49ee8e0f-c040-4aeb-bcf7-43cb37ddcdda")
+		(uuid cdfe6ca0-f3b6-47aa-91fc-875da7627b65)
 	)
 	(text "T521D157M025ATE040"
 		(exclude_from_sim no)
-		(at 235.585 97.79 0)
+		(at 234.95 94.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "66c2083a-67f2-4e6d-863b-b8e275b9c23e")
+		(uuid "00306716-2fd5-4956-bbc3-cddb0896ffef")
+	)
+	(text "Charge Current Output Enable"
+		(exclude_from_sim no)
+		(at 84.455 29.845 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "283bdb5d-690f-4602-bfd1-96f094662923")
+	)
+	(text "2W\n"
+		(exclude_from_sim no)
+		(at 102.87 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a618b55-3f81-49ef-8a6d-e209b087bc9f")
+	)
+	(text "Current Source"
+		(exclude_from_sim no)
+		(at 126.365 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58805c7c-6802-4641-89d1-ccf946bcd69b")
+	)
+	(text "TCJD686M020R0055"
+		(exclude_from_sim no)
+		(at 82.55 98.425 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7100f4da-be54-4e83-b673-c23a5d27179d")
+	)
+	(text "18V to 9V-12.6V @ 1A CC"
+		(exclude_from_sim no)
+		(at 81.915 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a28550e-b6e3-434d-a7d8-27c0a80af1b6")
 	)
 	(text "12V to 18V boost converter @ 2A\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=1A39E82EFFBF01F8"
 		(exclude_from_sim no)
-		(at 80.645 77.47 0)
+		(at 80.01 74.295 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3672,121 +4095,61 @@
 			(justify left)
 			(href "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=1A39E82EFFBF01F8")
 		)
-		(uuid "8934eb24-1011-4bb0-b699-6c87a42cf126")
-	)
-	(text "Current Source"
-		(exclude_from_sim no)
-		(at 127 158.115 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a6cf147c-47cb-4920-bb8b-4fefc75ea660")
-	)
-	(text "2W\n"
-		(exclude_from_sim no)
-		(at 103.505 168.275 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b50c5fa8-1dfe-4e43-8353-21ba5d9da183")
-	)
-	(text "- Supply 12V + Charge Current (1A) to Rocket\n- Groundside 12V controlled by DAQ CAN support\n   - replace 24V relay with 12V\n- Charge can remain on the whole time\n\nElec Disconnect is 5 wires"
-		(exclude_from_sim no)
-		(at 186.69 33.655 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2eeda37-c2cc-401f-9eeb-aebd89e5f393")
-	)
-	(text "Charge Current Output Enable"
-		(exclude_from_sim no)
-		(at 85.09 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdf0e914-8e2e-42e6-b7e3-008eea08a7c9")
+		(uuid "b7b4a560-2fc2-463b-83d6-8a2181a65bd6")
 	)
 	(label "FB"
-		(at 209.55 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50e33835-c8bd-4515-a259-5ce4d4680134")
-	)
-	(label "FB"
-		(at 213.995 116.205 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eaf19007-19c1-4e87-b32a-17878fe767d4")
-	)
-	(label "FB"
-		(at 188.595 99.695 180)
+		(at 187.96 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "eba0978e-1721-4a43-a107-77e26cfea14e")
+		(uuid "4e46ab8a-325f-4a0f-9a10-ec759757be3a")
+	)
+	(label "FB"
+		(at 213.36 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96c6be3e-4d53-434e-8d4e-32db473b5b27")
+	)
+	(label "FB"
+		(at 208.915 70.485 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba203224-b3c5-4fe4-9029-4ab69c30bd9a")
 	)
 	(hierarchical_label "CHG_EN"
 		(shape input)
-		(at 84.455 49.53 180)
+		(at 83.82 46.355 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5753f542-daca-4c0a-afe9-6bb9d8c91814")
+		(uuid "e67d6d85-336c-4612-8cd9-83122e5ee174")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 113.03 0)
+		(lib_id "power:+12V")
+		(at 93.345 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "031ce332-4299-41e5-857a-8db21d3eef85")
-		(property "Reference" "C6"
-			(at 159.385 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15nF"
-			(at 159.385 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 157.1752 116.84 0)
+		(uuid "09f1a587-a360-42d3-a9f0-9eaf4417d978")
+		(property "Reference" "#PWR5"
+			(at 93.345 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,60 +4157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff21544d-4d76-4024-ab8e-0295852bc89b")
-		)
-		(pin "1"
-			(uuid "75754483-e1a0-4061-ba90-18aa3ff5c13e")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.805 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "037174e2-6459-4697-ab8c-8285035c081c")
-		(property "Reference" "#PWR23"
-			(at 217.805 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.805 133.35 0)
+		(property "Value" "+12V_SW"
+			(at 93.345 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +4166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.805 128.27 0)
+			(at 93.345 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +4175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.805 128.27 0)
+			(at 93.345 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,8 +4183,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.805 128.27 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 93.345 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,12 +4193,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e7c7b51-af97-437f-b0b9-a9553de7d7f2")
+			(uuid "e847ec24-b959-4c54-b300-86892b6b2800")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR23")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -3895,16 +4206,16 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 171.45 84.455 90)
+		(at 170.815 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0b4e1c69-c8cf-4960-95b1-7d2123131baf")
+		(uuid "145d83e4-b5b0-4047-b8dd-d7722c678658")
 		(property "Reference" "L1"
-			(at 171.45 78.74 90)
+			(at 170.815 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +4223,7 @@
 			)
 		)
 		(property "Value" "SRR1208-100ML"
-			(at 171.45 81.28 90)
+			(at 170.815 78.105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +4231,7 @@
 			)
 		)
 		(property "Footprint" "groundside-charging:IND_BOURNS_SRR1208"
-			(at 171.45 84.455 0)
+			(at 170.815 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4240,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf"
-			(at 171.45 84.455 0)
+			(at 170.815 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +4249,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 171.45 84.455 0)
+			(at 170.815 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,14 +4258,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f882175b-f0c1-469d-9960-3813443eb51b")
+			(uuid "1501b84e-c912-481b-9028-7c27f7c610a5")
 		)
 		(pin "2"
-			(uuid "71af3d8b-8f0e-4167-aec0-70706e312373")
+			(uuid "6568ad14-af5a-445d-85a6-30a2fd8b6454")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
 					(reference "L1")
 					(unit 1)
 				)
@@ -3962,735 +4273,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 243.84 154.305 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1287e077-7b18-495c-9623-255aa7e60a2b")
-		(property "Reference" "J3"
-			(at 247.015 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Charge Voltage Sensing"
-			(at 247.015 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 243.84 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc47e47f-ffb8-4772-8a8f-080cd52fe976")
-		)
-		(pin "2"
-			(uuid "af0e09ff-dfdb-4101-be33-abcd12dbe091")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.855 135.255 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "175a3692-dc97-46f2-810f-6a53068729fb")
-		(property "Reference" "#PWR26"
-			(at 236.855 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.855 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.855 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.855 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.855 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "356294c3-0b34-4a4a-be65-fcbc4bac379e")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
-		(at 112.395 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fba0f07-f2a5-4b06-9f58-75a4fc65848c")
-		(property "Reference" "Q1"
-			(at 118.745 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138PW,115"
-			(at 118.745 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
-			(at 117.475 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
-			(at 112.395 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 112.395 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fee195a-aa39-4ecf-bed4-4c3995e7dabc")
-		)
-		(pin "2"
-			(uuid "f120e68d-0e84-4047-b1e5-a484798a1ca5")
-		)
-		(pin "3"
-			(uuid "33a93486-250f-4d70-bc52-f49d6d3c7a35")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 133.985 121.285 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23ddc734-332d-4e60-ba6d-eed15a308c2c")
-		(property "Reference" "R5"
-			(at 132.08 120.0149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "34k"
-			(at 132.08 122.5549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.969 121.539 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.985 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 133.985 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee78c6e6-3519-45ea-9d15-03983e64c3ef")
-		)
-		(pin "1"
-			(uuid "24b61503-2b46-4a6b-ad22-9e6cdac52a81")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 219.71 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2514bc9c-0ffd-4a6d-b234-b739fc2c257c")
-		(property "Reference" "R10"
-			(at 219.71 67.945 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "13.3k"
-			(at 219.71 70.485 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 219.964 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 219.71 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a7d9b91-4825-4d59-8885-368c8413f12b")
-		)
-		(pin "1"
-			(uuid "bdd538a4-fc9f-4064-8d2a-5d3d03077120")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 122.555 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "277b0a93-46fc-4b41-af5d-be3a1c3f1b63")
-		(property "Reference" "C4"
-			(at 125.73 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 125.73 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 123.5202 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 122.555 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 122.555 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd215184-1218-4843-ae3c-194fab318b1a")
-		)
-		(pin "1"
-			(uuid "6615add7-4c01-47c2-b677-b4200d91070f")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 72.39 160.655 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29a05db6-af5b-4afa-a6c9-f1e24f4931fd")
-		(property "Reference" "#PWR4"
-			(at 72.39 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+18V"
-			(at 72.39 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 72.39 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5908695-692e-40a4-b1d6-8d824408cae2")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 201.93 94.615 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2de07a02-4b04-467d-b0c2-843ba39b90c4")
-		(property "Reference" "Q3"
-			(at 207.645 93.3449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI4840BDY-T1-GE3"
-			(at 207.645 95.8849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "groundside-charging:SO-8-SINGLE_MS-012_VIS"
-			(at 207.01 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/69795/si4840bdy.pdf"
-			(at 201.93 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 201.93 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 201.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 201.93 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 201.93 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7571f61a-2764-4a13-ae87-d9f2b0f5aa9d")
-		)
-		(pin "2"
-			(uuid "8ee7e8ed-38b3-4ba9-85de-72993daaaf95")
-		)
-		(pin "3"
-			(uuid "6f55ab3b-d6d7-4c94-91db-14235e7795c5")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 254 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "346ad115-9087-4a9e-b873-0a5f0c5fa603")
-		(property "Reference" "#PWR27"
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+18V"
-			(at 254 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 254 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed14bf25-4784-4355-b01f-75cc6981149e")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 39.37 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37dc0f34-3c94-4f22-b951-6755013de218")
-		(property "Reference" "J4"
-			(at 36.195 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V In"
-			(at 36.195 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 39.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57cb8ed6-6834-4938-bbef-fe66a04cef97")
-		)
-		(pin "2"
-			(uuid "6e4a7996-2696-49d4-b013-1534187dc5dc")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
-		(at 121.285 30.48 0)
+		(at 31.75 88.265 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "406f5079-01c1-46dd-89f9-45eec5417643")
-		(property "Reference" "#PWR12"
-			(at 121.285 34.29 0)
+		(uuid "16110591-8100-46f7-bb4f-e126df1512e9")
+		(property "Reference" "#PWR1"
+			(at 31.75 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4292,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 121.285 26.035 0)
+			(at 31.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.285 30.48 0)
+			(at 31.75 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.285 30.48 0)
+			(at 31.75 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 121.285 30.48 0)
+			(at 31.75 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,278 +4327,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d90fbabe-d409-4a03-937f-831246aa793d")
+			(uuid "c4cbe3c9-c2da-4038-96fa-69b84156a99a")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 159.385 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4379f334-970b-42a1-8198-1b7ed267b262")
-		(property "Reference" "#PWR18"
-			(at 159.385 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_SW"
-			(at 159.385 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.385 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 159.385 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 159.385 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cc254ad-88c9-4de1-9473-345c9cec9309")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 236.855 128.905 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "487bf99e-1281-4c6f-b93b-67b9aaa243ef")
-		(property "Reference" "#PWR25"
-			(at 236.855 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 236.855 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.855 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.855 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 236.855 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "711aff84-12e3-44a3-89ef-704b227d6a7c")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.355 103.505 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0a5c0d-c52e-4039-b31d-9ab73ae264d0")
-		(property "Reference" "#PWR2"
-			(at 46.355 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.355 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.355 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.355 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.355 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35de8185-d258-4b54-8f6a-6d30495ba9a7")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 198.12 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "506f95d9-e85b-4008-87b6-cb1e23d584d4")
-		(property "Reference" "R7"
-			(at 198.12 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 198.12 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 198.374 117.094 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67b0d2f1-3e39-4add-a4a4-05119309fdb4")
-		)
-		(pin "1"
-			(uuid "d93c6016-9746-46cf-9d1f-1cef6fa59dfc")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R7")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -5013,16 +4340,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 170.815 0)
-		(mirror y)
+		(at 191.135 121.285 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "54212ede-f4ee-40a6-ba41-72275c006b01")
-		(property "Reference" "C1"
-			(at 69.215 169.5449 0)
+		(fields_autoplaced yes)
+		(uuid "194b9d50-e3e6-4d61-b9f7-aaa60c994e14")
+		(property "Reference" "C7"
+			(at 194.31 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,8 +4357,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 69.215 172.0849 0)
+		(property "Value" "10pF"
+			(at 194.31 122.5549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +4367,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 71.4248 174.625 0)
+			(at 192.1002 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +4376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 170.815 0)
+			(at 191.135 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +4385,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 170.815 0)
+			(at 191.135 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,85 +4394,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f2494957-0a99-4f3d-abfd-16d9c4691a7e")
+			(uuid "7929965a-86fb-4408-ae06-6865f8992e1e")
 		)
 		(pin "1"
-			(uuid "c7828d13-48f2-4adf-82c0-f90751b52c0e")
+			(uuid "59c780bd-fe0b-4f73-9c17-e080de0ef4b4")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 204.47 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58853c02-1020-4892-a92f-d2db4edcebe7")
-		(property "Reference" "R8"
-			(at 206.375 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10mR"
-			(at 206.375 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 203.454 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 204.47 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ecc9c99e-ad96-450f-b8ce-aad6de91ef53")
-		)
-		(pin "1"
-			(uuid "e9c6bddd-d53d-40e4-8a1a-1d0bd217fea4")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R8")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5153,16 +4410,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 128.905 0)
+		(at 191.135 125.095 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ae28af4-4a67-473c-8570-a35d76c22751")
-		(property "Reference" "#PWR17"
-			(at 156.21 135.255 0)
+		(uuid "1a48fcc1-4f66-4e56-93de-16bdcf477fb0")
+		(property "Reference" "#PWR14"
+			(at 191.135 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +4428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 133.985 0)
+			(at 191.135 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +4436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 128.905 0)
+			(at 191.135 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +4445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 128.905 0)
+			(at 191.135 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +4454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 128.905 0)
+			(at 191.135 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,352 +4463,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4a80ab9-266c-4dc5-b549-37cd3ca9669b")
+			(uuid "c51e6853-3ea3-4d33-ba3c-ad3d0bb52288")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PMOS_SGD")
-		(at 132.715 41.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66514312-e4b5-4b88-bfa0-20c520cbde8c")
-		(property "Reference" "Q2"
-			(at 139.065 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI4143DY-T1-GE3"
-			(at 139.065 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "groundside-charging:SOIC_3DY-T1-GE3_VIS"
-			(at 137.795 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/63242/si4143dy.pdf"
-			(at 132.715 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.715 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55a49ed9-e1ef-4910-a2ec-d626d02a6509")
-		)
-		(pin "2"
-			(uuid "5e4025f2-9e58-429d-99e0-c0d735956128")
-		)
-		(pin "3"
-			(uuid "a1110cf5-65c4-4165-a200-93d438ba41c0")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 243.84 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67378ce1-645c-47d4-8e20-1e1cc7e926ca")
-		(property "Reference" "J2"
-			(at 247.015 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Charge Current Out (to Rocket)"
-			(at 247.015 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 243.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcc4ae8c-0b80-4f08-8829-700a5daf2d06")
-		)
-		(pin "2"
-			(uuid "7d391159-d5cb-4249-a0fb-363d4b924cb5")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.965 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ba65145-c5fe-4c68-a2a9-f4168e61fbe3")
-		(property "Reference" "#PWR8"
-			(at 100.965 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.965 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.965 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.965 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.965 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "326d4441-e994-46d6-af33-868ffd0d2892")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 114.935 160.655 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dd09a28-00d8-4c9c-b268-1b8cac5a1628")
-		(property "Reference" "#PWR11"
-			(at 114.935 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 114.935 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.935 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.935 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 114.935 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc4ccfe7-47e0-453a-af29-21aaca972b54")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 93.98 92.075 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f840646-6473-4b1b-b9dc-3b496db1ff59")
-		(property "Reference" "#PWR6"
-			(at 93.98 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_SW"
-			(at 93.98 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 93.98 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8373654-4d3e-414c-8424-74bd0ec57a7c")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR6")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -5559,16 +4476,16 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_SOT-223")
-		(at 87.63 163.83 0)
+		(at 86.995 160.655 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "721e5e9b-b82d-498d-b13b-5588ddb92258")
+		(uuid "1be36a34-f39a-4e79-9f38-4b10f921c978")
 		(property "Reference" "U1"
-			(at 87.63 156.845 0)
+			(at 86.995 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +4493,7 @@
 			)
 		)
 		(property "Value" "LM317DCYR"
-			(at 87.63 159.385 0)
+			(at 86.995 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +4501,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 87.63 157.48 0)
+			(at 86.995 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +4511,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
-			(at 87.63 163.83 0)
+			(at 86.995 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +4520,7 @@
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
-			(at 87.63 163.83 0)
+			(at 86.995 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,17 +4529,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d17c320-e3d7-433f-ae96-2e7b0554fa9c")
+			(uuid "51f12491-15d9-4a91-9b0e-b31dad32f649")
 		)
 		(pin "2"
-			(uuid "66d8cb55-0f45-4b56-8cad-e0926d42c97f")
+			(uuid "778368aa-2882-4f7c-ba3b-3a948b4d42b9")
 		)
 		(pin "3"
-			(uuid "f2fd6e34-602a-454f-ae19-b50275911bc5")
+			(uuid "0e5120e3-d83e-40a4-a49e-0c4fc793fcd7")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
 					(reference "U1")
 					(unit 1)
 				)
@@ -5631,16 +4548,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 128.27 0)
+		(at 236.22 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "780e49fc-df24-4d6f-ac7c-f5996ad56e51")
+		(uuid "1ce61fda-036d-4c3c-bf80-45aa8a4fa255")
 		(property "Reference" "#PWR20"
-			(at 191.77 134.62 0)
+			(at 236.22 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +4566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 133.35 0)
+			(at 236.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +4574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 128.27 0)
+			(at 236.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +4583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 128.27 0)
+			(at 236.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +4592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 128.27 0)
+			(at 236.22 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,11 +4601,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "12a34451-6ff2-40ab-8769-46e816f1b8ef")
+			(uuid "dd12ccdf-9609-4bc8-b7bf-b64d87c1eff7")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
 					(reference "#PWR20")
 					(unit 1)
 				)
@@ -5697,283 +4614,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 121.285 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d266c07-6de5-497a-b671-7de6090d9f67")
-		(property "Reference" "R4"
-			(at 123.825 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 123.825 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 122.301 35.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.285 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.285 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "438ec7be-f1f5-4322-a234-12d471057c0c")
-		)
-		(pin "2"
-			(uuid "453e5bc5-530d-4045-a911-3acb276347f6")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 135.255 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "837a1f18-b1f7-4866-9ac4-b26d5bcb5def")
-		(property "Reference" "#PWR15"
-			(at 135.255 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 135.255 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.255 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.255 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 135.255 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4aef8a6e-ce4c-4073-9f17-7c98178d620e")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 46.355 97.155 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88feaa2d-188c-42ef-88af-0d822b5ab075")
-		(property "Reference" "#PWR1"
-			(at 46.355 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 46.355 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.355 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.355 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 46.355 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4204461c-c078-45ad-acf0-4de7a9398d75")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 125.095 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b886272-0435-4bf4-8f32-408bbb94c32b")
-		(property "Reference" "#PWR16"
-			(at 143.51 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b32a92c2-e5bf-47e1-a091-91f4ba33ba7c")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 222.25 156.845 90)
+		(at 221.615 153.67 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a5ba9e9-e493-406c-9aa8-ecb075d674e2")
-		(property "Reference" "R11"
-			(at 222.25 163.195 90)
+		(uuid "1ec7fcbc-b162-4592-aff0-2d1f33d52bfb")
+		(property "Reference" "R8"
+			(at 221.615 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +4631,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 222.25 160.655 90)
+			(at 221.615 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +4639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.504 157.861 90)
+			(at 221.869 154.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +4648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 156.845 0)
+			(at 221.615 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +4657,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 222.25 156.845 0)
+			(at 221.615 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,15 +4666,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc9205d9-bca9-4866-b587-0f3da8bc447f")
+			(uuid "13906b83-bc4f-4024-bab7-795028721a83")
 		)
 		(pin "1"
-			(uuid "12578c9a-fae5-4f5d-9025-b2e5bf110c13")
+			(uuid "e18c4cd1-667a-4127-9779-c599f18d5633")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R11")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6032,16 +4682,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.985 125.095 0)
+		(at 71.755 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b502214-667f-42fb-a834-4087b4066bae")
-		(property "Reference" "#PWR14"
-			(at 133.985 131.445 0)
+		(uuid "212bd30d-8ef6-4c78-aab1-b90878ac786b")
+		(property "Reference" "#PWR4"
+			(at 71.755 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +4700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.985 130.175 0)
+			(at 71.755 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +4708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.985 125.095 0)
+			(at 71.755 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +4717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.985 125.095 0)
+			(at 71.755 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +4726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.985 125.095 0)
+			(at 71.755 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,29 +4735,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c298750-559a-416b-90e2-194b3545cc77")
+			(uuid "7c0da600-ed5a-4dd5-b2f1-f29ca242f43b")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR14")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 128.27 0)
+		(lib_id "Device:Q_PMOS_SGD")
+		(at 132.08 38.735 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fcff5b0-b02b-4c13-a352-96f28be362b4")
-		(property "Reference" "#PWR21"
-			(at 204.47 134.62 0)
+		(uuid "2527c9c0-5a0b-4b9d-97ae-f8a0ed08ea0b")
+		(property "Reference" "Q3"
+			(at 138.43 37.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI4143DY-T1-GE3"
+			(at 138.43 40.0049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "groundside-charging:SOIC_3DY-T1-GE3_VIS"
+			(at 137.16 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,16 +4784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 204.47 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 128.27 0)
+		(property "Datasheet" "https://www.vishay.com/docs/63242/si4143dy.pdf"
+			(at 132.08 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,17 +4793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 204.47 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 128.27 0)
+		(property "Description" ""
+			(at 132.08 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,82 +4803,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8e4fb93-bcd8-4866-b7b6-e8d2f0235e90")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 143.51 121.285 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0244aba-031e-4f35-b35b-d232180564b5")
-		(property "Reference" "C5"
-			(at 147.32 120.0149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "820pF"
-			(at 147.32 122.5549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 144.4752 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "d9053870-2dae-4b91-b018-2a0bb62c0a1d")
 		)
 		(pin "2"
-			(uuid "0f646f03-0a31-4205-b871-0ba1008a6e0f")
+			(uuid "110d1bdb-e647-4e62-a393-eb444a562bce")
 		)
-		(pin "1"
-			(uuid "389a88a7-9771-4dcf-95f1-1b4bd430cf77")
+		(pin "3"
+			(uuid "9465a8a1-75e7-4621-965b-47949d81a721")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C5")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6234,16 +4822,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 103.505 163.83 90)
+		(at 102.87 160.655 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1e16df3-040b-4715-98eb-a92f60ba9579")
-		(property "Reference" "R3"
-			(at 103.505 158.115 90)
+		(uuid "27675f76-8645-4f0d-96fd-f6a62586c15f")
+		(property "Reference" "R1"
+			(at 102.87 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +4839,7 @@
 			)
 		)
 		(property "Value" "1.25R"
-			(at 103.505 160.655 90)
+			(at 102.87 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +4847,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 103.759 162.814 90)
+			(at 103.124 159.639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +4856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 103.505 163.83 0)
+			(at 102.87 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +4865,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 103.505 163.83 0)
+			(at 102.87 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,999 +4874,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "445e6994-c44c-4a2c-9e86-7827582d882f")
+			(uuid "401e54e2-645d-458d-94b3-4ea579fd6b91")
 		)
 		(pin "2"
-			(uuid "c87d4491-3e64-4d22-9ac4-17b82be12720")
+			(uuid "97b65350-e013-42fb-ab88-e77953a1a48b")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.855 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7331fe4-7a1b-463a-83d5-e82d289945f0")
-		(property "Reference" "#PWR9"
-			(at 109.855 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.855 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.855 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.855 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.855 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a72a52bb-19c8-4a25-a63d-02adb44b22e4")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.935 57.785 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa242196-769c-48bb-baa9-3de2aceb237d")
-		(property "Reference" "#PWR10"
-			(at 114.935 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.935 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.935 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.935 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.935 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ebb2d59-67d9-498f-a90f-1b040e365e8f")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 177.165 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae2d9463-e104-42e8-b9ff-bef88d841e02")
-		(property "Reference" "#PWR5"
-			(at 72.39 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 177.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e04f9c10-5d04-43b2-91f2-e059f53a548e")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 100.965 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b110888b-4fa0-4142-95a2-b533ad47bd76")
-		(property "Reference" "R2"
-			(at 103.505 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 103.505 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 101.981 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.965 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.965 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "790c03af-d894-41a7-a634-83ac558ab522")
-		)
-		(pin "2"
-			(uuid "d2be477e-8fb5-4a82-aca1-41518c5fc5c4")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 191.77 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7bb672a-285b-44b1-8c41-1b17fe9e2963")
-		(property "Reference" "C7"
-			(at 194.945 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10pF"
-			(at 194.945 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 192.7352 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 191.77 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eacf35a1-5cea-45a9-a624-ecc38e2ccbf4")
-		)
-		(pin "1"
-			(uuid "8b69b2f8-fb71-4b69-a87d-bda3ac89553b")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca92f6fb-d82f-4153-9662-fc73cd9b9ac3")
-		(property "Reference" "#PWR19"
-			(at 171.45 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0eb9e326-2f06-4f2f-9f0b-e7a079710763")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 98.425 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb51ba85-9b63-41af-a605-bc83b0969cd4")
-		(property "Reference" "#PWR24"
-			(at 232.41 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 103.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12c6ea93-cab3-4345-82d4-90f8f6a3c926")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 232.41 94.615 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd8a25cd-d4b8-442f-8708-d0027f75b05e")
-		(property "Reference" "C8"
-			(at 235.585 92.4559 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150uF"
-			(at 235.585 94.9959 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
-			(at 233.3752 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 232.41 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dcbf99c3-89b9-4504-aee4-d7d1207dd8d0")
-		)
-		(pin "1"
-			(uuid "1cc0e725-ced3-486e-8afe-3e696e327a68")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 97.155 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d55ab76d-8f10-4e12-94a1-92bcfe862edd")
-		(property "Reference" "#PWR7"
-			(at 97.155 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.155 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.155 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.155 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.155 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa32b140-6239-4c45-a98f-702a046a572a")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 156.21 125.095 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db13bfba-a186-4799-99a9-162d61d8debc")
-		(property "Reference" "R6"
-			(at 158.115 123.8249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.99k"
-			(at 158.115 126.3649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 157.226 125.349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 156.21 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "333b867c-d9dc-44f3-8e72-b92c0d505e4d")
-		)
-		(pin "1"
-			(uuid "6c213bec-97f8-4807-b9be-8c859c367048")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 109.855 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbe15d75-99a9-46c6-bc06-fd2484f5ff61")
-		(property "Reference" "C3"
-			(at 113.665 99.4409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68uF"
-			(at 113.665 101.9809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
-			(at 110.8202 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/TCJ.pdf"
-			(at 109.855 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 109.855 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f2f80c8-944a-4131-ad98-b972e39bfdc3")
-		)
-		(pin "1"
-			(uuid "f010926d-d721-4ab5-964b-54091f4d16c3")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Controller:LM3478MA")
-		(at 171.45 99.695 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1352d89-fc94-4814-bcd7-a0329f56a32e")
-		(property "Reference" "U2"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM3478MA"
-			(at 171.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 196.85 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lm3478"
-			(at 172.085 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.97~40V Wide Input Range Boost/SEPIC/Flyback DC-DC Controller, SOIC-8"
-			(at 171.45 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d79f54d-12c0-4bb1-8dee-55954fd380a7")
-		)
-		(pin "2"
-			(uuid "dc4fa945-59b0-471f-a9a7-88c314a288de")
-		)
-		(pin "8"
-			(uuid "df72eb46-a332-4017-89ce-f8a4fcf4b655")
-		)
-		(pin "4"
-			(uuid "03b0af62-4905-4d2a-9593-1948407e46d8")
-		)
-		(pin "3"
-			(uuid "07751980-3d0d-4302-9ae1-3ecac6d8f617")
-		)
-		(pin "7"
-			(uuid "06cf9b53-334e-4f19-8637-d16fffd304a1")
-		)
-		(pin "5"
-			(uuid "ce0a11b5-1d76-4350-8a73-5e05fdc71c7b")
-		)
-		(pin "6"
-			(uuid "49dc3cac-c846-429a-8b42-5f9c2fc74b69")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 219.71 84.455 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e691a431-8b92-40eb-beb4-d3419ab50f4e")
-		(property "Reference" "D1"
-			(at 220.0275 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B540C-13-F"
-			(at 220.0275 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 219.71 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 219.71 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 219.71 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a56c70c-6a0e-4565-85b6-cae4de116220")
-		)
-		(pin "1"
-			(uuid "023789c1-0727-4822-836f-63041e6354ff")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 93.345 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0406109-6c10-4ae7-bc61-6bf020e939c2")
-		(property "Reference" "R1"
-			(at 93.345 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 93.345 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 93.599 48.514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.345 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.345 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bcdd6dc-d6dd-452b-9c87-1a595fae2a3e")
-		)
-		(pin "2"
-			(uuid "46270092-bc1b-441e-8a63-fa863b119ebc")
-		)
-		(instances
-			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
 					(reference "R1")
 					(unit 1)
 				)
@@ -7286,25 +4889,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 232.41 156.845 90)
-		(mirror x)
+		(lib_id "power:+12V")
+		(at 134.62 27.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f2222214-ff05-4d58-a6fc-517d762ce9ca")
-		(property "Reference" "R12"
-			(at 232.41 163.195 90)
+		(fields_autoplaced yes)
+		(uuid "286a72ef-34ba-4d89-9607-d4893be2eb4f")
+		(property "Reference" "#PWR25"
+			(at 134.62 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "TBD"
-			(at 232.41 160.655 90)
+		(property "Value" "+12V"
+			(at 134.62 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +4916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.664 157.861 90)
+			(at 134.62 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,8 +4924,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 232.41 156.845 0)
+		(property "Datasheet" ""
+			(at 134.62 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,25 +4933,95 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 232.41 156.845 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 134.62 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "a98f5fdd-3402-4b49-bdda-d3a4ee60b464")
 		)
 		(pin "1"
-			(uuid "63ab067f-6b43-4640-a03d-a2704337c20e")
+			(uuid "09b4065e-ece7-4df7-b84d-300e5d8978ab")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R12")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_GSD")
+		(at 111.76 46.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32656c31-1ca3-47ed-b045-fbdda3acf699")
+		(property "Reference" "Q2"
+			(at 118.11 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138PW,115"
+			(at 118.11 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70_Handsoldering"
+			(at 116.84 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf"
+			(at 111.76 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab99f40f-2c75-4941-b0c8-c3c6cc9bc40f")
+		)
+		(pin "2"
+			(uuid "63abb372-bee2-429e-b1d9-819f46a18676")
+		)
+		(pin "3"
+			(uuid "8e12e118-4b86-4ed5-9365-85b74ec4c765")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7355,16 +5029,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 217.805 124.46 0)
+		(at 217.17 121.285 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc253b10-2615-4369-aa3e-ef9b5dd50446")
-		(property "Reference" "R9"
-			(at 219.71 123.1899 0)
+		(uuid "33b22eeb-4600-4830-8ad9-b0b81836941f")
+		(property "Reference" "R6"
+			(at 219.075 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +5047,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 219.71 125.7299 0)
+			(at 219.075 122.5549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,7 +5056,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 218.821 124.714 90)
+			(at 218.186 121.539 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +5065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.805 124.46 0)
+			(at 217.17 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +5074,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 217.805 124.46 0)
+			(at 217.17 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,32 +5083,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe070493-7e03-4386-9a71-dcb2ce36a2d0")
+			(uuid "535e7e3c-d0aa-4089-8f07-f5a6af65df46")
 		)
 		(pin "1"
-			(uuid "6c222453-2edd-436e-94ef-1f72d17a4e41")
+			(uuid "f1d32d24-46b7-4946-b00b-618295c30645")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "R9")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 216.535 154.94 0)
+		(lib_id "power:+15V")
+		(at 253.365 76.835 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd7492bc-1e20-49c8-a888-1c4d5bb68272")
-		(property "Reference" "#PWR22"
-			(at 216.535 158.75 0)
+		(uuid "37044833-7303-4c24-8de1-47ff390414e9")
+		(property "Reference" "#PWR21"
+			(at 253.365 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,8 +5116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 216.535 149.86 0)
+		(property "Value" "+18V"
+			(at 253.365 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +5125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 216.535 154.94 0)
+			(at 253.365 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 216.535 154.94 0)
+			(at 253.365 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,8 +5142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 216.535 154.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 253.365 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,47 +5152,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "327eebff-726f-4ff8-8988-c6bbd648c914")
+			(uuid "db7081b5-c376-465d-82eb-ffaa82a4185e")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "#PWR22")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 97.155 101.6 0)
+		(lib_id "power:+12V")
+		(at 158.75 27.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fea94118-f025-4c74-a504-4db7589824aa")
-		(property "Reference" "C2"
-			(at 100.965 99.4409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68uF"
-			(at 100.965 101.9809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
-			(at 98.1202 105.41 0)
+		(uuid "384a1380-cf52-412f-9dd9-20a94b392608")
+		(property "Reference" "#PWR26"
+			(at 158.75 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,8 +5182,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/TCJ.pdf"
-			(at 97.155 101.6 0)
+		(property "Value" "+12V_SW"
+			(at 158.75 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,8 +5199,84 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 97.155 101.6 0)
+		(property "Datasheet" ""
+			(at 158.75 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 158.75 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5f4720f-498a-4c26-bbd1-508834c65b30")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 203.835 121.285 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43cae65b-4a1b-4b99-909a-7e0a6835adf5")
+		(property "Reference" "R5"
+			(at 205.74 120.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10mR"
+			(at 205.74 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 202.819 121.031 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.835 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 203.835 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7545,15 +5285,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "987b7be5-e1b0-4efb-bc0e-c73148847276")
+			(uuid "b895e341-0b34-4454-812b-16221f9c15d9")
 		)
 		(pin "1"
-			(uuid "038d087f-e398-4eee-9f1d-af24a2484cf0")
+			(uuid "ca58d419-ae87-44da-aa88-7396406df522")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
-					(reference "C2")
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7561,16 +5301,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 122.555 105.41 0)
+		(at 109.22 102.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fec75285-8dfb-4dfe-8336-109e2fea5d90")
-		(property "Reference" "#PWR13"
-			(at 122.555 111.76 0)
+		(uuid "4a5a7fe9-f92f-4f52-81e0-b4c00db39d2c")
+		(property "Reference" "#PWR7"
+			(at 109.22 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +5319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.555 110.49 0)
+			(at 109.22 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +5327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.555 105.41 0)
+			(at 109.22 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +5336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.555 105.41 0)
+			(at 109.22 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +5345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 122.555 105.41 0)
+			(at 109.22 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,20 +5354,2723 @@
 			)
 		)
 		(pin "1"
-			(uuid "9adef9af-88dd-4fab-bb33-99809ba818a6")
+			(uuid "7ead8178-8473-4e16-ae17-4630c46e9322")
 		)
 		(instances
 			(project "groundside-charging"
-				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 38.1 88.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59aa7b56-4739-4b79-9bda-149c3bae2fa9")
+		(property "Reference" "#PWR27"
+			(at 38.1 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 38.1 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab79c8d-44c7-40df-bfd9-51d2baa7d1df")
+		)
+		(instances
+			(project ""
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 51.435 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63d2c0aa-a001-40df-a132-39a793aa0809")
+		(property "Reference" "R11"
+			(at 102.87 50.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.87 52.7049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.346 51.689 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc02cab-6c11-4412-9efc-dd37b492e1a2")
+		)
+		(pin "2"
+			(uuid "912a446d-37bc-4656-90c1-a8810f0f97d1")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67cb173b-dc73-4104-b31b-62f8046f7641")
+		(property "Reference" "#PWR10"
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a874cad3-db17-4b85-ab36-532886196cab")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 96.52 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f042616-b056-414b-be27-e34dd2f02457")
+		(property "Reference" "C2"
+			(at 100.33 96.2659 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68uF"
+			(at 100.33 98.8059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
+			(at 97.4852 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TCJ.pdf"
+			(at 96.52 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 96.52 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f5b4fa4-fcae-48f6-b19c-beb1b92e85ae")
+		)
+		(pin "1"
+			(uuid "b183682c-a169-4d8b-b506-8ca8bb9f7d27")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 219.075 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70f4aa2f-a748-4c94-8a61-25e5a8c42d20")
+		(property "Reference" "D1"
+			(at 219.3925 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B540C-13-F"
+			(at 219.3925 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 219.075 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.075 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 219.075 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 219.075 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 219.075 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8beb8005-1284-46c6-bcf7-a225ce8b9faa")
+		)
+		(pin "1"
+			(uuid "3b8e4b2a-a316-4296-a611-75f4abf9da69")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.775 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f6af90-016c-4b2d-8eb1-9c712811a671")
+		(property "Reference" "#PWR18"
+			(at 231.775 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.775 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.775 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.775 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.775 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9026751e-7fb5-4fe4-a622-b82b28194298")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 155.575 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e855aed-43e0-4786-8cc5-c8fdf75bfbbe")
+		(property "Reference" "#PWR12"
+			(at 155.575 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 155.575 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.575 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.575 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 155.575 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13bf12e8-37f4-4471-b5ba-144f16f13be4")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 231.775 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "819bee28-70cf-4eb6-a7c4-37222dcf7efd")
+		(property "Reference" "C8"
+			(at 234.95 89.2809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150uF"
+			(at 234.95 91.8209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
+			(at 232.7402 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.775 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 231.775 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b147e41-b422-4ade-9c5c-d0a560ebfb2f")
+		)
+		(pin "1"
+			(uuid "af56de68-8c4f-41c8-a7fc-fdb3df0f6c34")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 71.755 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "867532d8-8c7e-4f8b-8031-16e96a827533")
+		(property "Reference" "#PWR3"
+			(at 71.755 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+18V"
+			(at 71.755 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 71.755 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66d5f4b-5f27-4754-abba-52cb47c4cc14")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 243.205 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86e29bc1-621f-45c8-bbb7-17492b9f83a6")
+		(property "Reference" "J3"
+			(at 246.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Charge Voltage Sensing"
+			(at 246.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 243.205 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.205 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.205 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53cc4ae8-152d-4623-81b6-a09780e64a8f")
+		)
+		(pin "2"
+			(uuid "dcd192db-e8aa-4a71-a890-ccf43871de85")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 121.92 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ba2ee74-99b3-4094-a550-99c9a6dc0dfe")
+		(property "Reference" "C4"
+			(at 125.095 97.1549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 125.095 99.6949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 122.8852 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06a492d0-e7c9-4d5c-b435-0f136fc59ca7")
+		)
+		(pin "1"
+			(uuid "9077b667-4326-4f03-b0a7-6cf0bc650896")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 236.22 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ca1a55c-1639-43b1-b95e-35c275ac26b9")
+		(property "Reference" "#PWR19"
+			(at 236.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 236.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc873e33-13e6-48cf-a0df-e15e1269888d")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 114.3 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de39ff5-0b99-46b6-98af-f2ef55c17601")
+		(property "Reference" "#PWR8"
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a700d12-ecb5-4416-837e-75b151baa077")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 215.9 151.765 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0a85d3-adbd-4f2d-bbe6-a7f536acf984")
+		(property "Reference" "#PWR17"
+			(at 215.9 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 215.9 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 215.9 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f30cd5-0fdb-4584-953b-b75871ef4b8d")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 197.485 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "973ebe19-eb5b-4b22-9441-89820b71f449")
+		(property "Reference" "R4"
+			(at 197.485 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 197.485 111.125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 197.739 113.919 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.485 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 197.485 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4454b59a-5606-4f89-9844-1b6b00ff20c2")
+		)
+		(pin "1"
+			(uuid "b0d4a2af-c69e-41cd-9e41-854b1d3f25f8")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9936dd49-3c3d-43da-9140-dae738133b1f")
+		(property "Reference" "#PWR23"
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d51800b9-4f41-43f1-bc96-3bb74d5ae105")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 201.295 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e484f38-21e7-428d-91ec-79d59bb20bd9")
+		(property "Reference" "Q1"
+			(at 207.01 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI4840BDY-T1-GE3"
+			(at 207.01 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "groundside-charging:SO-8-SINGLE_MS-012_VIS"
+			(at 206.375 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/69795/si4840bdy.pdf"
+			(at 201.295 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 201.295 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 201.295 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 201.295 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 201.295 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a153491d-cc97-4f8d-a4ac-f945b9441c87")
+		)
+		(pin "2"
+			(uuid "4d9c00b5-7912-4d26-8daf-46cb9d153f7e")
+		)
+		(pin "3"
+			(uuid "f43dcff4-ddfd-4611-a62d-93815d9cfc5d")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 125.095 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a28034bd-5065-4234-98fa-8d669629f49c")
+		(property "Reference" "#PWR16"
+			(at 217.17 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78ac18af-e610-4238-a9b5-1e55fef397d7")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.755 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2f9c794-9d40-4a4d-b1a2-eca05e7e81a1")
+		(property "Reference" "C1"
+			(at 68.58 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 68.58 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 70.7898 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.755 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.755 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c831fe4-b3c7-41bd-b747-a35d616ff1d3")
+		)
+		(pin "1"
+			(uuid "1b1ebfd1-5c0e-466b-96d9-c8e237ab09c5")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 219.075 70.485 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a37e9559-1067-42e3-887a-8ee150b16ce4")
+		(property "Reference" "R7"
+			(at 219.075 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13.3k"
+			(at 219.075 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 219.329 69.469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.075 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 219.075 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2655e031-5102-47b8-891b-46d147c10fbf")
+		)
+		(pin "1"
+			(uuid "d70cb6bf-fc0e-4073-bd3b-6df0138b267e")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.875 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a87beff6-88eb-403f-a7a6-d316e19aede4")
+		(property "Reference" "#PWR11"
+			(at 142.875 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.875 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.875 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.875 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.875 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf4db4c5-6dd7-4879-8570-0724868d3880")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 243.205 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc8141d4-743c-4486-8177-c8acbf08b639")
+		(property "Reference" "J2"
+			(at 246.38 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Charge Current Out (to Rocket)"
+			(at 246.38 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 243.205 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.205 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.205 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0eff52a-a393-4bc4-aa2e-7bbb8df60631")
+		)
+		(pin "2"
+			(uuid "5026844e-f5e4-4f73-90bd-dd738d10b1be")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 97.155 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1e3a7c5-efa4-449e-8bce-e197827abd1e")
+		(property "Reference" "#PWR2"
+			(at 31.75 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3695e59c-b185-4545-8718-cee39ef61f2e")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 231.775 153.67 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d31f0b8b-852f-4806-832e-a999c6220b8c")
+		(property "Reference" "R9"
+			(at 231.775 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD"
+			(at 231.775 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.029 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.775 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 231.775 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38dc65f7-7960-4b0b-b8cb-ef368d79f267")
+		)
+		(pin "1"
+			(uuid "b01b614f-a9ce-4608-9fb1-52d1d8751176")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 55.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d74ae5d7-78bd-4405-a578-89d81ba0abd0")
+		(property "Reference" "#PWR22"
+			(at 100.33 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02888293-a9a7-4af2-80ad-aa8844a94efb")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 109.22 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc7918cb-b7dc-4cd6-96ca-01294f0367b0")
+		(property "Reference" "C3"
+			(at 113.03 96.2659 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68uF"
+			(at 113.03 98.8059 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
+			(at 110.1852 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TCJ.pdf"
+			(at 109.22 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 109.22 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18e6e18c-eb06-495d-b2fc-33fed74f54d4")
+		)
+		(pin "1"
+			(uuid "e20d9098-3c00-4c30-ad9a-867694e2d13a")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.835 125.095 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc27fac-6467-468d-a562-57e57387ae27")
+		(property "Reference" "#PWR15"
+			(at 203.835 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.835 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.835 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.835 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.835 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3c0f49-40a5-4670-8e99-ab38385f853e")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 155.575 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deaf77e7-a59c-4a2f-aa98-2d9e974aebac")
+		(property "Reference" "C6"
+			(at 158.75 108.5849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15nF"
+			(at 158.75 111.1249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 156.5402 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 155.575 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 155.575 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a3d1a5f-6259-4679-a07f-fea0974c5b0b")
+		)
+		(pin "1"
+			(uuid "3f388b4a-e0ac-4845-8b97-fef0a50ee6ce")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Controller:LM3478MA")
+		(at 170.815 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df8cb082-f201-4bb1-b0e2-d8d50da81234")
+		(property "Reference" "U2"
+			(at 170.815 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3478MA"
+			(at 170.815 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 196.215 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lm3478"
+			(at 171.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.97~40V Wide Input Range Boost/SEPIC/Flyback DC-DC Controller, SOIC-8"
+			(at 170.815 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11af3a4e-e934-4929-be2f-7e2956f2b180")
+		)
+		(pin "2"
+			(uuid "1b12e7f8-d16c-4879-a32e-64cadea9be93")
+		)
+		(pin "8"
+			(uuid "1c5eaefc-7beb-4d8a-a827-23173ef4dc7a")
+		)
+		(pin "4"
+			(uuid "b5f1dad2-2a26-4976-9065-3c917a1b98db")
+		)
+		(pin "3"
+			(uuid "d942c37f-5bd7-4a49-aeb8-074edd2b47e7")
+		)
+		(pin "7"
+			(uuid "d3eff040-17dd-4b8b-a9d5-7657a1de849c")
+		)
+		(pin "5"
+			(uuid "5154d815-b85e-4dc0-babb-cfa2833f1e84")
+		)
+		(pin "6"
+			(uuid "58ddc69d-3f22-4460-8218-cbdeb1488cc0")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 92.71 46.355 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e10f705a-4158-4d45-9bad-e7aa14be05f8")
+		(property "Reference" "R10"
+			(at 92.71 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 92.71 51.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 92.964 45.339 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed6e43a9-f263-4e8a-9457-25a32c1aafd7")
+		)
+		(pin "2"
+			(uuid "57af2ad4-e62b-48bf-bfdd-d2df3d5f5a4c")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.815 111.125 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e51a5eac-e43b-4a61-86d1-1bb3bfe2af31")
+		(property "Reference" "#PWR13"
+			(at 170.815 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.815 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.815 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.815 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.815 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "881a81f5-1b00-4969-8440-d9a8189b0915")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
 					(reference "#PWR13")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea7413c4-f036-4f64-a900-f4fdc195e8b6")
+		(property "Reference" "#PWR9"
+			(at 121.92 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2619df9b-0b36-4d38-9959-f894d20658c2")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 120.65 32.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebefc393-538e-45a1-9dd0-52d3f9d16baa")
+		(property "Reference" "R12"
+			(at 123.19 31.1149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 123.19 33.6549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 121.666 32.639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ebb1c3-ecce-4dc9-b859-92e34b43b073")
+		)
+		(pin "2"
+			(uuid "69d18f8c-bb9c-43dc-87ca-e9458d11c66f")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 102.235 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f340ab36-14d1-423e-87ce-cb28124404ef")
+		(property "Reference" "#PWR6"
+			(at 96.52 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8afc5424-a93f-480c-aba6-3d69739096db")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 155.575 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f43eb854-552c-480d-a429-302273fbab1f")
+		(property "Reference" "R3"
+			(at 157.48 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.99k"
+			(at 157.48 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 156.591 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 155.575 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 155.575 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed4e63f4-4ffb-4d20-bf4a-1eecc402f5a0")
+		)
+		(pin "1"
+			(uuid "29f4154d-3369-447a-b03b-34a74aa8cd94")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 24.765 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f614d571-11e6-4ed2-8c01-328c944da206")
+		(property "Reference" "J1"
+			(at 18.415 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V In"
+			(at 18.415 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
+			(at 24.765 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.765 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 24.765 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f873d90d-1382-48af-b48b-febb6a047c85")
+		)
+		(pin "2"
+			(uuid "0545d141-514a-4c62-b59a-cab05a720c30")
+		)
+		(pin "3"
+			(uuid "4daa2c19-5b72-44fb-8048-8bfe41dccd17")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.875 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8e9a5c7-f58c-4a64-ab3e-011939685ebc")
+		(property "Reference" "C5"
+			(at 146.685 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820pF"
+			(at 146.685 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 143.8402 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.875 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.875 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14dfa205-9f1f-417f-a723-e9ad753c25ab")
+		)
+		(pin "1"
+			(uuid "842e987c-e856-4de1-8816-d6f02bb921dc")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fadad402-04d3-4b33-bfe3-7c6b0606b5c4")
+		(property "Reference" "R2"
+			(at 131.445 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "34k"
+			(at 131.445 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 132.334 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "300893fb-7d0e-4e92-80bf-2eeb8bb16b05")
+		)
+		(pin "1"
+			(uuid "1044db84-7afd-47d1-ad38-dc5c77c70175")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 120.65 27.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefa7cef-134c-47eb-92eb-825b0c6a9053")
+		(property "Reference" "#PWR24"
+			(at 120.65 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 120.65 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 120.65 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b9a8368-2a58-4aae-a692-3a2c5ac4940a")
+		)
+		(instances
+			(project "groundside-charging"
+				(path "/d159e698-7015-4432-a538-b98cbdeaf8eb/4bea6e0f-1280-4510-b73a-8b8de4523607"
+					(reference "#PWR24")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
