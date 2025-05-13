@@ -3028,7 +3028,7 @@
 		(uuid 5e4beb48-77f1-4476-bf2f-6397b662dd48)
 	)
 	(rectangle
-		(start 64.135 82.55)
+		(start 64.135 84.455)
 		(end 111.125 92.075)
 		(stroke
 			(width 0)
@@ -3038,6 +3038,16 @@
 			(type none)
 		)
 		(uuid a3505c00-ae2e-409e-9090-0d9c725a4daf)
+	)
+	(text "Based on 8.3.7"
+		(exclude_from_sim no)
+		(at 80.01 173.355 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23198472-780a-44be-8f30-746aafa9fe91")
 	)
 	(text "TCJD686M020R0055"
 		(exclude_from_sim no)
@@ -3154,7 +3164,7 @@
 		(fields_autoplaced yes)
 		(uuid "031ce332-4299-41e5-857a-8db21d3eef85")
 		(property "Reference" "C6"
-			(at 151.765 98.4249 0)
+			(at 152.4 98.4249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,8 +3172,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15nF"
-			(at 151.765 100.9649 0)
+		(property "Value" "15n"
+			(at 152.4 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 118.11 89.5349 0)
 			(effects
 				(font
@@ -3784,7 +3794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "groundside-charging:SO-8-SINGLE_MS-012_VIS"
+		(property "Footprint" "groundside-charging:SI4840BDY-T1-GE3"
 			(at 199.39 78.74 0)
 			(effects
 				(font
@@ -4471,7 +4481,7 @@
 		(fields_autoplaced yes)
 		(uuid "58853c02-1020-4892-a92f-d2db4edcebe7")
 		(property "Reference" "R5"
-			(at 198.755 109.8549 0)
+			(at 199.39 109.8549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,8 +4489,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10mR"
-			(at 198.755 112.3949 0)
+		(property "Value" "15m"
+			(at 199.39 112.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +4900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "groundside-charging:LM317DCYR"
 			(at 80.01 144.145 0)
 			(effects
 				(font
@@ -5485,7 +5495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820pF"
+		(property "Value" "820p"
 			(at 139.7 109.2199 0)
 			(effects
 				(font
@@ -5814,7 +5824,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7bb672a-285b-44b1-8c41-1b17fe9e2963")
 		(property "Reference" "C7"
-			(at 187.325 109.8549 0)
+			(at 187.96 109.8549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,8 +5832,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
-			(at 187.325 112.3949 0)
+		(property "Value" "10p"
+			(at 187.96 112.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"
 			(at 224.79 81.28 0)
 			(effects
 				(font
@@ -6286,10 +6296,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbe15d75-99a9-46c6-bc06-fd2484f5ff61")
 		(property "Reference" "C3"
-			(at 106.045 86.1059 0)
+			(at 105.41 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,8 +6306,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68uF"
-			(at 106.045 88.6459 0)
+		(property "Value" "68u"
+			(at 105.41 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,10 +6808,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fea94118-f025-4c74-a504-4db7589824aa")
 		(property "Reference" "C2"
-			(at 93.345 86.1059 0)
+			(at 92.71 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,8 +6818,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68uF"
-			(at 93.345 88.6459 0)
+		(property "Value" "68u"
+			(at 92.71 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
