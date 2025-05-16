@@ -2766,7 +2766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "12/48 boost:CAPC6050X550N"
 			(at 240.9952 97.79 0)
 			(effects
 				(font
@@ -2775,7 +2775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -2784,7 +2784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "08053C104KAT2A"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -3795,7 +3795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "12/48 boost:CAPC6050X550N"
 			(at 229.5652 105.41 0)
 			(effects
 				(font
@@ -3804,7 +3804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
 			(at 228.6 101.6 0)
 			(effects
 				(font
@@ -3813,7 +3813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "08053C104KAT2A"
 			(at 228.6 101.6 0)
 			(effects
 				(font
@@ -4157,7 +4157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "12/48 boost:CAPC6050X550N"
 			(at 251.1552 109.22 0)
 			(effects
 				(font
@@ -4166,7 +4166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
 			(at 250.19 105.41 0)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "08053C104KAT2A"
 			(at 250.19 105.41 0)
 			(effects
 				(font
@@ -4227,7 +4227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "12/48 boost:GRM31CR71H475KA12L"
 			(at 54.3052 102.87 0)
 			(effects
 				(font
@@ -4297,7 +4297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "12/48 boost:GRM31CR71H475KA12L"
 			(at 36.5252 102.87 0)
 			(effects
 				(font
@@ -4367,7 +4367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "12/48 boost:CAPC3216X180N"
 			(at 261.3152 127 0)
 			(effects
 				(font
@@ -4376,7 +4376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 260.35 123.19 0)
 			(effects
 				(font
