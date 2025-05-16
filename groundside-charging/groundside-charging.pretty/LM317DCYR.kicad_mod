@@ -1,0 +1,240 @@
+(footprint "LM317DCYR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9066f1b4-e9f1-4b5f-a2a1-462ced7762f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LM317DCYR"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1046dd6-5723-417b-8caa-d53885c3fa89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "groundside-charging:LM317DCYR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa13734b-9d9f-4109-8c8d-78defe645000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm317.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "145972aa-f48e-4240-8ce8-754f39dca5fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3-Pin Adjustable Regulator"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3e02e35-0d4e-42c9-bb1d-aaeb17e73021")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 0.39)
+		(end 1.96 0.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f9eb0f5-671a-41d2-9cde-4268407f9c39")
+	)
+	(fp_line
+		(start -1.8 7.21)
+		(end 1.96 7.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3749373-24b7-4b8a-831a-e67624a3c35c")
+	)
+	(fp_line
+		(start 1.96 0.39)
+		(end 1.96 1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5445ba5e-90dc-44c5-9a2c-8dcd358f187f")
+	)
+	(fp_line
+		(start 1.96 7.21)
+		(end 1.96 5.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bf1ee29-b9f8-4f55-b429-578044554d0c")
+	)
+	(fp_line
+		(start -4.35 0.2)
+		(end -4.35 7.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e140c545-84e7-492f-a849-b111ab236f03")
+	)
+	(fp_line
+		(start -4.35 7.4)
+		(end 4.45 7.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75dbcf8a-6e33-4df6-926c-403ad2ad4057")
+	)
+	(fp_line
+		(start 4.45 0.2)
+		(end -4.35 0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf45e649-eb2c-4fa2-ae68-d0511e33b215")
+	)
+	(fp_line
+		(start 4.45 7.4)
+		(end 4.45 0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a50495d-c661-4444-af1f-88df30681576")
+	)
+	(fp_line
+		(start -1.8 1.45)
+		(end -1.8 7.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d44d630-95c0-471b-8d82-567894bd8633")
+	)
+	(fp_line
+		(start -1.8 1.45)
+		(end -0.8 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8910937f-98a1-4828-8aac-9a708695c8dd")
+	)
+	(fp_line
+		(start -1.8 7.15)
+		(end 1.9 7.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edd0933c-2c65-4e1c-b177-73f6dbb8684b")
+	)
+	(fp_line
+		(start -0.8 0.45)
+		(end 1.9 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f955a47-d884-4dce-90bd-543784ce15e2")
+	)
+	(fp_line
+		(start 1.9 0.45)
+		(end 1.9 7.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb1d22f8-5ffa-4dde-a40a-2e083ec9be44")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "edf75754-e186-42f1-b0f6-d3079beaacb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.1 6.1)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "43f7caae-5b84-4976-8f92-c4ac25f36bd4")
+	)
+	(pad "2" smd roundrect
+		(at -3.1 3.8)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a7542f3b-b9a0-4b6f-b99a-40e5eb69b5d1")
+	)
+	(pad "2" smd roundrect
+		(at 3.2 3.8)
+		(size 2 3.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1c7b8703-3fd3-470a-a451-965794970be3")
+	)
+	(pad "3" smd roundrect
+		(at -3.1 1.5)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c72fe2e4-79cc-4176-a8e7-be5e0ab7a0d9")
+	)
+)
