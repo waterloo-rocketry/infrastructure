@@ -1,0 +1,225 @@
+(footprint "TO-220-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.3225 -3.389 0)
+		(layer "F.SilkS")
+		(uuid "21c3a11b-0471-470d-8504-0ce47958c05b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-220-2"
+		(at 7.8375 3.401 0)
+		(layer "F.Fab")
+		(uuid "f8e4cbfd-7d5b-4e9a-bda4-ff81da0ab4be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f276227-6376-43de-9ad3-94474e6ce8e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55e51709-a0f2-41ec-86b1-29a1a2f23e8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "539ec738-0698-4636-b94c-bc56fe8c0f7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.25 -2.295)
+		(end 5.25 -2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dda61d3-e379-48f2-ac35-e94b8460ba2d")
+	)
+	(fp_line
+		(start -5.25 2.295)
+		(end -5.25 -2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71c90588-50e7-4f36-b85d-82474ff875cd")
+	)
+	(fp_line
+		(start 5.25 -2.295)
+		(end 5.25 2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6762d483-589c-40ba-8e82-55a992af1b91")
+	)
+	(fp_line
+		(start 5.25 2.295)
+		(end -5.25 2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f0572b0-07cf-49f1-b618-c35ea683a670")
+	)
+	(fp_circle
+		(center -5.9975 0.453)
+		(end -5.8975 0.453)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "350f5c64-b76f-4ecf-a4a6-6cc170e791ed")
+	)
+	(fp_line
+		(start -5.5 -2.545)
+		(end -5.5 2.545)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19707827-596a-476c-a4c5-a5a3292f57f3")
+	)
+	(fp_line
+		(start -5.5 2.545)
+		(end 5.5 2.545)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e35109cb-11cd-4d86-b18e-9294fa80fcd9")
+	)
+	(fp_line
+		(start 5.5 -2.545)
+		(end -5.5 -2.545)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4537c8a0-9ac3-47c6-927c-731e4052798c")
+	)
+	(fp_line
+		(start 5.5 2.545)
+		(end 5.5 -2.545)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c30aaf00-4cf7-47f2-ab3d-c88ec6dd15f9")
+	)
+	(fp_line
+		(start -5.25 -2.295)
+		(end 5.25 -2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "821df544-c6ec-4aef-a7b0-621eefb2f814")
+	)
+	(fp_line
+		(start -5.25 2.295)
+		(end -5.25 -2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4acbf1c3-ad3b-46da-8227-8e2b7ebf7ddd")
+	)
+	(fp_line
+		(start 5.25 -2.295)
+		(end 5.25 2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be745367-b0c6-42d5-8c0c-cdb14a6ff0aa")
+	)
+	(fp_line
+		(start 5.25 2.295)
+		(end -5.25 2.295)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16a5756e-ebdf-49c8-893a-a932c1e0b4a1")
+	)
+	(fp_circle
+		(center -5.9975 0.453)
+		(end -5.8975 0.453)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a6047c47-62fc-4254-b5da-ad18be046245")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0.453)
+		(size 1.94 1.94)
+		(drill 1.29)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9a525ecd-85eb-42d4-9ad3-f90d979254db")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0.453)
+		(size 1.94 1.94)
+		(drill 1.29)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "cb9a6ec2-09a6-4c65-ab64-bdca8089ebaa")
+	)
+)
