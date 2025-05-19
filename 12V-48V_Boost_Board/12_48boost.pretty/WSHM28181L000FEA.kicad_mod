@@ -1,0 +1,133 @@
+(footprint "WSHM28181L000FEA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WSHM28181L000FEA")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at -0.317 -3.895 0)
+		(layer "F.SilkS")
+		(uuid "0f0394c1-43b2-4088-bc36-7650cf12ede4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "WSHM28181L000FEA"
+		(at -0.317 -3.895 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b1609bc4-d30b-4527-aa58-d972f55fe1e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "857c95ec-c645-4449-bc45-7ab45d6ce8bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a38b37eb-010b-409d-8ac8-6eab3da1f53c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaf2d823-965b-44b4-81ef-7369864b62aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.12 -3.154)
+		(end -2.23593 -3.154)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c897f63d-748f-417a-aab9-b30b9795220f")
+	)
+	(fp_line
+		(start -3.55 -2.3)
+		(end 3.55 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c82ce504-4355-4d14-a64a-e760f375ad0c")
+	)
+	(fp_line
+		(start -3.55 2.3)
+		(end -3.55 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f3c09449-de68-4756-b2ff-14b083449e49")
+	)
+	(fp_line
+		(start 3.55 -2.3)
+		(end 3.55 2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ae9c8934-133e-44c1-b447-2370b7cf115b")
+	)
+	(fp_line
+		(start 3.55 2.3)
+		(end -3.55 2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a3ce3fba-e0f0-4972-880d-9409873f4ebf")
+	)
+	(pad "1" smd rect
+		(at -2.055 0)
+		(size 3.5 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "769fc771-ca5a-4465-b740-8860e6cd7e9b")
+	)
+	(pad "2" smd rect
+		(at 2.055 0)
+		(size 3.5 5.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a9e5371b-1102-4241-a4c6-0e7d603b4b50")
+	)
+)

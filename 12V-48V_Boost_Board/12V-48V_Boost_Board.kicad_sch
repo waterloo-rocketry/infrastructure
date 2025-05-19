@@ -1712,7 +1712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "12/48 boost:WSHM28181L000FEA"
 			(at 103.124 98.044 90)
 			(effects
 				(font
@@ -1721,7 +1721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "WSHM28181L000FEA"
 			(at 102.87 99.06 0)
 			(effects
 				(font
