@@ -337,6 +337,190 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Relay:Relay_SPDT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -923,6 +1107,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 130.81) (xy 138.43 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36403fe6-b6b9-4d09-8d10-f40fae8da7c9")
+	)
+	(wire
+		(pts
 			(xy 151.13 81.28) (xy 151.13 85.09)
 		)
 		(stroke
@@ -930,6 +1124,16 @@
 			(type default)
 		)
 		(uuid "42458938-08bc-4402-a7aa-0046aab9bed9")
+	)
+	(wire
+		(pts
+			(xy 138.43 147.32) (xy 138.43 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a856abf-aabb-4f13-992c-08956be204f4")
 	)
 	(wire
 		(pts
@@ -1033,6 +1237,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 130.81) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8335d66-1266-47a5-bbe0-b8a9c01c50be")
+	)
+	(wire
+		(pts
 			(xy 179.07 72.39) (xy 179.07 74.93)
 		)
 		(stroke
@@ -1073,26 +1287,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 132.08) (xy 182.88 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4b3646-1f6b-445c-9c8c-f99f3cd5b4cd")
-	)
-	(wire
-		(pts
-			(xy 157.48 132.08) (xy 157.48 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dedfb22c-cf24-4133-b9d8-b21e8e57c428")
-	)
-	(wire
-		(pts
 			(xy 149.86 81.28) (xy 151.13 81.28)
 		)
 		(stroke
@@ -1125,16 +1319,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 149.86 0)
+		(at 138.43 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "040bd0e2-1a6c-4957-9f2f-59041e255378")
+		(uuid "057252b1-0a7b-4010-89a3-295b114e117c")
 		(property "Reference" "#PWR09"
-			(at 186.69 156.21 0)
+			(at 138.43 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 154.94 0)
+			(at 138.43 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 149.86 0)
+			(at 138.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 149.86 0)
+			(at 138.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 149.86 0)
+			(at 138.43 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1372,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aaf95f4a-31ff-4a54-9050-0db5a518a391")
+			(uuid "69b4a9a9-729d-44a1-bb66-52cdf60edf8f")
 		)
 		(instances
 			(project "car-battery-reverse-polarity-protection"
@@ -1256,6 +1450,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 140.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a6bbe51-6e98-43d2-8e78-a43054950071")
+		(property "Reference" "H4"
+			(at 111.76 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Logo"
+			(at 111.76 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLibrary:rocketry_logo_small_noletters"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 166.37 82.55 270)
 		(unit 1)
@@ -1320,6 +1578,73 @@
 			(project ""
 				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 138.43 144.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad61e28-d334-417c-8e49-69bb9a015c3f")
+		(property "Reference" "H3"
+			(at 140.97 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 140.97 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35182cec-a31e-4678-a814-806f15251416")
+		)
+		(instances
+			(project "car-battery-reverse-polarity-protection"
+				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1399,72 +1724,6 @@
 			(project ""
 				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
 					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2706c614-193c-46f6-8c80-c49d67abb3b9")
-		(property "Reference" "#PWR07"
-			(at 157.48 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5c1d64a-97e1-4e04-8a95-4cfe36948f09")
-		)
-		(instances
-			(project ""
-				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1736,6 +1995,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77fb6a47-c61f-45ff-801e-f1a855dfb59d")
+		(property "Reference" "#PWR07"
+			(at 138.43 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c25c244a-0354-4ef4-8f68-bf56e0d3b066")
+		)
+		(instances
+			(project ""
+				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 151.13 74.93 0)
 		(unit 1)
@@ -1872,17 +2197,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 135.89 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 167.64 128.27 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4110656-0cd6-4577-a585-05bbcfcedad7")
-		(property "Reference" "#PWR010"
-			(at 182.88 142.24 0)
+		(uuid "85211457-4c78-4cf4-b776-4c0b93419de6")
+		(property "Reference" "H2"
+			(at 170.18 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 170.18 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,16 +2233,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 182.88 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 135.89 0)
+		(property "Datasheet" "~"
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,17 +2242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 135.89 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,12 +2252,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1df47967-fbcb-4ddb-8f10-4e9bd3c2f7d2")
+			(uuid "fe4f8ac3-104e-4ef1-92b5-b14f4d8712ce")
 		)
 		(instances
 			(project "car-battery-reverse-polarity-protection"
 				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
-					(reference "#PWR010")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1998,6 +2324,72 @@
 			(project "car-battery-reverse-polarity-protection"
 				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b87b68-df85-4624-adb2-674ea08105ed")
+		(property "Reference" "#PWR08"
+			(at 167.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "861f5eec-13bf-4286-aa31-06e4d67b8bc4")
+		)
+		(instances
+			(project "car-battery-reverse-polarity-protection"
+				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2074,17 +2466,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 146.05 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 138.43 128.27 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d61d45db-853a-4cac-bee4-e97b9a2ae04a")
-		(property "Reference" "#PWR08"
-			(at 157.48 152.4 0)
+		(uuid "e9932f81-237d-4896-9b63-8c4ae3a3b427")
+		(property "Reference" "H1"
+			(at 140.97 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 140.97 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 138.43 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,16 +2502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 146.05 0)
+		(property "Datasheet" "~"
+			(at 138.43 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,17 +2511,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 157.48 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 146.05 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 138.43 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,12 +2521,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "127c1341-e427-49d0-a550-79695e0eb7e4")
+			(uuid "cc29fb24-2212-4177-936f-80ea591db931")
 		)
 		(instances
-			(project "car-battery-reverse-polarity-protection"
+			(project ""
 				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
-					(reference "#PWR08")
+					(reference "H1")
 					(unit 1)
 				)
 			)
