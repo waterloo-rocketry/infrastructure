@@ -1656,6 +1656,7 @@
 		(property "Value" "Battery Connector"
 			(at 9.045 0 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1a9456e7-fd8f-4de6-b011-359491d61465")
 			(effects
 				(font
@@ -2991,12 +2992,12 @@
 			)
 		)
 		(property "Value" "Output"
-			(at -3.42 -0.5 180)
-			(layer "F.Fab")
+			(at -3.92 0.5 180)
+			(layer "F.SilkS")
 			(uuid "ce50e6a6-d626-4e2a-9e67-92c123464ce7")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.2 1.2)
 					(thickness 0.15)
 				)
 			)
@@ -3488,6 +3489,19 @@
 		(effects
 			(font
 				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Battery\nConnector"
+		(at 122.5 67 0)
+		(layer "F.SilkS")
+		(uuid "71fcf7e8-2a0e-4fa5-ad22-b94269bc9215")
+		(effects
+			(font
+				(size 1.2 1.2)
 				(thickness 0.3)
 				(bold yes)
 			)
