@@ -1,389 +1,949 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid dea3a0ad-40f0-4622-89aa-fa8e3803268e)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-  (junction (at 147.574 87.122) (diameter 0) (color 0 0 0 0)
-    (uuid 6197714b-78b8-4225-8ce6-b0d287e760d0)
-  )
-  (junction (at 140.462 84.328) (diameter 0) (color 0 0 0 0)
-    (uuid 7464e330-e826-45e8-82af-a37de8a6a8ab)
-  )
-
-  (polyline (pts (xy 13.208 197.104) (xy 13.208 157.734))
-    (stroke (width 0) (type default))
-    (uuid 0ad612b0-c4d3-41ce-97ac-2a9f1fcd9c31)
-  )
-
-  (wire (pts (xy 151.638 92.71) (xy 157.226 92.71))
-    (stroke (width 0) (type default))
-    (uuid 0e89c411-32ed-49b1-9a3e-5149e913aa11)
-  )
-  (wire (pts (xy 134.366 54.864) (xy 157.226 54.864))
-    (stroke (width 0) (type default))
-    (uuid 0f6140a5-e990-4886-b723-67f6b0b68647)
-  )
-  (wire (pts (xy 157.226 110.236) (xy 151.638 110.236))
-    (stroke (width 0) (type default))
-    (uuid 26d40383-4554-423c-b294-9e0e882e8afb)
-  )
-  (polyline (pts (xy 48.133 164.084) (xy 48.133 190.754))
-    (stroke (width 0) (type solid))
-    (uuid 3e1be53f-52fb-4377-9615-6aa05d738923)
-  )
-
-  (wire (pts (xy 134.366 68.58) (xy 157.226 68.58))
-    (stroke (width 0) (type default))
-    (uuid 4196dda3-dc44-4e1b-90f6-6e95a38212c6)
-  )
-  (wire (pts (xy 147.574 114.3) (xy 157.226 114.3))
-    (stroke (width 0) (type default))
-    (uuid 430905f1-bebe-4223-84c3-b9bd709a3dee)
-  )
-  (polyline (pts (xy 13.208 157.734) (xy 65.913 157.734))
-    (stroke (width 0) (type default))
-    (uuid 57ffa079-2f19-4ee8-aa72-299a96b1a343)
-  )
-
-  (wire (pts (xy 140.462 118.872) (xy 157.226 118.872))
-    (stroke (width 0) (type default))
-    (uuid 66092f78-901d-48e5-9654-745191e6e24a)
-  )
-  (wire (pts (xy 134.366 72.39) (xy 147.574 72.39))
-    (stroke (width 0) (type default))
-    (uuid 698505f4-1f01-492d-ae1a-649f0e696770)
-  )
-  (wire (pts (xy 147.574 87.122) (xy 157.226 87.122))
-    (stroke (width 0) (type default))
-    (uuid 6b719e6a-0bd9-453b-ad18-f59bd05d59e1)
-  )
-  (polyline (pts (xy 24.6022 164.084) (xy 24.6022 190.754))
-    (stroke (width 0) (type solid))
-    (uuid 7197284d-46c8-489a-81f1-d64e9d4d1f8a)
-  )
-
-  (wire (pts (xy 147.574 87.122) (xy 147.574 114.3))
-    (stroke (width 0) (type default))
-    (uuid 758b33b9-d773-4a64-bbf5-26d88647b901)
-  )
-  (wire (pts (xy 140.462 84.328) (xy 140.462 118.872))
-    (stroke (width 0) (type default))
-    (uuid 790c73d2-8682-4be1-99f9-7b791339eaf0)
-  )
-  (polyline (pts (xy 65.913 157.734) (xy 65.913 197.104))
-    (stroke (width 0) (type default))
-    (uuid 8d6051fd-7bfe-44ca-9510-5f4aacd17e55)
-  )
-
-  (wire (pts (xy 134.366 64.008) (xy 157.226 64.008))
-    (stroke (width 0) (type default))
-    (uuid 8d835f03-c43a-4331-9bb5-e4fb9e9dd9b1)
-  )
-  (wire (pts (xy 134.366 125.984) (xy 157.226 125.984))
-    (stroke (width 0) (type default))
-    (uuid 8f33e0a8-f7ea-448b-99d4-3ac2fb0985cb)
-  )
-  (polyline (pts (xy 65.913 197.104) (xy 13.208 197.104))
-    (stroke (width 0) (type default))
-    (uuid 9ccc1c9a-50e7-4fef-bdef-7fbbbe808d0d)
-  )
-  (polyline (pts (xy 15.113 173.609) (xy 58.293 173.609))
-    (stroke (width 0) (type solid))
-    (uuid b5107837-b54d-4b86-8743-137f82059ee8)
-  )
-
-  (wire (pts (xy 151.638 110.236) (xy 151.638 92.71))
-    (stroke (width 0) (type default))
-    (uuid b7d88884-80f1-4a3d-8fd2-cdd422153ab4)
-  )
-  (polyline (pts (xy 15.113 185.039) (xy 58.293 185.039))
-    (stroke (width 0) (type solid))
-    (uuid b82077cf-2cef-4fc5-a8ab-dfed40e049b8)
-  )
-  (polyline (pts (xy 15.113 167.259) (xy 58.293 167.259))
-    (stroke (width 0) (type solid))
-    (uuid cdd80b5a-e551-40d5-ae7a-95aed852bc83)
-  )
-
-  (wire (pts (xy 140.462 84.328) (xy 157.226 84.328))
-    (stroke (width 0) (type default))
-    (uuid ce1b3e4f-5598-4d76-b856-c19d6d207646)
-  )
-  (wire (pts (xy 147.574 72.39) (xy 147.574 87.122))
-    (stroke (width 0) (type default))
-    (uuid d90caa79-aade-43e4-9f64-1fe23eeeebba)
-  )
-  (wire (pts (xy 134.366 84.328) (xy 140.462 84.328))
-    (stroke (width 0) (type default))
-    (uuid dfffba4b-bb2f-42eb-8c28-969f35eff682)
-  )
-  (polyline (pts (xy 37.973 164.084) (xy 37.973 190.754))
-    (stroke (width 0) (type solid))
-    (uuid e56e011d-2ec6-4c2a-9709-912dfc1b8972)
-  )
-
-  (wire (pts (xy 134.366 59.436) (xy 157.226 59.436))
-    (stroke (width 0) (type default))
-    (uuid f9965486-5860-401c-92e4-cb68f189d39c)
-  )
-
-  (text "5V\n" (at 17.653 171.704 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid 074a1c26-6c1d-451a-9b87-25a17ce3e8cf)
-  )
-  (text "Voltage" (at 15.748 166.624 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid 096c95d0-9a2e-419d-bf33-cc3deda2f616)
-  )
-  (text "14 awg wire required" (at 49.3672 196.469 0)
-    (effects (font (size 0.9 0.9)) (justify left bottom))
-    (uuid 0e08e62e-2a80-444d-bf5b-f9c0ff6e0335)
-  )
-  (text "Antenna\n" (at 27.178 190.754 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1c41d6c7-9235-48b1-b45b-85293e505447)
-  )
-  (text "7.2 W" (at 50.038 190.754 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1f40c5a0-2d26-40fb-a2ab-1b823a8c0cc5)
-  )
-  (text "6A max\n" (at 39.243 184.404 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1fff9a9f-e0aa-4e5b-9e76-176f64993508)
-  )
-  (text "12A max\n\n" (at 39.243 178.689 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 382f1e7f-c214-4e50-9676-84c60b34ad2d)
-  )
-  (text "Total Power: 250 W max" (at 36.703 195.199 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 40b9714a-d8d7-4642-b31f-b9199280dc45)
-  )
-  (text "7.2 W" (at 50.038 188.214 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 422918a8-8179-45c6-beaa-de84722d9a1d)
-  )
-  (text "2A" (at 39.243 171.704 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 46aae974-b0e0-40ca-8042-09948b4ab0ab)
-  )
-  (text "12V\n" (at 17.018 180.594 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid 4cc13333-31b8-4c6c-8149-50d6d75cba2d)
-  )
-  (text "Power  Budget" (at 32.258 161.544 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid 57cf1216-a9a4-4b2c-95d7-3d75ea3380a6)
-  )
-  (text "RLCS" (at 28.448 176.784 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 584b9ed4-1350-4d83-96dd-858cddb67627)
-  )
-  (text "6 W" (at 50.038 181.864 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 72bd83f9-0fdc-4ebf-82e8-7844f9a899c3)
-  )
-  (text "72 W max" (at 50.038 184.404 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8979548b-f581-4766-b700-fc1960e2cc35)
-  )
-  (text "Item" (at 29.083 166.624 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid 9cd66981-dfab-447d-a957-db37004e815c)
-  )
-  (text "300 mA\n" (at 39.243 188.214 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a014ac74-a32b-4044-9808-d6ea667e7a4d)
-  )
-  (text "DAQ Laptop\n" (at 25.908 184.404 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a798f53c-a081-42a7-b8f9-c728a4c9611f)
-  )
-  (text "24V" (at 17.018 189.484 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid aabebb9c-26bd-43c6-90fa-0ed0fc98f073)
-  )
-  (text "Router" (at 27.813 181.864 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ab2dc894-3817-4bc1-b16e-7292cdc964b6)
-  )
-  (text "300 mA\n" (at 39.243 179.324 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b4d2dcd5-0878-4e8f-801e-c47b6bb93336)
-  )
-  (text "300 mA\n\n" (at 39.243 192.659 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b7603412-d068-40be-bd8e-d580fa32dc25)
-  )
-  (text "144 W max\n" (at 50.038 176.784 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bf6eef32-9410-4405-9149-c54cee136521)
-  )
-  (text "DAQ" (at 29.083 188.214 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c2c129a0-0cce-4d8f-a6b2-a35af803e069)
-  )
-  (text "Current\n" (at 39.243 166.624 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid c485db39-4d74-4b68-8089-4f8e80fd6440)
-  )
-  (text "Power" (at 50.038 166.624 0)
-    (effects (font (size 1.27 1.27) bold) (justify left bottom))
-    (uuid d420224a-3c4e-45d3-906b-16d6a5191860)
-  )
-  (text "USB Power" (at 25.908 171.704 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid dbf06f64-30e5-4546-b9cf-87a6dbe66ef1)
-  )
-  (text "3.6 W" (at 50.038 179.324 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ed61f456-9eef-4cca-a647-0c8c3f25869a)
-  )
-  (text "10 W" (at 50.038 171.704 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f4484eaf-9ae3-4301-a726-349c68bdf9c4)
-  )
-  (text "Fans\n" (at 28.448 179.324 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fb462839-8e1f-4fa3-9023-0fec80ec3be0)
-  )
-  (text "500 mA\n" (at 39.243 181.864 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fcf81ec0-2f62-44b1-ba53-244b709b475d)
-  )
-
-  (sheet (at 157.226 107.442) (size 27.94 31.496) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0a00efc8-5a07-4e80-995b-7673c4dcc304)
-    (property "Sheetname" "Connectors" (at 157.226 106.7304 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Connectors/Connectors.kicad_sch" (at 157.226 139.5226 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "+12V" input (at 157.226 125.984 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6bf2274a-cc81-413c-8ff5-c37ed08b1d4f)
-    )
-    (pin "+24V" input (at 157.226 110.236 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 926f5bd5-7cbb-492d-9c59-9e4dff557362)
-    )
-    (pin "+5V" input (at 157.226 114.3 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e650cfa7-baaa-4bfa-b729-aaf718b90dfa)
-    )
-    (pin "GND" input (at 157.226 118.872 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 43ee8c87-bf04-48e7-b12c-ed23c65478fa)
-    )
-    (instances
-      (project "GSPD Board"
-        (path "/dea3a0ad-40f0-4622-89aa-fa8e3803268e" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 157.226 49.53) (size 27.94 47.244) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1ed0032b-87a3-463e-b758-0066bb0761d6)
-    (property "Sheetname" "Converters" (at 157.226 48.8184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Converters/Converters.kicad_sch" (at 157.226 97.3586 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "12_VOLTAGE" input (at 157.226 54.864 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0451a6ad-15a7-4289-adbb-95a6bac2bf90)
-    )
-    (pin "TOTAL_OUT" input (at 157.226 64.008 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 269cb10f-d77e-43ec-ab98-a9aca3ae4a4c)
-    )
-    (pin "GND" input (at 157.226 84.328 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0427a14d-42af-465e-9611-fefa471c09fc)
-    )
-    (pin "+24V" input (at 157.226 92.71 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ab85f82b-277a-4036-9496-96f039d37680)
-    )
-    (pin "+5V" input (at 157.226 87.122 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f2983fd3-6a31-4a0e-b376-fc535aca7d37)
-    )
-    (pin "12V_OUT" input (at 157.226 59.436 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 996c594b-140e-49f8-a4e5-a741f4a3e809)
-    )
-    (pin "+BATT" input (at 157.226 68.58 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 907b6f52-fb56-429c-bb79-1641a6152bb2)
-    )
-    (pin "+12V" input (at 157.226 90.17 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 18b6075d-196c-4603-a056-e11da66b8185)
-    )
-    (instances
-      (project "GSPD Board"
-        (path "/dea3a0ad-40f0-4622-89aa-fa8e3803268e" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 104.394 49.53) (size 29.972 89.916) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c08ef0af-6eeb-4957-ab7b-ce5d90f9f501)
-    (property "Sheetname" "Input" (at 104.394 48.8184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Input/Input.kicad_sch" (at 104.394 140.0306 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "12_VOLTAGE" input (at 134.366 54.864 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid cfe8b027-3261-43e4-bd9e-dd4432e1dd96)
-    )
-    (pin "12V_OUT" input (at 134.366 59.436 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 36af69ba-260a-44d8-9228-70f47900b981)
-    )
-    (pin "TOTAL_OUT" input (at 134.366 64.008 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid df231c89-5219-4487-9bb0-6bfaa337210e)
-    )
-    (pin "+BATT" input (at 134.366 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 45e6b8db-9164-4f82-8d09-ef3647ab2236)
-    )
-    (pin "+12V" input (at 134.366 125.984 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid bb8fa911-1f1d-4dbf-be1d-c2f67b9b2dc1)
-    )
-    (pin "GND" input (at 134.366 84.328 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 8d6963db-3568-4d17-8557-7394e864d2d6)
-    )
-    (pin "+5V" input (at 134.366 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 212db06d-deaa-4b6c-a873-058d2b5f61d4)
-    )
-    (instances
-      (project "GSPD Board"
-        (path "/dea3a0ad-40f0-4622-89aa-fa8e3803268e" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dea3a0ad-40f0-4622-89aa-fa8e3803268e")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 147.574 87.122)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6197714b-78b8-4225-8ce6-b0d287e760d0")
+	)
+	(junction
+		(at 140.462 84.328)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7464e330-e826-45e8-82af-a37de8a6a8ab")
+	)
+	(polyline
+		(pts
+			(xy 13.208 197.104) (xy 13.208 157.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad612b0-c4d3-41ce-97ac-2a9f1fcd9c31")
+	)
+	(wire
+		(pts
+			(xy 151.638 92.71) (xy 157.226 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e89c411-32ed-49b1-9a3e-5149e913aa11")
+	)
+	(wire
+		(pts
+			(xy 134.366 54.864) (xy 157.226 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6140a5-e990-4886-b723-67f6b0b68647")
+	)
+	(wire
+		(pts
+			(xy 157.226 110.236) (xy 151.638 110.236)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d40383-4554-423c-b294-9e0e882e8afb")
+	)
+	(polyline
+		(pts
+			(xy 48.133 164.084) (xy 48.133 190.754)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3e1be53f-52fb-4377-9615-6aa05d738923")
+	)
+	(wire
+		(pts
+			(xy 134.366 68.58) (xy 157.226 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4196dda3-dc44-4e1b-90f6-6e95a38212c6")
+	)
+	(wire
+		(pts
+			(xy 147.574 114.3) (xy 157.226 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430905f1-bebe-4223-84c3-b9bd709a3dee")
+	)
+	(polyline
+		(pts
+			(xy 13.208 157.734) (xy 65.913 157.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ffa079-2f19-4ee8-aa72-299a96b1a343")
+	)
+	(wire
+		(pts
+			(xy 140.462 118.872) (xy 157.226 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66092f78-901d-48e5-9654-745191e6e24a")
+	)
+	(wire
+		(pts
+			(xy 134.366 72.39) (xy 147.574 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698505f4-1f01-492d-ae1a-649f0e696770")
+	)
+	(wire
+		(pts
+			(xy 147.574 87.122) (xy 157.226 87.122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b719e6a-0bd9-453b-ad18-f59bd05d59e1")
+	)
+	(polyline
+		(pts
+			(xy 24.6022 164.084) (xy 24.6022 190.754)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7197284d-46c8-489a-81f1-d64e9d4d1f8a")
+	)
+	(wire
+		(pts
+			(xy 147.574 87.122) (xy 147.574 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758b33b9-d773-4a64-bbf5-26d88647b901")
+	)
+	(wire
+		(pts
+			(xy 140.462 84.328) (xy 140.462 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790c73d2-8682-4be1-99f9-7b791339eaf0")
+	)
+	(polyline
+		(pts
+			(xy 65.913 157.734) (xy 65.913 197.104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6051fd-7bfe-44ca-9510-5f4aacd17e55")
+	)
+	(wire
+		(pts
+			(xy 134.366 64.008) (xy 157.226 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d835f03-c43a-4331-9bb5-e4fb9e9dd9b1")
+	)
+	(wire
+		(pts
+			(xy 134.366 125.984) (xy 157.226 125.984)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f33e0a8-f7ea-448b-99d4-3ac2fb0985cb")
+	)
+	(polyline
+		(pts
+			(xy 65.913 197.104) (xy 13.208 197.104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccc1c9a-50e7-4fef-bdef-7fbbbe808d0d")
+	)
+	(polyline
+		(pts
+			(xy 15.113 173.609) (xy 58.293 173.609)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b5107837-b54d-4b86-8743-137f82059ee8")
+	)
+	(wire
+		(pts
+			(xy 151.638 110.236) (xy 151.638 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d88884-80f1-4a3d-8fd2-cdd422153ab4")
+	)
+	(polyline
+		(pts
+			(xy 15.113 185.039) (xy 58.293 185.039)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b82077cf-2cef-4fc5-a8ab-dfed40e049b8")
+	)
+	(polyline
+		(pts
+			(xy 15.113 167.259) (xy 58.293 167.259)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cdd80b5a-e551-40d5-ae7a-95aed852bc83")
+	)
+	(wire
+		(pts
+			(xy 140.462 84.328) (xy 157.226 84.328)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1b3e4f-5598-4d76-b856-c19d6d207646")
+	)
+	(wire
+		(pts
+			(xy 147.574 72.39) (xy 147.574 87.122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90caa79-aade-43e4-9f64-1fe23eeeebba")
+	)
+	(wire
+		(pts
+			(xy 134.366 84.328) (xy 140.462 84.328)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfffba4b-bb2f-42eb-8c28-969f35eff682")
+	)
+	(polyline
+		(pts
+			(xy 37.973 164.084) (xy 37.973 190.754)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e56e011d-2ec6-4c2a-9709-912dfc1b8972")
+	)
+	(wire
+		(pts
+			(xy 134.366 59.436) (xy 157.226 59.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9965486-5860-401c-92e4-cb68f189d39c")
+	)
+	(text "5V\n"
+		(exclude_from_sim no)
+		(at 17.653 171.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "074a1c26-6c1d-451a-9b87-25a17ce3e8cf")
+	)
+	(text "Voltage"
+		(exclude_from_sim no)
+		(at 15.748 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "096c95d0-9a2e-419d-bf33-cc3deda2f616")
+	)
+	(text "14 awg wire required"
+		(exclude_from_sim no)
+		(at 49.3672 196.469 0)
+		(effects
+			(font
+				(size 0.9 0.9)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e08e62e-2a80-444d-bf5b-f9c0ff6e0335")
+	)
+	(text "Antenna\n"
+		(exclude_from_sim no)
+		(at 27.178 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c41d6c7-9235-48b1-b45b-85293e505447")
+	)
+	(text "7.2 W"
+		(exclude_from_sim no)
+		(at 50.038 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f40c5a0-2d26-40fb-a2ab-1b823a8c0cc5")
+	)
+	(text "6A max\n"
+		(exclude_from_sim no)
+		(at 39.243 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fff9a9f-e0aa-4e5b-9e76-176f64993508")
+	)
+	(text "12A max\n\n"
+		(exclude_from_sim no)
+		(at 39.243 178.689 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "382f1e7f-c214-4e50-9676-84c60b34ad2d")
+	)
+	(text "Total Power: 250 W max"
+		(exclude_from_sim no)
+		(at 36.703 195.199 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40b9714a-d8d7-4642-b31f-b9199280dc45")
+	)
+	(text "7.2 W"
+		(exclude_from_sim no)
+		(at 50.038 188.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "422918a8-8179-45c6-beaa-de84722d9a1d")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 39.243 171.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46aae974-b0e0-40ca-8042-09948b4ab0ab")
+	)
+	(text "12V\n"
+		(exclude_from_sim no)
+		(at 17.018 180.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc13333-31b8-4c6c-8149-50d6d75cba2d")
+	)
+	(text "Power  Budget"
+		(exclude_from_sim no)
+		(at 32.258 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "57cf1216-a9a4-4b2c-95d7-3d75ea3380a6")
+	)
+	(text "RLCS"
+		(exclude_from_sim no)
+		(at 28.448 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "584b9ed4-1350-4d83-96dd-858cddb67627")
+	)
+	(text "6 W"
+		(exclude_from_sim no)
+		(at 50.038 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72bd83f9-0fdc-4ebf-82e8-7844f9a899c3")
+	)
+	(text "72 W max"
+		(exclude_from_sim no)
+		(at 50.038 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8979548b-f581-4766-b700-fc1960e2cc35")
+	)
+	(text "Item"
+		(exclude_from_sim no)
+		(at 29.083 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cd66981-dfab-447d-a957-db37004e815c")
+	)
+	(text "300 mA\n"
+		(exclude_from_sim no)
+		(at 39.243 188.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a014ac74-a32b-4044-9808-d6ea667e7a4d")
+	)
+	(text "DAQ Laptop\n"
+		(exclude_from_sim no)
+		(at 25.908 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a798f53c-a081-42a7-b8f9-c728a4c9611f")
+	)
+	(text "24V"
+		(exclude_from_sim no)
+		(at 17.018 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "aabebb9c-26bd-43c6-90fa-0ed0fc98f073")
+	)
+	(text "Router"
+		(exclude_from_sim no)
+		(at 27.813 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab2dc894-3817-4bc1-b16e-7292cdc964b6")
+	)
+	(text "300 mA\n"
+		(exclude_from_sim no)
+		(at 39.243 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4d2dcd5-0878-4e8f-801e-c47b6bb93336")
+	)
+	(text "300 mA\n\n"
+		(exclude_from_sim no)
+		(at 39.243 192.659 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7603412-d068-40be-bd8e-d580fa32dc25")
+	)
+	(text "144 W max\n"
+		(exclude_from_sim no)
+		(at 50.038 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf6eef32-9410-4405-9149-c54cee136521")
+	)
+	(text "DAQ"
+		(exclude_from_sim no)
+		(at 29.083 188.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2c129a0-0cce-4d8f-a6b2-a35af803e069")
+	)
+	(text "Current\n"
+		(exclude_from_sim no)
+		(at 39.243 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c485db39-4d74-4b68-8089-4f8e80fd6440")
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 50.038 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d420224a-3c4e-45d3-906b-16d6a5191860")
+	)
+	(text "USB Power"
+		(exclude_from_sim no)
+		(at 25.908 171.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbf06f64-30e5-4546-b9cf-87a6dbe66ef1")
+	)
+	(text "3.6 W"
+		(exclude_from_sim no)
+		(at 50.038 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed61f456-9eef-4cca-a647-0c8c3f25869a")
+	)
+	(text "10 W"
+		(exclude_from_sim no)
+		(at 50.038 171.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4484eaf-9ae3-4301-a726-349c68bdf9c4")
+	)
+	(text "Fans\n"
+		(exclude_from_sim no)
+		(at 28.448 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb462839-8e1f-4fa3-9023-0fec80ec3be0")
+	)
+	(text "500 mA\n"
+		(exclude_from_sim no)
+		(at 39.243 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcf81ec0-2f62-44b1-ba53-244b709b475d")
+	)
+	(sheet
+		(at 157.226 107.442)
+		(size 27.94 31.496)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a00efc8-5a07-4e80-995b-7673c4dcc304")
+		(property "Sheetname" "Connectors"
+			(at 157.226 106.7304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors/Connectors.kicad_sch"
+			(at 157.226 139.5226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V" input
+			(at 157.226 125.984 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bf2274a-cc81-413c-8ff5-c37ed08b1d4f")
+		)
+		(pin "+24V" input
+			(at 157.226 110.236 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "926f5bd5-7cbb-492d-9c59-9e4dff557362")
+		)
+		(pin "+5V" input
+			(at 157.226 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e650cfa7-baaa-4bfa-b729-aaf718b90dfa")
+		)
+		(pin "GND" input
+			(at 157.226 118.872 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43ee8c87-bf04-48e7-b12c-ed23c65478fa")
+		)
+		(instances
+			(project "GSPD Board"
+				(path "/dea3a0ad-40f0-4622-89aa-fa8e3803268e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.226 49.53)
+		(size 27.94 47.244)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ed0032b-87a3-463e-b758-0066bb0761d6")
+		(property "Sheetname" "Converters"
+			(at 157.226 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Converters/Converters.kicad_sch"
+			(at 157.226 97.3586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12_VOLTAGE" input
+			(at 157.226 54.864 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0451a6ad-15a7-4289-adbb-95a6bac2bf90")
+		)
+		(pin "TOTAL_OUT" input
+			(at 157.226 64.008 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "269cb10f-d77e-43ec-ab98-a9aca3ae4a4c")
+		)
+		(pin "GND" input
+			(at 157.226 84.328 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0427a14d-42af-465e-9611-fefa471c09fc")
+		)
+		(pin "+24V" input
+			(at 157.226 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab85f82b-277a-4036-9496-96f039d37680")
+		)
+		(pin "+5V" input
+			(at 157.226 87.122 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2983fd3-6a31-4a0e-b376-fc535aca7d37")
+		)
+		(pin "12V_OUT" input
+			(at 157.226 59.436 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "996c594b-140e-49f8-a4e5-a741f4a3e809")
+		)
+		(pin "+BATT" input
+			(at 157.226 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "907b6f52-fb56-429c-bb79-1641a6152bb2")
+		)
+		(pin "+12V" input
+			(at 157.226 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18b6075d-196c-4603-a056-e11da66b8185")
+		)
+		(instances
+			(project "GSPD Board"
+				(path "/dea3a0ad-40f0-4622-89aa-fa8e3803268e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.394 49.53)
+		(size 29.972 89.916)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c08ef0af-6eeb-4957-ab7b-ce5d90f9f501")
+		(property "Sheetname" "Input"
+			(at 104.394 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input/Input.kicad_sch"
+			(at 104.394 140.0306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "12_VOLTAGE" input
+			(at 134.366 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cfe8b027-3261-43e4-bd9e-dd4432e1dd96")
+		)
+		(pin "12V_OUT" input
+			(at 134.366 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36af69ba-260a-44d8-9228-70f47900b981")
+		)
+		(pin "TOTAL_OUT" input
+			(at 134.366 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "df231c89-5219-4487-9bb0-6bfaa337210e")
+		)
+		(pin "+BATT" input
+			(at 134.366 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45e6b8db-9164-4f82-8d09-ef3647ab2236")
+		)
+		(pin "+12V" input
+			(at 134.366 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb8fa911-1f1d-4dbf-be1d-c2f67b9b2dc1")
+		)
+		(pin "GND" input
+			(at 134.366 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8d6963db-3568-4d17-8557-7394e864d2d6")
+		)
+		(pin "+5V" input
+			(at 134.366 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "212db06d-deaa-4b6c-a873-058d2b5f61d4")
+		)
+		(instances
+			(project "GSPD Board"
+				(path "/dea3a0ad-40f0-4622-89aa-fa8e3803268e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

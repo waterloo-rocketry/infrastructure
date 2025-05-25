@@ -1,0 +1,114 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "35c0a825-f74a-4327-912c-2cf4c40b193e")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 134.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b10c3d-ef28-4755-a88f-891ffc7a03c1")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6404c75-c9ae-4e16-afe3-0b45ed33ba99")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf62b89-0a45-4c5f-8e3a-622f57d837c6")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 151.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e242f790-0eda-4e41-afd4-977d06a0b1d7")
+	)
+	(rectangle
+		(start 134.62 84.201)
+		(end 144.78 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 473ef90d-0eec-4ffc-94e1-6460d7c15917)
+	)
+	(text "Battery \nbalance \ncircuit\n"
+		(exclude_from_sim no)
+		(at 139.954 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e2b5d89-2be6-480c-acff-ed14c3ca0a29")
+	)
+	(label "Batt2_IN"
+		(at 128.27 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29078504-320f-48cd-a7f4-ba2b4cfafd2e")
+	)
+	(label "Batt1_EN"
+		(at 151.13 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2976e3a0-9356-4693-a47c-f5796207fbe5")
+	)
+	(label "Batt2_EN"
+		(at 151.13 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa45dcf7-6e0f-4f2d-b15e-88cf6156e608")
+	)
+	(label "Batt1_IN"
+		(at 128.27 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e618018e-fb95-4541-9292-712964d88b0c")
+	)
+)
