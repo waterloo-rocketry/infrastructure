@@ -2177,7 +2177,7 @@
 				)
 			)
 		)
-		(property "Value" "15A"
+		(property "Value" "12A"
 			(at 115.57 96.774 90)
 			(effects
 				(font
@@ -2384,7 +2384,7 @@
 				)
 			)
 		)
-		(property "Value" "INA180"
+		(property "Value" "INA290"
 			(at 208.28 160.3502 0)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 			)
 		)
 		(property "Value" "Output Current Sensing"
-			(at 233.426 152.146 90)
+			(at 233.172 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
