@@ -1023,23 +1023,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 13.97 0)
+			(property "Reference" "U2"
+				(at -1.27 -11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "INA180"
-				(at -11.43 15.24 0)
+			(property "Value" "INA290"
+				(at -1.27 -14.3002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1048,7 +1048,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina290.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1129,10 +1129,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -2.54 0)
+				(pin power_in line
+					(at -3.81 11.43 270)
 					(length 5.08)
-					(name "IN+"
+					(name "VS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1148,9 +1148,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 2.54 0)
+					(at -12.7 -2.54 0)
 					(length 5.08)
-					(name "IN-"
+					(name "IN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1165,10 +1165,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -3.81 11.43 270)
+				(pin input line
+					(at -12.7 2.54 0)
 					(length 5.08)
-					(name "VS"
+					(name "IN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2401,7 +2401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina290.pdf"
 			(at 209.55 146.05 0)
 			(effects
 				(font
