@@ -2392,7 +2392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "12/48 boost:SC70-5_DCK_TEX"
 			(at 209.55 146.05 0)
 			(effects
 				(font
