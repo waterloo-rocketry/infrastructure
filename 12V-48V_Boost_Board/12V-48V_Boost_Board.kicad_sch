@@ -1439,6 +1439,12 @@
 		(uuid "7b743d4c-130d-4b34-b3bb-2893112e7201")
 	)
 	(junction
+		(at 119.38 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98aa5281-38c1-48af-96a6-90dc1ae32a5e")
+	)
+	(junction
 		(at 233.68 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1472,13 +1478,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 99.06 90.17)
+			(xy 135.89 38.1) (xy 135.89 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11b34f6c-70cd-415b-bc15-b69d13688bb2")
+		(uuid "0fc2e304-2dc7-4736-95a7-492379bc78fa")
 	)
 	(wire
 		(pts
@@ -1502,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 90.17) (xy 106.68 99.06)
+			(xy 106.68 85.09) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1519,6 +1525,16 @@
 			(type default)
 		)
 		(uuid "1def053f-5e7e-4e27-bdbf-3e74e6b34d30")
+	)
+	(wire
+		(pts
+			(xy 123.19 38.1) (xy 119.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ccfa9e-bb70-4fe2-a739-878430843792")
 	)
 	(wire
 		(pts
@@ -1562,6 +1578,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 62.23) (xy 107.95 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e3fcdd-986f-494d-a130-b58656e931d8")
+	)
+	(wire
+		(pts
+			(xy 130.81 38.1) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4933d1cf-47fd-4e18-89f9-d11f1ea3ed9f")
+	)
+	(wire
+		(pts
 			(xy 205.74 127) (xy 205.74 134.62)
 		)
 		(stroke
@@ -1602,13 +1638,33 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 90.17) (xy 99.06 99.06)
+			(xy 138.43 59.69) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9a73d1-812f-4525-bba2-4319e69f16f3")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e754be9-8978-4348-912c-6a4092199126")
+	)
+	(wire
+		(pts
+			(xy 119.38 34.29) (xy 119.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e81b7c-8091-474f-a7be-505ab6bed606")
 	)
 	(wire
 		(pts
@@ -1619,16 +1675,6 @@
 			(type default)
 		)
 		(uuid "75104057-269e-4d3c-a350-bbdab50b511c")
-	)
-	(wire
-		(pts
-			(xy 104.14 90.17) (xy 106.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772407e4-ed02-4730-a83a-d072e071d242")
 	)
 	(wire
 		(pts
@@ -1702,6 +1748,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 54.61) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914b7c6f-6fa1-4ede-be00-cbec9d215010")
+	)
+	(wire
+		(pts
 			(xy 207.01 113.03) (xy 207.01 99.06)
 		)
 		(stroke
@@ -1729,6 +1785,16 @@
 			(type default)
 		)
 		(uuid "a070f685-a02e-40cf-886f-a578aa6d4da8")
+	)
+	(wire
+		(pts
+			(xy 133.35 57.15) (xy 138.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26bc9f8-5631-40d9-b143-397e8f96e226")
 	)
 	(wire
 		(pts
@@ -1812,6 +1878,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 59.69) (xy 110.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc578db7-670c-4dcb-9888-5f8f61349b72")
+	)
+	(wire
+		(pts
 			(xy 181.61 119.38) (xy 181.61 107.95)
 		)
 		(stroke
@@ -1839,6 +1915,26 @@
 			(type default)
 		)
 		(uuid "f000c256-41f9-4e42-861e-a4cac1c34bf5")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 119.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f407d768-d6f9-48ee-800d-5d80cf82473d")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88ecd3f-a834-444b-8ff2-f7dbc2704808")
 	)
 	(wire
 		(pts
@@ -1913,6 +2009,17 @@
 	)
 	(text "100V/V"
 		(exclude_from_sim no)
+		(at 133.35 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6832c56e-925b-4d89-8cc2-e04413eeea31")
+	)
+	(text "100V/V"
+		(exclude_from_sim no)
 		(at 219.71 151.13 0)
 		(effects
 			(font
@@ -1921,6 +2028,46 @@
 			(justify right bottom)
 		)
 		(uuid "b67d5613-2c37-4e5c-9c7b-8a74c4597f5f")
+	)
+	(label "IN-"
+		(at 106.68 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "009da99f-1d80-4e72-aed6-a0a1c5ca6246")
+	)
+	(label "IN+"
+		(at 102.87 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac968583-789d-43ee-8633-1bdbd3f79484")
+	)
+	(label "IN+"
+		(at 99.06 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db668cd0-213e-4d90-9299-7bc33d366297")
+	)
+	(label "IN-"
+		(at 102.87 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb8e2259-5363-4a7d-baeb-8ec179282265")
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -2303,6 +2450,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 107.95 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "140c18fa-624b-4b0f-9176-752ae6142495")
+		(property "Reference" "#PWR025"
+			(at 107.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 108.077 69.1642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b1d0ce6-2a79-4b83-be32-c810bc2897a2")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 248.92 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2384,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Value" "INA290"
+		(property "Value" "INA290A3"
 			(at 208.28 160.3502 0)
 			(effects
 				(font
@@ -2514,6 +2726,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24c658d0-2e87-46ca-92ef-70d872c5a6e5")
+		(property "Reference" "#PWR028"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.557 67.8942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be847cb7-d325-40cf-bd76-9ed7cbd1a3c8")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 102.87 99.06 90)
 		(unit 1)
@@ -2530,7 +2807,7 @@
 				)
 			)
 		)
-		(property "Value" "1mΩ"
+		(property "Value" "5mΩ"
 			(at 102.87 95.25 90)
 			(effects
 				(font
@@ -2538,7 +2815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "12/48 boost:WSHM28181L000FEA"
+		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
 			(at 103.124 98.044 90)
 			(effects
 				(font
@@ -2575,6 +2852,71 @@
 			(project ""
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 119.38 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "290438b0-2581-4eb9-8733-0765fedb7f97")
+		(property "Reference" "#PWR026"
+			(at 119.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.761 29.8958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "871e2882-50b6-4898-bf7d-0ef0f3753bd6")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2712,6 +3054,76 @@
 			(project ""
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 143.51 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32368763-1dc9-40e2-9329-70129bb2a7f1")
+		(property "Reference" "J6"
+			(at 149.606 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Output Current Sensing"
+			(at 146.812 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 143.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c922162-aef4-4bcd-bc2f-157c6116e09e")
+		)
+		(pin "1"
+			(uuid "d8211aa3-e847-4fc2-a5c7-906e417f3a33")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3268,6 +3680,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93394d2f-e470-4205-ac2e-1d71db901823")
+		(property "Reference" "#PWR027"
+			(at 135.89 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 136.017 46.3042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffb3e422-c90a-4232-bf57-7056f38d42d1")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 57.15 144.78 0)
 		(unit 1)
@@ -3399,35 +3876,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 104.14 85.09 270)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 127 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4dcb5ee-f98c-4e66-83ad-65ce1479415e")
-		(property "Reference" "J2"
-			(at 99.06 83.8199 90)
+		(uuid "b86f865a-f9b8-4095-9042-e07dc201b4eb")
+		(property "Reference" "C14"
+			(at 127 31.6992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Input Current Sensing"
-			(at 99.06 86.3599 90)
+		(property "Value" "0.1uF"
+			(at 127 34.0106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 104.14 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 123.19 39.0652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 85.09 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,25 +3918,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 85.09 0)
+		(property "Description" ""
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "cea4d20f-3758-4f71-948c-da7087297c91")
 		)
 		(pin "1"
-			(uuid "9b906b3f-afa1-4699-9ce5-c9b3f0706fd3")
+			(uuid "4a4eb1c6-97ab-42bc-b497-5958f70670d8")
+		)
+		(pin "2"
+			(uuid "34bcb6a1-a1ce-453c-988d-6571850c7f41")
 		)
 		(instances
-			(project ""
+			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
-					(reference "J2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3859,6 +4333,82 @@
 			(project "12V-48V_Boost_Board"
 				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "canhw:INA180")
+		(at 123.19 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e58555b8-e244-4f4d-a197-7c8985f14f0b")
+		(property "Reference" "U3"
+			(at 121.92 69.1388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA290A3"
+			(at 121.92 71.4502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "12/48 boost:SC70-5_DCK_TEX"
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina290.pdf"
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c9e9c020-c4af-4c83-a4b6-1338218b7cfb")
+		)
+		(pin "2"
+			(uuid "bc3d7e0d-6da6-4cd8-92cd-d9ccfa958f4e")
+		)
+		(pin "4"
+			(uuid "90e65466-1e10-405f-9bbe-dea0d284f511")
+		)
+		(pin "5"
+			(uuid "2cc9d1ef-2fe6-421d-a4e2-7f068d559b6b")
+		)
+		(pin "1"
+			(uuid "a7127cc7-528c-4c1f-8000-eb429358329b")
+		)
+		(instances
+			(project "12V-48V_Boost_Board"
+				(path "/3a220cd2-54b9-463d-ba95-4a8308a2a2d6"
+					(reference "U3")
 					(unit 1)
 				)
 			)
