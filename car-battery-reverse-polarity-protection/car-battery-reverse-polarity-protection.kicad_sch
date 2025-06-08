@@ -527,7 +527,7 @@
 				)
 			)
 		)
-		(symbol "Relay:Relay_SPDT"
+		(symbol "Relay:Relay_SPST-NO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -540,7 +540,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Relay_SPDT"
+			(property "Value" "Relay_SPST-NO"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -568,7 +568,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Relay SPDT, monostable, EN50005"
+			(property "Description" "Relay SPST, normally open, EN50005"
 				(at 0 0 0)
 				(effects
 					(font
@@ -577,7 +577,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "1P2T 1-Form-C single pole throw"
+			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -586,7 +586,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPDT*"
+			(property "ki_fp_filters" "Relay?SPST*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -595,7 +595,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Relay_SPDT_0_0"
+			(symbol "Relay_SPST-NO_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -609,7 +609,7 @@
 					)
 				)
 			)
-			(symbol "Relay_SPDT_0_1"
+			(symbol "Relay_SPST-NO_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -752,20 +752,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "Relay_SPDT_1_1"
+			(symbol "Relay_SPST-NO_1_1"
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
@@ -776,25 +764,7 @@
 							)
 						)
 					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1087,10 +1057,6 @@
 		(color 0 0 0 0)
 		(uuid "5ab49921-3064-4523-9acb-5082098953ea")
 	)
-	(no_connect
-		(at 146.05 80.01)
-		(uuid "1fcb527b-b494-4ab7-a7e6-f81b3f8a6be5")
-	)
 	(wire
 		(pts
 			(xy 138.43 62.23) (xy 138.43 66.04)
@@ -1325,7 +1291,7 @@
 	)
 	(text "Relay as\nlow-side switch."
 		(exclude_from_sim no)
-		(at 178.562 89.154 0)
+		(at 166.624 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1579,7 +1545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STPS2L25"
+		(property "Value" "STPS2L25U"
 			(at 114.3 89.662 90)
 			(effects
 				(font
@@ -1606,7 +1572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode."
 			(at 125.73 87.63 0)
 			(effects
 				(font
@@ -1692,85 +1658,6 @@
 			(project "car-battery-reverse-polarity-protection"
 				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPDT")
-		(at 143.51 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ee12856-a1d8-4e76-9395-995d0ea9744c")
-		(property "Reference" "K1"
-			(at 154.94 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AZ2150-1C"
-			(at 154.94 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLibrary:AZ2150_AMZ"
-			(at 154.94 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.azettler.com/pdfs/az2150.pdf"
-			(at 143.51 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPDT, monostable, EN50005"
-			(at 143.51 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "c537bfb1-ab86-42ef-b3d8-47ad7445c7b3")
-		)
-		(pin "12"
-			(uuid "bb3f80c1-c440-49e5-aae4-46646e5fc038")
-		)
-		(pin "A1"
-			(uuid "d42527e9-d2a7-4477-9ea3-2cc41322866f")
-		)
-		(pin "14"
-			(uuid "ed92faa2-62cd-4fe1-b9cf-ffc3b6b592c7")
-		)
-		(pin "A2"
-			(uuid "60cd8649-2131-40bc-b2cd-a1173b0168ef")
-		)
-		(instances
-			(project ""
-				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
-					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -1903,6 +1790,83 @@
 			(project "car-battery-reverse-polarity-protection"
 				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 143.51 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "524cae23-d183-4ba7-94cf-6279cec97b67")
+		(property "Reference" "K1"
+			(at 154.94 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AZ2150-1AE-24DEF"
+			(at 154.94 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLibrary:AZ2150_AMZ"
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.azettler.com/pdfs/az2150.pdf"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "6e1d2cf7-5837-4b33-baf4-b1c6f6dc45cb")
+		)
+		(pin "13"
+			(uuid "6fe741cc-4537-4003-ac05-dab41ab2c299")
+		)
+		(pin "A2"
+			(uuid "6879b824-843e-4c6a-8b39-88deca0dc7d5")
+		)
+		(pin "14"
+			(uuid "87ae7a0a-d978-4413-9741-27f42506e7f1")
+		)
+		(instances
+			(project ""
+				(path "/749bcb34-7dfb-46c1-ab6d-e6eff02c90ec"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2289,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STPS2L25"
+		(property "Value" "STPS2L25U"
 			(at 140.97 71.4374 90)
 			(effects
 				(font
@@ -2352,7 +2316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode."
 			(at 138.43 69.85 0)
 			(effects
 				(font
