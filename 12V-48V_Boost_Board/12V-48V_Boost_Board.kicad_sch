@@ -3664,7 +3664,7 @@
 		(dnp no)
 		(uuid "2e7a26e5-4037-41d7-976b-6a7faf9497bc")
 		(property "Reference" "J3"
-			(at 235.966 152.146 90)
+			(at 234.95 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3673,7 @@
 			)
 		)
 		(property "Value" "Output Current Sensing"
-			(at 233.172 157.48 90)
+			(at 255.016 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +3801,7 @@
 		(dnp no)
 		(uuid "32368763-1dc9-40e2-9329-70129bb2a7f1")
 		(property "Reference" "J6"
-			(at 74.676 60.706 90)
+			(at 72.644 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3810,7 @@
 			)
 		)
 		(property "Value" "Output Current Sensing"
-			(at 71.882 66.04 90)
+			(at 78.994 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
