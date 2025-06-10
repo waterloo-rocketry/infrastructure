@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "12/48 boost")(type "KiCad")(uri "${KIPRJMOD}/12_48boost.pretty")(options "")(descr ""))
+)
