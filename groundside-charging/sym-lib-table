@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "groundside-charging")(type "KiCad")(uri "${KIPRJMOD}/groundside-charging.kicad_sym")(options "")(descr ""))
+  (lib (name "LT1510-5IGN_PBF")(type "KiCad")(uri "${KIPRJMOD}/LT1510-5IGN_PBF.kicad_sym")(options "")(descr ""))
+)
