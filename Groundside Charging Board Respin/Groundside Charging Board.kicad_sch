@@ -160,6 +160,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -632,678 +790,6 @@
 						)
 					)
 					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3427,267 +2913,6 @@
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TI WEBENCH:Iout"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "WB_CURRENT_LOAD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Iout_1_0"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.7094 2.6786)
-					(mid 3.5188 1.4606)
-					(end 3.8099 0.0275)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.705 -2.6831)
-					(mid 1.4606 -3.5189)
-					(end -0.0098 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 0.0167)
-					(mid 3.5189 -1.4607)
-					(end 2.6782 -2.7099)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.0089 -3.81)
-					(mid -1.4607 -3.5189)
-					(end -2.6918 -2.6963)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 -0.0167)
-					(mid -3.5189 1.4607)
-					(end -2.6782 2.7099)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.705 2.6831)
-					(mid -1.4606 3.5189)
-					(end 0.0098 3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.0089 3.81)
-					(mid 1.4607 3.5189)
-					(end 2.6918 2.6963)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.7094 -2.6786)
-					(mid -3.5188 -1.4606)
-					(end -3.8099 -0.0275)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0) (xy -3.048 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6336,264 +5561,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TI WEBENCH:Vin"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "WB_BATTERY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Vin_1_0"
-				(polyline
-					(pts
-						(xy -3.556 2.286) (xy -3.556 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 3.048) (xy -4.318 3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.048) (xy -1.778 3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.27) (xy -0.254 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -3.048) (xy 1.016 3.048)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.27) (xy 2.286 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 2.54) (xy 3.302 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 2.794 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(text "To Microcontroller for charging toggling\nand to M4 Gate\n"
+	(text "TI webench link"
 		(exclude_from_sim no)
-		(at 164.084 102.108 0)
+		(at 45.466 29.972 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
+			(href "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=D04CC54B10C2D476")
 		)
-		(uuid "519bee0a-b679-46cb-90b3-911efed0dd59")
-	)
-	(text "Link to IC Datasheet"
-		(exclude_from_sim no)
-		(at 219.71 119.888 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://www.ti.com/lit/ds/symlink/tps43060.pdf?ts=1790797038851")
-		)
-		(uuid "ed5e87c3-ea3e-4a50-9c25-a39b3801b7c0")
+		(uuid "80f8c453-1f31-4557-9973-a054df675c4b")
 	)
 	(junction
 		(at 266.7 92.71)
@@ -6686,12 +5664,6 @@
 		(uuid "888a963f-2320-49cb-8a6f-aa270c4fa8fe")
 	)
 	(junction
-		(at 401.32 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a5ce92c-0964-4327-8531-81f99edc7492")
-	)
-	(junction
 		(at 148.59 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6740,12 +5712,6 @@
 		(uuid "c571f8e9-1cdc-4b0f-87d9-bf6c5f8df39d")
 	)
 	(junction
-		(at 421.64 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d01a9488-4f03-4a5a-8f39-b999b5116c0f")
-	)
-	(junction
 		(at 154.94 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6792,6 +5758,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f79d1ba2-0ef4-4504-84ce-9c58bff21a25")
+	)
+	(wire
+		(pts
+			(xy 431.8 43.18) (xy 431.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a32c9d-688a-45d3-a9ec-8a02b4ba5fb5")
 	)
 	(wire
 		(pts
@@ -6865,16 +5841,6 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 99.06) (xy 449.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1276a2a2-8a52-4502-a49b-6a94296ccef5")
-	)
-	(wire
-		(pts
 			(xy 110.49 147.32) (xy 110.49 119.38)
 		)
 		(stroke
@@ -6902,16 +5868,6 @@
 			(type default)
 		)
 		(uuid "1ff808af-9bcf-42ca-a06a-f9079f23447d")
-	)
-	(wire
-		(pts
-			(xy 421.64 50.8) (xy 421.64 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23208408-0f10-4aa3-99c2-94e7849e45d8")
 	)
 	(wire
 		(pts
@@ -7035,7 +5991,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 43.18) (xy 416.56 43.18)
+			(xy 359.41 43.18) (xy 431.8 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7115,26 +6071,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 194.31 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d45b851-a8e7-40f6-9586-ff0ab5b7d0b1")
-	)
-	(wire
-		(pts
-			(xy 401.32 43.18) (xy 401.32 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5187d021-195e-4d00-b05a-ee6e81242bac")
-	)
-	(wire
-		(pts
 			(xy 175.26 25.4) (xy 109.22 25.4)
 		)
 		(stroke
@@ -7145,7 +6081,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 99.06) (xy 449.58 99.06)
+			(xy 426.72 99.06) (xy 431.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7235,13 +6171,13 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 76.2) (xy 430.53 81.28)
+			(xy 431.8 74.93) (xy 431.8 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c7d9e96-f30c-4a34-98c2-5df2b98af228")
+		(uuid "6b7c2a12-f4ef-4775-a75c-cf4a534a3f62")
 	)
 	(wire
 		(pts
@@ -7285,16 +6221,6 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 71.12) (xy 449.58 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76c45fcf-04cb-48cb-bdc6-c0fab0e41f70")
-	)
-	(wire
-		(pts
 			(xy 194.31 119.38) (xy 110.49 119.38)
 		)
 		(stroke
@@ -7335,17 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 43.18) (xy 449.58 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f3c645-5cca-421f-9d44-0bbe921aaf28")
-	)
-	(wire
-		(pts
-			(xy 29.21 170.18) (xy 29.21 95.25)
+			(xy 29.21 88.9) (xy 29.21 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7385,16 +6301,6 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 67.31) (xy 421.64 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98cdb102-76c9-4d71-b2a1-0bc049fcd6ee")
-	)
-	(wire
-		(pts
 			(xy 114.3 77.47) (xy 114.3 88.9)
 		)
 		(stroke
@@ -7412,16 +6318,6 @@
 			(type default)
 		)
 		(uuid "992dc2fd-296a-4852-a964-2239fafbee3b")
-	)
-	(wire
-		(pts
-			(xy 29.21 80.01) (xy 29.21 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a017fa9-eee1-41ab-a44a-482b4426780a")
 	)
 	(wire
 		(pts
@@ -7445,16 +6341,6 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 81.28) (xy 430.53 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dede6b9-f89a-4d85-8571-5749dbf6127b")
-	)
-	(wire
-		(pts
 			(xy 148.59 170.18) (xy 181.61 170.18)
 		)
 		(stroke
@@ -7475,7 +6361,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 59.69) (xy 175.26 53.34)
+			(xy 175.26 57.15) (xy 175.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7515,6 +6401,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 43.18) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a59c4677-7b29-4fa4-a858-e9c7c52e7a45")
+	)
+	(wire
+		(pts
 			(xy 154.94 43.18) (xy 205.74 43.18)
 		)
 		(stroke
@@ -7532,16 +6428,6 @@
 			(type default)
 		)
 		(uuid "a719ea95-8112-48e0-9293-c5b7c8438f63")
-	)
-	(wire
-		(pts
-			(xy 421.64 68.58) (xy 425.45 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8111c99-4a6c-47bf-89fe-12ba3900fdf0")
 	)
 	(wire
 		(pts
@@ -7652,16 +6538,6 @@
 			(type default)
 		)
 		(uuid "b5c9d5ec-ba6d-426b-bcff-4713d50114df")
-	)
-	(wire
-		(pts
-			(xy 440.69 68.58) (xy 440.69 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b93d0490-d81a-4ffb-8a05-5e37dab23d68")
 	)
 	(wire
 		(pts
@@ -7815,16 +6691,6 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 52.07) (xy 421.64 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8820f8b-1372-45e5-8122-fbab17beb8f4")
-	)
-	(wire
-		(pts
 			(xy 359.41 69.85) (xy 359.41 66.04)
 		)
 		(stroke
@@ -7875,16 +6741,6 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 68.58) (xy 440.69 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52ad8b5-80b0-41a8-ae79-ee2ed64592d8")
-	)
-	(wire
-		(pts
 			(xy 154.94 77.47) (xy 154.94 74.93)
 		)
 		(stroke
@@ -7912,26 +6768,6 @@
 			(type default)
 		)
 		(uuid "fedde5b1-bd59-439e-9447-8662d41856c8")
-	)
-	(label "EN"
-		(at 184.15 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99efd72f-0937-40d0-85aa-230c61798a57")
-	)
-	(label "EN"
-		(at 425.45 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc709975-fd24-4ac9-af24-62a89f3ed0b7")
 	)
 	(symbol
 		(lib_id "TI WEBENCH:Cin_2")
@@ -8321,137 +7157,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TI WEBENCH:Rfbt")
-		(at 408.94 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e796d90-c5e6-4c62-aa31-96a97b1aa007")
-		(property "Reference" "R15"
-			(at 410.972 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CRG1206F10K"
-			(at 408.94 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 408.94 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 408.94 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CRG1206F10K"
-			(at 408.94 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGEREFERENCE" "CRG1206F10K"
-			(at 408.432 50.546 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "RC0603FR-07240KL"
-			(at 551.18 411.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER NAME" "Yageo"
-			(at 551.18 411.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "10k"
-			(at 410.718 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "28042d4f-e806-4e06-ab31-c60f90bf6ec8")
-		)
-		(pin "1"
-			(uuid "ffa1dacc-b1d6-4f3b-932c-1e709dcd97dd")
-		)
-		(instances
-			(project "Groundside Charging Board"
-				(path "/103d289a-b821-46c2-8c34-4769637a7869"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TI WEBENCH:Cvin")
-		(at 175.26 67.31 90)
+		(at 175.26 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8461,7 +7168,7 @@
 		(dnp no)
 		(uuid "0f85ea60-ff2a-49b7-a256-6d02c438553e")
 		(property "Reference" "Cvin1"
-			(at 178.308 62.992 90)
+			(at 178.308 60.452 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8472,7 +7179,7 @@
 			)
 		)
 		(property "Value" "08053C104KAT2A"
-			(at 175.26 67.31 90)
+			(at 175.26 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8484,7 +7191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 67.31 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8495,7 +7202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 67.31 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +7213,7 @@
 			)
 		)
 		(property "Description" "08053C104KAT2A"
-			(at 175.26 67.31 0)
+			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,7 +7224,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "08053C104KAT2A"
-			(at 178.308 65.278 90)
+			(at 178.308 62.738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8529,7 +7236,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "08053C104KAT2A"
-			(at 0 200.66 90)
+			(at 0 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8541,7 +7248,7 @@
 			)
 		)
 		(property "MANUFACTURER NAME" "AVX"
-			(at 0 200.66 90)
+			(at 0 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8553,7 +7260,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "100nF"
-			(at 178.308 67.564 90)
+			(at 178.308 65.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8702,6 +7409,87 @@
 			(project "Groundside Charging Board"
 				(path "/103d289a-b821-46c2-8c34-4769637a7869"
 					(reference "Dboot1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 34.29 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18b17971-4a1d-4cbe-9c79-17ae2b1fd612")
+		(property "Reference" "J1"
+			(at 36.83 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 36.83 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 34.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf7557f0-775d-48c6-b023-7e9bd87ee932")
+		)
+		(pin "2"
+			(uuid "390273f7-f4a1-4a56-8605-8e1f2f768e49")
+		)
+		(instances
+			(project "Groundside Charging Board"
+				(path "/103d289a-b821-46c2-8c34-4769637a7869"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9040,122 +7828,6 @@
 			(project "Groundside Charging Board"
 				(path "/103d289a-b821-46c2-8c34-4769637a7869"
 					(reference "Cout2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 421.64 45.72 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2688abd1-04b9-4091-9fca-a4390c0a47f8")
-		(property "Reference" "M3"
-			(at 421.64 37.338 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "60V"
-			(at 421.64 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
-			(at 424.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 408.94 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 421.64 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 404.495 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 402.59 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 406.4 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b160bda6-9115-42cb-8260-5e585f15d73b")
-		)
-		(pin "3"
-			(uuid "e4738596-edb2-4f52-8d99-08532f156873")
-		)
-		(pin "2"
-			(uuid "c497eb78-701a-4c19-8775-100492847dcb")
-		)
-		(instances
-			(project "Groundside Charging Board"
-				(path "/103d289a-b821-46c2-8c34-4769637a7869"
-					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -10161,7 +8833,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "CRG1206F470K"
+		(property "Value" "CRCW0402261KFKED"
 			(at 359.41 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -10195,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Description" "CRG1206F470K"
+		(property "Description" "CRCW0402261KFKED"
 			(at 359.41 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10206,7 +8878,7 @@
 				)
 			)
 		)
-		(property "PACKAGEREFERENCE" "CRG1206F470K"
+		(property "PACKAGEREFERENCE" "CRCW0402261KFKED"
 			(at 360.934 57.912 90)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +8890,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "CRG1206F470K"
+		(property "MANUFACTURER PART NUMBER" "CRCW0402261KFKED"
 			(at 0 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -10230,7 +8902,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER NAME" "TE Connectivity"
+		(property "MANUFACTURER NAME" "Vishay-Dale"
 			(at 0 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -10242,7 +8914,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "470k"
+		(property "ALTIUM_VALUE" "261k"
 			(at 360.934 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10263,122 +8935,6 @@
 			(project "Groundside Charging Board"
 				(path "/103d289a-b821-46c2-8c34-4769637a7869"
 					(reference "Rfbt1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 430.53 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52753ecd-4539-464e-aa4b-b26833ec7a3e")
-		(property "Reference" "M4"
-			(at 430.53 62.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "40V"
-			(at 430.53 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
-			(at 427.99 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 443.23 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 430.53 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 447.675 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 449.58 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 445.77 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a7ff7ae9-c476-4bdd-8a28-8cfc06d5606b")
-		)
-		(pin "2"
-			(uuid "351edcc4-99fc-4e6b-98ed-396c0cbeab2c")
-		)
-		(pin "1"
-			(uuid "117f8230-87ca-41d6-9718-addfdf507500")
-		)
-		(instances
-			(project "Groundside Charging Board"
-				(path "/103d289a-b821-46c2-8c34-4769637a7869"
-					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -10406,7 +8962,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "CRG1206F20K"
+		(property "Value" "CRCW040211K0FKED"
 			(at 359.41 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -10440,7 +8996,7 @@
 				)
 			)
 		)
-		(property "Description" "CRG1206F20K"
+		(property "Description" "CRCW040211K0FKED"
 			(at 359.41 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10451,7 +9007,7 @@
 				)
 			)
 		)
-		(property "PACKAGEREFERENCE" "CRG1206F20K"
+		(property "PACKAGEREFERENCE" "CRCW040211K0FKED"
 			(at 360.934 79.502 90)
 			(hide yes)
 			(show_name no)
@@ -10463,7 +9019,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER PART NUMBER" "CRG1206F20K"
+		(property "MANUFACTURER PART NUMBER" "CRCW040211K0FKED"
 			(at 0 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -10475,7 +9031,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER NAME" "TE Connectivity"
+		(property "MANUFACTURER NAME" "Vishay-Dale"
 			(at 0 200.66 90)
 			(hide yes)
 			(show_name no)
@@ -10487,7 +9043,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "20k"
+		(property "ALTIUM_VALUE" "11k"
 			(at 360.934 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10508,135 +9064,6 @@
 			(project "Groundside Charging Board"
 				(path "/103d289a-b821-46c2-8c34-4769637a7869"
 					(reference "Rfbb1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TI WEBENCH:Rfbt")
-		(at 421.64 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59a8270b-447c-4f30-8207-c7e2b7829025")
-		(property "Reference" "R16"
-			(at 424.18 57.404 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CRG1206F10K"
-			(at 421.64 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 421.64 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 421.64 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CRG1206F10K"
-			(at 421.64 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGEREFERENCE" "CRG1206F10K"
-			(at 420.116 60.198 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "RC0603FR-07240KL"
-			(at 781.05 -82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER NAME" "Yageo"
-			(at 781.05 -82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "10k"
-			(at 424.18 60.706 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "ba8f1965-ad6e-4d9b-90c5-a2c39893b7bc")
-		)
-		(pin "1"
-			(uuid "815abcbf-ccfd-4e94-9457-16c8057fe72b")
-		)
-		(instances
-			(project "Groundside Charging Board"
-				(path "/103d289a-b821-46c2-8c34-4769637a7869"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10816,7 +9243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps43060.pdf?ts=1790797038851"
 			(at 219.71 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11158,7 +9585,7 @@
 	)
 	(symbol
 		(lib_id "Charging_board-altium-import:0_POWER_GROUND")
-		(at 175.26 74.93 0)
+		(at 175.26 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11168,7 +9595,7 @@
 		(dnp no)
 		(uuid "7c74f905-9616-4a21-8f45-cc9fdc02b969")
 		(property "Reference" "#PWR02"
-			(at 175.26 74.93 0)
+			(at 175.26 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11179,7 +9606,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 175.26 81.28 0)
+			(at 175.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11190,7 +9617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 74.93 0)
+			(at 175.26 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11200,7 +9627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 74.93 0)
+			(at 175.26 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11210,7 +9637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 74.93 0)
+			(at 175.26 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11748,6 +10175,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 436.88 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a942231e-7e17-4a17-b96e-fcb35c4665b1")
+		(property "Reference" "J2"
+			(at 439.42 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 439.42 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 436.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9791d708-5cac-41e1-8fcf-436e9bcba3af")
+		)
+		(pin "2"
+			(uuid "3c7a1ac2-4dea-463a-af03-ab8c72548f3d")
+		)
+		(instances
+			(project "Groundside Charging Board"
+				(path "/103d289a-b821-46c2-8c34-4769637a7869"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Charging_board-altium-import:0_POWER_GROUND")
 		(at 266.7 105.41 0)
 		(unit 1)
@@ -11817,136 +10325,6 @@
 			(project "Groundside Charging Board"
 				(path "/103d289a-b821-46c2-8c34-4769637a7869"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TI WEBENCH:Iout")
-		(at 449.58 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0668b43-2b41-49ca-b187-e12354b57ea7")
-		(property "Reference" "Iout1"
-			(at 453.644 73.406 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "WB_CURRENT_LOAD"
-			(at 449.58 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 449.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 449.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "WB_CURRENT_LOAD"
-			(at 449.58 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGEREFERENCE" "WB_CURRENT_LOAD"
-			(at 453.644 75.692 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "WB_CURRENT_LOAD"
-			(at 0 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER NAME" "WB_CURRENT_LOAD"
-			(at 0 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "N/A"
-			(at 453.644 77.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "8656142f-5b04-47bf-a99b-240b6e7d3bab")
-		)
-		(pin "2"
-			(uuid "65752c34-a138-4ead-9790-e8735ef6f078")
-		)
-		(instances
-			(project "Groundside Charging Board"
-				(path "/103d289a-b821-46c2-8c34-4769637a7869"
-					(reference "Iout1")
 					(unit 1)
 				)
 			)
@@ -12226,211 +10604,6 @@
 			(project "Groundside Charging Board"
 				(path "/103d289a-b821-46c2-8c34-4769637a7869"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TI WEBENCH:Vin")
-		(at 29.21 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df425a98-2971-4043-8ac6-8e11dba1e43d")
-		(property "Reference" "Vin1"
-			(at 33.02 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "WB_BATTERY"
-			(at 29.21 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "WB_BATTERY"
-			(at 29.21 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PACKAGEREFERENCE" "WB_BATTERY"
-			(at 33.02 84.836 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "WB_BATTERY"
-			(at 0 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER NAME" "WB_BATTERY"
-			(at 0 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "N/A"
-			(at 33.02 87.122 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "474ed096-b3f6-4fb4-bcd1-a4a2d178b574")
-		)
-		(pin "1"
-			(uuid "fa7fec6e-6a53-4c0f-8d80-191847901e14")
-		)
-		(instances
-			(project "Groundside Charging Board"
-				(path "/103d289a-b821-46c2-8c34-4769637a7869"
-					(reference "Vin1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Charging_board-altium-import:0_POWER_GROUND")
-		(at 440.69 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f5e0ac63-c33f-4541-b944-e9a6d0139054")
-		(property "Reference" "#PWR07"
-			(at 440.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 440.69 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 440.69 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 440.69 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 440.69 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "1f2b9234-6eb9-4d65-a7f2-2d7a802fa3f7")
-		)
-		(instances
-			(project "Groundside Charging Board"
-				(path "/103d289a-b821-46c2-8c34-4769637a7869"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
